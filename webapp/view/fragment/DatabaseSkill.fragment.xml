@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--MySQL skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="MySQL" iconSrc="./img/mysql.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior MySQL"/>
+		</content>
+	</Card>
+	<!--Oracle Database skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Oracle Database" iconSrc="./img/oracle.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Oracle Database"/>
+		</content>
+	</Card>
+	<!--MySQL skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="SQL server" iconSrc="./img/sqlserver.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of SQL Server"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>

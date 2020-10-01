@@ -1,0 +1,92 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--5S skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>5S}" iconSrc="./img/5s.jpg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="5" tooltip="{i18n>5SLevel}"/>
+		</content>
+	</Card>
+	<!--Kaizen skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>Kaizen}" iconSrc="./img/kaizen.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>kaizenLevel}"/>
+		</content>
+	</Card>
+	<!--LeanManag skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>leanManag}" iconSrc="./img/lean.jpg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>leanManagLevel}"/>
+		</content>
+	</Card>
+	<!--LeanManu skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>leanManu}" iconSrc="./img/lean.jpg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>leanManuLevel}"/>
+		</content>
+	</Card>
+	<!--SCRUM skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>Scrum}" iconSrc="./img/scrum.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>scrumLevel}"/>
+		</content>
+	</Card>
+	<!--VSM skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>vsm}" iconSrc="./img/vsm.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>vsmLevel}"/>
+		</content>
+	</Card>
+	<!--QMS skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>qms}" iconSrc="./img/qms.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>qmsLevel}"/>
+		</content>
+	</Card>
+	<!--ISO 14001 skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>iso14001}" iconSrc="./img/iso.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>iso14001Level}"/>
+		</content>
+	</Card>
+	<!--ISO 9001 skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>iso9001}" iconSrc="./img/iso.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="1" tooltip="{i18n>iso9001Level}"/>
+		</content>
+	</Card>
+	<!--ISO 13485 skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>iso13485}" iconSrc="./img/iso.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="1" tooltip="{i18n>iso13485Level}"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>

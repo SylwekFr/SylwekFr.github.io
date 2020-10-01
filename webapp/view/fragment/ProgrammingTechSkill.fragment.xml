@@ -1,0 +1,119 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--HTML skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="HTML" iconSrc="./img/html.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular HTML"/>
+		</content>
+	</Card>
+	<!--JavaScript skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="JavaScript" iconSrc="./img/js.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular JavaScript"/>
+		</content>
+	</Card>
+	<!--XML skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="XML" iconSrc="./img/xml.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior XML"/>
+		</content>
+	</Card>
+	<!--CSS skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="CSS" iconSrc="./img/css.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior CSS"/>
+		</content>
+	</Card>
+	<!--PHP skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="PHP" iconSrc="./img/php.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior PHP"/>
+		</content>
+	</Card>
+	<!--SQL skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="SQL" iconSrc="./img/sql.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior SQL"/>
+		</content>
+	</Card>
+	<!--VBA skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="VBA" iconSrc="./img/vba.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior VBA"/>
+		</content>
+	</Card>
+	<!--Python skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Python" iconSrc="./img/python.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior Python"/>
+		</content>
+	</Card>
+	<!--PL/SQL skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="PL/SQL" iconSrc="./img/plsql.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of PL/SQL"/>
+		</content>
+	</Card>
+	<!--C skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="C" iconSrc="./img/c.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of C"/>
+		</content>
+	</Card>
+	<!--ABAP skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="ABAP" iconSrc="sap-icon://sap-ui5"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of ABAP"/>
+		</content>
+	</Card>
+	<!--C++ skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="C++" iconSrc="./img/cplusplus.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of C++"/>
+		</content>
+	</Card>
+	<!--Ruby skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Ruby" iconSrc="./img/ruby.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Ruby"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>
