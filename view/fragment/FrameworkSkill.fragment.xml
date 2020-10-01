@@ -1,0 +1,65 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--SAPUI5 skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="SAPUI5" iconSrc="sap-icon://sap-ui5"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular SAPUI5"/>
+		</content>
+	</Card>
+	<!--jQuery skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="jQuery" iconSrc="./img/jquery.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular jQuery"/>
+		</content>
+	</Card>
+	<!--Node.js skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Node.js" iconSrc="./img/node.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior Node.js"/>
+		</content>
+	</Card>
+	<!--Bootstrap skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Bootstrap" iconSrc="./img/bootstrap.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior bootstrap"/>
+		</content>
+	</Card>
+	<!--Ruby on Rail skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Ruby on Rail" iconSrc="./img/ror.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Ruby on Rail"/>
+		</content>
+	</Card>
+	<!--Electron skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="Electron" iconSrc="./img/electron.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Electron"/>
+		</content>
+	</Card>
+	<!--React Native skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="React Native" iconSrc="./img/react.png"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of React Native"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>

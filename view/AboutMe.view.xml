@@ -1,0 +1,119 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:f="sap.f" xmlns:card="sap.f.cards"
+	height="100%" controllerName="web.app.theCuriousDude.controller.AboutMe">
+	<ObjectPageLayout id="ObjectPageLayout" showTitleInHeaderContent="true">
+		<headerTitle>
+			<ObjectPageDynamicHeaderTitle>
+				<expandedHeading>
+					<m:Title text="{i18n>myName}" wrapping="true"/>
+				</expandedHeading>
+				<snappedHeading>
+					<m:FlexBox fitContainer="true" alignItems="Center">
+						<m:Avatar src="./img/Sylvain.jpg" backgroundColor="Random" class="sapUiTinyMarginEnd"/>
+						<m:Title text="{i18n>myName}" wrapping="true"/>
+					</m:FlexBox>
+				</snappedHeading>
+				<expandedContent>
+					<m:Text text="{i18n>myTitle}"/>
+				</expandedContent>
+				<snappedContent>
+					<m:Text text="{i18n>myTitle}"/>
+				</snappedContent>
+			</ObjectPageDynamicHeaderTitle>
+		</headerTitle>
+		<headerContent>
+			<m:FlexBox wrap="Wrap">
+				<m:Avatar src="./img/Sylvain.jpg" backgroundColor="Random" displaySize="L" class="sapUiTinyMarginEnd"/>
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:ObjectStatus title="{i18n>email}" text="{i18n>myEmail}"/>
+					<m:ObjectStatus title="{i18n>phone}" text="{i18n>myPhone}"/>
+				</layout:VerticalLayout>
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:ObjectStatus icon="./img/LinkedIn.png" text="Sylvain Michel"/>
+					<m:ObjectStatus icon="./img/Github.png" text="SylwekFr"/>
+					<m:ObjectStatus icon="./img/stackOverflow.png" text="SylwekFr"/>
+				</layout:VerticalLayout>
+			</m:FlexBox>
+		</headerContent>
+		<sections>
+			<ObjectPageSection titleUppercase="false" id="expSection" title="{i18n>profExp}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.WorkExperience" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection titleUppercase="false" id="educationSection" title="{i18n>education}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.Education" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection titleUppercase="false" id="skillsSection" title="{i18n>skills}">
+				<subSections>
+					<!--Language section-->
+					<ObjectPageSubSection title="{i18n>Languageskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.LanguageSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Programming tech section-->
+					<ObjectPageSubSection title="{i18n>programmingskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.ProgrammingTechSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Frameworks section-->
+					<ObjectPageSubSection title="{i18n>frameworkskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.FrameworkSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Database section-->
+					<ObjectPageSubSection title="{i18n>databaseskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.DatabaseSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Engineering section-->
+					<ObjectPageSubSection title="{i18n>engineeringskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.EngineeringSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Management section-->
+					<ObjectPageSubSection title="{i18n>managementskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.ManagementSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Business section-->
+					<ObjectPageSubSection title="{i18n>businessskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.BusinessSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+					<!--Software section-->
+					<ObjectPageSubSection title="{i18n>softwareskills}">
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.SoftwareSkill" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+				<ObjectPageSection titleUppercase="false" id="miscellaneousSection" title="{i18n>miscellaneous}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.Miscellaneous" type="XML"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+	</ObjectPageLayout>
+</mvc:View>

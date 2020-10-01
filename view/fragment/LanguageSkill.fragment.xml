@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--French speaking skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>french}" iconSrc="./img/french.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="5" tooltip="{i18n>nativeSpeaker}"/>
+		</content>
+	</Card>
+	<!--English speaking skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>english}" iconSrc="./img/english.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>upperIntermediate}"/>
+		</content>
+	</Card>
+	<!--Polish speaking skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>polish}" iconSrc="./img/polish.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>preIntermediate}"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>

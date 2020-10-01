@@ -1,0 +1,31 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<!--put card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="putDetail" icon="./img/put.svg" title="{i18n>msccomp}" titleUrl="{i18n>putWebsite}" description="{i18n>put}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>datePut}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationPut}"/>
+				<QuickViewGroupElement label="{i18n>facts}" value="{i18n>factsPut}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--icam card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="icamDetail" icon="./img/icam.svg" title="{i18n>msceng}" titleUrl="{i18n>icamWebsite}" description="{i18n>icam}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateIcam}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationIcam}"/>
+				<QuickViewGroupElement label="{i18n>facts}" value="{i18n>factsIcam}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--icam card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="icamDetail2" icon="./img/icam.svg" title="{i18n>Bsceng}" titleUrl="{i18n>icamWebsite}" description="{i18n>icam}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateIcamBts}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationIcam}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+</core:FragmentDefinition>

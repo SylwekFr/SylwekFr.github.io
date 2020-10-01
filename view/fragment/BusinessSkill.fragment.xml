@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--strategy skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>strategy}" iconSrc="./img/strategy.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>strategyLevel}"/>
+		</content>
+	</Card>
+	<!--business case skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>businessCase}" iconSrc="./img/businesscase.svg"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>businessCaseLevel}"/>
+		</content>
+	</Card>
+	<!--accounting skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>accounting}" iconSrc="sap-icon://expense-report"/>
+		</header>
+		<content>
+			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>accountingLevel}"/>
+		</content>
+	</Card>
+</core:FragmentDefinition>

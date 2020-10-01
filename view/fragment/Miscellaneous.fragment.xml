@@ -1,0 +1,38 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<!--sport card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="sportDetail" icon="sap-icon://competitor" title="{i18n>sport}">
+			<QuickViewGroup heading="{i18n>rugby}">
+				<QuickViewGroupElement label="{i18n>club}" value="{i18n>racc}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationRacc}"/>
+				<QuickViewGroupElement label="{i18n>facts}" value="{i18n>factsRacc}"/>
+			</QuickViewGroup>
+			<QuickViewGroup heading="{i18n>sambo}">
+				<QuickViewGroupElement label="{i18n>club}" value="{i18n>addam}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationAddam}"/>
+				<QuickViewGroupElement label="{i18n>facts}" value="{i18n>factsAddam}"/>
+			</QuickViewGroup>
+			<QuickViewGroup heading="{i18n>mma}">
+				<QuickViewGroupElement label="{i18n>club}" value="{i18n>kohorta}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationKohorta}"/>
+				<QuickViewGroupElement label="{i18n>facts}" value="{i18n>factsKohorta}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--travel card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="travelsDetail" icon="sap-icon://globe" title="{i18n>travels}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>TravelLocationList}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--interest card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="icamDetail2" icon="sap-icon://attachment" title="{i18n>other}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>interests}" value="{i18n>interestsList}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+</core:FragmentDefinition>

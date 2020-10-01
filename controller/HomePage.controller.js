@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("web.app.theCuriousDude.controller.HomePage",{onInit:function(){},onAboutMe:function(){var e=sap.ui.core.UIComponent.getRouterFor(this);e.navTo("aboutMe")}})});

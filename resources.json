@@ -1,0 +1,322 @@
+{
+    "resources": [
+        {
+            "name": "view/fragment/WorkExperience.fragment.xml"
+        },
+        {
+            "name": "i18n/i18n_pl.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_pl"
+        },
+        {
+            "name": "i18n/i18n_fr.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_fr"
+        },
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_en"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "controller/HomePage.controller.js"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/AboutMe.controller.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest-bundle.zip"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/HomePage-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/AboutMe-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../../sap-ui-version.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "i18n/i18n_ru.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_ru"
+        },
+        {
+            "name": "view/fragment/SoftwareSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/ProgrammingTechSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Miscellaneous.fragment.xml"
+        },
+        {
+            "name": "view/fragment/ManagementSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/LanguageSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/FrameworkSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/EngineeringSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Education.fragment.xml"
+        },
+        {
+            "name": "view/fragment/DatabaseSkill.fragment.xml"
+        },
+        {
+            "name": "view/fragment/BusinessSkill.fragment.xml"
+        },
+        {
+            "name": "view/HomePage.view.xml"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/AboutMe.view.xml"
+        },
+        {
+            "name": "img/xml.svg"
+        },
+        {
+            "name": "img/wiring.svg"
+        },
+        {
+            "name": "img/weka.jpg"
+        },
+        {
+            "name": "img/vsm.svg"
+        },
+        {
+            "name": "img/vba.svg"
+        },
+        {
+            "name": "img/unreal.png"
+        },
+        {
+            "name": "img/techdraw.svg"
+        },
+        {
+            "name": "img/sylob7.jpg"
+        },
+        {
+            "name": "img/strategy.svg"
+        },
+        {
+            "name": "img/statistica.png"
+        },
+        {
+            "name": "img/stackOverflow.png"
+        },
+        {
+            "name": "img/sqlserver.png"
+        },
+        {
+            "name": "img/sql.svg"
+        },
+        {
+            "name": "img/solidworks.png"
+        },
+        {
+            "name": "img/scrum.svg"
+        },
+        {
+            "name": "img/salesforce.png"
+        },
+        {
+            "name": "img/ruby.svg"
+        },
+        {
+            "name": "img/routing.svg"
+        },
+        {
+            "name": "img/ror.png"
+        },
+        {
+            "name": "img/react.png"
+        },
+        {
+            "name": "img/qms.svg"
+        },
+        {
+            "name": "img/qiagen.svg"
+        },
+        {
+            "name": "img/python.svg"
+        },
+        {
+            "name": "img/put.svg"
+        },
+        {
+            "name": "img/premiere.png"
+        },
+        {
+            "name": "img/polish.svg"
+        },
+        {
+            "name": "img/plsql.svg"
+        },
+        {
+            "name": "img/plc.svg"
+        },
+        {
+            "name": "img/php.svg"
+        },
+        {
+            "name": "img/photoshop.png"
+        },
+        {
+            "name": "img/oracle.png"
+        },
+        {
+            "name": "img/office.png"
+        },
+        {
+            "name": "img/node.png"
+        },
+        {
+            "name": "img/nicman.svg"
+        },
+        {
+            "name": "img/mysql.png"
+        },
+        {
+            "name": "img/lean.jpg"
+        },
+        {
+            "name": "img/kaizen.png"
+        },
+        {
+            "name": "img/js.svg"
+        },
+        {
+            "name": "img/jquery.png"
+        },
+        {
+            "name": "img/itmocny.svg"
+        },
+        {
+            "name": "img/iso.svg"
+        },
+        {
+            "name": "img/icam.svg"
+        },
+        {
+            "name": "img/ibp.svg"
+        },
+        {
+            "name": "img/html.svg"
+        },
+        {
+            "name": "img/gsuite.png"
+        },
+        {
+            "name": "img/getinge.svg"
+        },
+        {
+            "name": "img/french.svg"
+        },
+        {
+            "name": "img/fluiddiagram.svg"
+        },
+        {
+            "name": "img/flexsim.png"
+        },
+        {
+            "name": "img/english.svg"
+        },
+        {
+            "name": "img/electron.png"
+        },
+        {
+            "name": "img/eas.svg"
+        },
+        {
+            "name": "img/css.svg"
+        },
+        {
+            "name": "img/cplusplus.svg"
+        },
+        {
+            "name": "img/catia.jpg"
+        },
+        {
+            "name": "img/c.svg"
+        },
+        {
+            "name": "img/businesscase.svg"
+        },
+        {
+            "name": "img/bootstrap.png"
+        },
+        {
+            "name": "img/blender.png"
+        },
+        {
+            "name": "img/Sylvain.jpg"
+        },
+        {
+            "name": "img/LinkedIn.png"
+        },
+        {
+            "name": "img/IPS.svg"
+        },
+        {
+            "name": "img/Github.png"
+        },
+        {
+            "name": "img/5s.jpg"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "index.html"
+        }
+    ]
+}
