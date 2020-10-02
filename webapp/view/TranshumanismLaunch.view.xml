@@ -2,8 +2,13 @@
 	controllerName="web.app.theCuriousDude.controller.TranshumanismLaunch" xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Title">
-				<content></content>
+			<Page title="{i18n>aboutTranshumanism}">
+				<content>
+					<Text id="introTranshumanism" text="{i18n>introTranshumanism}" class="sapUiTinyMargin"/>
+					<Image src="./img/prosthesis.jpg" decorative="true" width="100%"/>
+					<MessageStrip text="{i18n>NoContentYet}" type="Information" showIcon="true"
+						class="sapUiTinyMargin" />
+				</content>
 			</Page>
 		</pages>
 	</App>
