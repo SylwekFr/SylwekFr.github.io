@@ -84,6 +84,62 @@
 					]
 				},
 				{
+					"name": "environementLaunch",
+					"pattern": "environementLaunch",
+					"target": [
+						"environementLaunch"
+					]
+				},
+				{
+					"name": "techLaunch",
+					"pattern": "techLaunch",
+					"target": [
+						"techLaunch"
+					]
+				},
+				{
+					"name": "transhumanismLaunch",
+					"pattern": "transhumanismLaunch",
+					"target": [
+						"transhumanismLaunch"
+					]
+				},
+				{
+					"name": "travelLaunch",
+					"pattern": "travelLaunch",
+					"target": [
+						"travelLaunch"
+					]
+				},
+				{
+					"name": "sportLaunch",
+					"pattern": "sportLaunch",
+					"target": [
+						"sportLaunch"
+					]
+				},
+				{
+					"name": "videoGameLaunch",
+					"pattern": "videoGameLaunch",
+					"target": [
+						"videoGameLaunch"
+					]
+				},
+				{
+					"name": "boardGameLaunch",
+					"pattern": "boardGameLaunch",
+					"target": [
+						"boardGameLaunch"
+					]
+				},
+				{
+					"name": "personalDevelopmentLaunch",
+					"pattern": "personalDevelopmentLaunch",
+					"target": [
+						"personalDevelopmentLaunch"
+					]
+				},
+				{
 					"name": "aboutMe",
 					"pattern": "aboutMe",
 					"target": [
@@ -99,19 +155,67 @@
 					"viewId": "homePage",
 					"viewName": "HomePage"
 				},
+				"environementLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "environementLaunch",
+					"viewName": "EnvironementLaunch"
+				},
+				"techLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "techLaunch",
+					"viewName": "TechLaunch"
+				},
+				"transhumanismLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "transhumanismLaunch",
+					"viewName": "TranshumanismLaunch"
+				},
+				"travelLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "travelLaunch",
+					"viewName": "TravelLaunch"
+				},
+				"sportLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "sportLaunch",
+					"viewName": "SportLaunch"
+				},
+				"videoGameLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "videoGameLaunch",
+					"viewName": "VideoGameLaunch"
+				},
+				"boardGameLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "boardGameLaunch",
+					"viewName": "BoardGameLaunch"
+				},
+				"personalDevelopmentLaunch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "personalDevelopmentLaunch",
+					"viewName": "PersonalDevelopmentLaunch"
+				},
 				"aboutMe": {
 					"viewType": "XML",
 					"transition": "slide",
 					"clearControlAggregation": false,
 					"viewId": "aboutMe",
-					"viewName": "AboutMe"
-				},
-				"HomePage": {
-					"viewType": "XML",
-					"viewName": "HomePage"
-				},
-				"AboutMe": {
-					"viewType": "XML",
 					"viewName": "AboutMe"
 				}
 			}
