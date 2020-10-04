@@ -1,0 +1,15 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="web.app.theCuriousDude.controller.TravelLaunch"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>aboutTravel}">
+				<content>
+					<Text id="introTravel" text="{i18n>introTravel}" class="sapUiTinyMargin"/>
+					<Image src="./img/travelBanner.jpg" decorative="true" width="100%"/>
+					<MessageStrip text="{i18n>NoContentYet}" type="Information" showIcon="true"
+						class="sapUiTinyMargin" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

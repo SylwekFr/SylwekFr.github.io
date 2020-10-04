@@ -4,10 +4,58 @@
 		<pages>
 			<Page title="{i18n>homeTitle}">
 				<content>
-					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>aboutMe}" subheader="{i18n>myName}"
-						press="onAboutMe">
+					<GenericTile ariaLabel="envrionment" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>environment}" subheader="{i18n>abouWorld}"
+						press="navToNext">
 						<TileContent>
-							<ImageContent src="./img/Sylvain.jpg"/>
+							<Avatar src="sap-icon://e-care" backgroundColor="Accent8"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="tech" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>tech}" subheader="{i18n>aboutTech}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="./img/robot.svg"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="transhumanism" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>transhumanism}" subheader="{i18n>aboutTranshumanism}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="./img/brain.svg"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="travel" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>travel}" subheader="{i18n>aboutTravel}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="sap-icon://home-share"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="sport" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>sport}" subheader="{i18n>aboutSport}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="sap-icon://competitor"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="videoGame" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>videoGame}" subheader="{i18n>aboutVideoGame}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="./img/videogame.svg"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="boardGame" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>boardGame}" subheader="{i18n>aboutBoardGame}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="./img/boardgames.svg"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="personalDevelopment" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>persoDev}" subheader="{i18n>aboutPersoDev}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="sap-icon://family-protection"/>
+						</TileContent>
+					</GenericTile>
+					<GenericTile ariaLabel="aboutMe" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>aboutMe}" subheader="{i18n>myName}"
+						press="navToNext">
+						<TileContent>
+							<Avatar src="./img/Sylvain.jpg"/>
 						</TileContent>
 					</GenericTile>
 				</content>
