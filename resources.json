@@ -1,9 +1,9 @@
 {
     "resources": [
         {
-            "name": "i18n/i18n_pl.properties",
+            "name": "i18n/i18n_ru.properties",
             "raw": "i18n/i18n.properties",
-            "locale": "_pl"
+            "locale": "_ru"
         },
         {
             "name": "i18n/i18n_fr.properties",
@@ -11,49 +11,30 @@
             "locale": "_fr"
         },
         {
-            "name": "i18n/i18n_ru.properties",
+            "name": "i18n/i18n_en.properties",
             "raw": "i18n/i18n.properties",
-            "locale": "_ru"
+            "locale": "_en"
         },
         {
             "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "i18n/i18n_pl.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_pl"
+        },
+        {
             "name": "model/models.js"
-        },
-        {
-            "name": "manifest.json"
-        },
-        {
-            "name": "controller/VideoGameLaunch.controller.js"
-        },
-        {
-            "name": "controller/TravelLaunch.controller.js"
-        },
-        {
-            "name": "controller/TranshumanismLaunch.controller.js"
-        },
-        {
-            "name": "controller/TechLaunch.controller.js"
-        },
-        {
-            "name": "controller/SportLaunch.controller.js"
-        },
-        {
-            "name": "controller/PersonalDevelopmentLaunch.controller.js"
         },
         {
             "name": "controller/HomePage.controller.js"
         },
         {
-            "name": "controller/EnvironementLaunch.controller.js"
-        },
-        {
-            "name": "controller/BoardGameLaunch.controller.js"
-        },
-        {
-            "name": "controller/App.controller.js"
+            "name": "manifest.json"
         },
         {
             "name": "controller/AboutMe.controller.js"
@@ -73,39 +54,7 @@
             "isDebug": true
         },
         {
-            "name": "controller/VideoGameLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/TravelLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/TranshumanismLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/TechLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/SportLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/PersonalDevelopmentLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
             "name": "controller/HomePage-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/EnvironementLaunch-dbg.controller.js",
-            "isDebug": true
-        },
-        {
-            "name": "controller/BoardGameLaunch-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -163,42 +112,13 @@
             "name": "view/fragment/BusinessSkill.fragment.xml"
         },
         {
-            "name": "view/VideoGameLaunch.view.xml"
-        },
-        {
-            "name": "view/TravelLaunch.view.xml"
-        },
-        {
-            "name": "view/TranshumanismLaunch.view.xml"
-        },
-        {
-            "name": "view/TechLaunch.view.xml"
-        },
-        {
-            "name": "view/SportLaunch.view.xml"
-        },
-        {
-            "name": "view/PersonalDevelopmentLaunch.view.xml"
-        },
-        {
             "name": "view/HomePage.view.xml"
-        },
-        {
-            "name": "view/EnvironementLaunch.view.xml"
-        },
-        {
-            "name": "view/BoardGameLaunch.view.xml"
         },
         {
             "name": "view/App.view.xml"
         },
         {
             "name": "view/AboutMe.view.xml"
-        },
-        {
-            "name": "i18n/i18n_en.properties",
-            "raw": "i18n/i18n.properties",
-            "locale": "_en"
         },
         {
             "name": "img/xml.svg"
@@ -213,22 +133,10 @@
             "name": "img/vsm.svg"
         },
         {
-            "name": "img/videogame.svg"
-        },
-        {
-            "name": "img/videoGameBanner.jpg"
-        },
-        {
             "name": "img/vba.svg"
         },
         {
             "name": "img/unreal.png"
-        },
-        {
-            "name": "img/travelBanner.jpg"
-        },
-        {
-            "name": "img/techno.jpg"
         },
         {
             "name": "img/techdraw.svg"
@@ -252,9 +160,6 @@
             "name": "img/sql.svg"
         },
         {
-            "name": "img/sportBanner.jpg"
-        },
-        {
             "name": "img/solidworks.png"
         },
         {
@@ -273,9 +178,6 @@
             "name": "img/ror.png"
         },
         {
-            "name": "img/robot.svg"
-        },
-        {
             "name": "img/react.png"
         },
         {
@@ -289,9 +191,6 @@
         },
         {
             "name": "img/put.svg"
-        },
-        {
-            "name": "img/prosthesis.jpg"
         },
         {
             "name": "img/premiere.png"
@@ -312,9 +211,6 @@
             "name": "img/photoshop.png"
         },
         {
-            "name": "img/persoDevBanner.jpg"
-        },
-        {
             "name": "img/oracle.png"
         },
         {
@@ -325,9 +221,6 @@
         },
         {
             "name": "img/nicman.svg"
-        },
-        {
-            "name": "img/natureHead.jpg"
         },
         {
             "name": "img/mysql.png"
@@ -399,16 +292,7 @@
             "name": "img/businesscase.svg"
         },
         {
-            "name": "img/brain.svg"
-        },
-        {
             "name": "img/bootstrap.png"
-        },
-        {
-            "name": "img/boardgames.svg"
-        },
-        {
-            "name": "img/boardGameBanner.jpg"
         },
         {
             "name": "img/blender.png"
