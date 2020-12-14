@@ -5,7 +5,10 @@
 			<card:Header title="{i18n>5S}" iconSrc="./img/5s.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="5" tooltip="{i18n>5SLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="5" tooltip="{i18n>5SLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Kaizen skill-->
@@ -14,7 +17,10 @@
 			<card:Header title="{i18n>Kaizen}" iconSrc="./img/kaizen.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>kaizenLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="{i18n>kaizenLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--LeanManag skill-->
@@ -23,7 +29,10 @@
 			<card:Header title="{i18n>leanManag}" iconSrc="./img/lean.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>leanManagLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="{i18n>leanManagLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--LeanManu skill-->
@@ -32,7 +41,10 @@
 			<card:Header title="{i18n>leanManu}" iconSrc="./img/lean.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>leanManuLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>leanManuLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--SCRUM skill-->
@@ -41,7 +53,10 @@
 			<card:Header title="{i18n>Scrum}" iconSrc="./img/scrum.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="{i18n>scrumLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>scrumLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--VSM skill-->
@@ -50,7 +65,10 @@
 			<card:Header title="{i18n>vsm}" iconSrc="./img/vsm.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>vsmLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="{i18n>vsmLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--QMS skill-->
@@ -59,7 +77,10 @@
 			<card:Header title="{i18n>qms}" iconSrc="./img/qms.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>qmsLevel}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="{i18n>qmsLevel}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--ISO 14001 skill-->
@@ -68,7 +89,10 @@
 			<card:Header title="{i18n>iso14001}" iconSrc="./img/iso.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>iso14001Level}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="{i18n>iso14001Level}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--ISO 9001 skill-->
@@ -77,7 +101,10 @@
 			<card:Header title="{i18n>iso9001}" iconSrc="./img/iso.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="1" tooltip="{i18n>iso9001Level}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="1" tooltip="{i18n>iso9001Level}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--ISO 13485 skill-->
@@ -86,7 +113,10 @@
 			<card:Header title="{i18n>iso13485}" iconSrc="./img/iso.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="1" tooltip="{i18n>iso13485Level}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="1" tooltip="{i18n>iso13485Level}"/>
+			</m:VBox>
 		</content>
 	</Card>
 </core:FragmentDefinition>

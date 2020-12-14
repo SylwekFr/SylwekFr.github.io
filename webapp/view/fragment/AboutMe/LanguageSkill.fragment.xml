@@ -5,7 +5,10 @@
 			<card:Header title="{i18n>french}" iconSrc="./img/french.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="5" tooltip="{i18n>nativeSpeaker}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="5" tooltip="{i18n>nativeSpeaker}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--English speaking skill-->
@@ -14,7 +17,10 @@
 			<card:Header title="{i18n>english}" iconSrc="./img/english.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="{i18n>upperIntermediate}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="{i18n>upperIntermediate}"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Polish speaking skill-->
@@ -23,7 +29,10 @@
 			<card:Header title="{i18n>polish}" iconSrc="./img/polish.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="{i18n>preIntermediate}"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="{i18n>preIntermediate}"/>
+			</m:VBox>
 		</content>
 	</Card>
 </core:FragmentDefinition>

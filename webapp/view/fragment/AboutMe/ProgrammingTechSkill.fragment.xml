@@ -5,7 +5,10 @@
 			<card:Header title="HTML" iconSrc="./img/html.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular HTML"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular HTML"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--JavaScript skill-->
@@ -14,7 +17,10 @@
 			<card:Header title="JavaScript" iconSrc="./img/js.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular JavaScript"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular JavaScript"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--XML skill-->
@@ -23,7 +29,10 @@
 			<card:Header title="XML" iconSrc="./img/xml.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior XML"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior XML"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--CSS skill-->
@@ -32,7 +41,10 @@
 			<card:Header title="CSS" iconSrc="./img/css.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior CSS"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior CSS"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--PHP skill-->
@@ -41,7 +53,10 @@
 			<card:Header title="PHP" iconSrc="./img/php.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior PHP"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior PHP"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--SQL skill-->
@@ -50,7 +65,10 @@
 			<card:Header title="SQL" iconSrc="./img/sql.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior SQL"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior SQL"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--VBA skill-->
@@ -59,7 +77,10 @@
 			<card:Header title="VBA" iconSrc="./img/vba.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior VBA"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior VBA"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Python skill-->
@@ -68,7 +89,10 @@
 			<card:Header title="Python" iconSrc="./img/python.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior Python"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior Python"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--PL/SQL skill-->
@@ -77,7 +101,10 @@
 			<card:Header title="PL/SQL" iconSrc="./img/plsql.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of PL/SQL"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of PL/SQL"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--C skill-->
@@ -86,7 +113,10 @@
 			<card:Header title="C" iconSrc="./img/c.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of C"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of C"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--ABAP skill-->
@@ -95,7 +125,10 @@
 			<card:Header title="ABAP" iconSrc="sap-icon://sap-ui5"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of ABAP"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of ABAP"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--C++ skill-->
@@ -104,7 +137,10 @@
 			<card:Header title="C++" iconSrc="./img/cplusplus.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of C++"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of C++"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Ruby skill-->
@@ -113,7 +149,10 @@
 			<card:Header title="Ruby" iconSrc="./img/ruby.svg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Ruby"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of Ruby"/>
+			</m:VBox>
 		</content>
 	</Card>
 </core:FragmentDefinition>

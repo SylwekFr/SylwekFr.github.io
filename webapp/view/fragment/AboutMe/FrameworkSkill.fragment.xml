@@ -5,7 +5,10 @@
 			<card:Header title="SAPUI5" iconSrc="sap-icon://sap-ui5"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular SAPUI5"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular SAPUI5"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--jQuery skill-->
@@ -14,7 +17,10 @@
 			<card:Header title="jQuery" iconSrc="./img/jquery.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular jQuery"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular jQuery"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Node.js skill-->
@@ -23,7 +29,10 @@
 			<card:Header title="Node.js" iconSrc="./img/node.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior Node.js"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior Node.js"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Bootstrap skill-->
@@ -32,7 +41,10 @@
 			<card:Header title="Bootstrap" iconSrc="./img/bootstrap.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior bootstrap"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior bootstrap"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Ruby on Rail skill-->
@@ -41,7 +53,10 @@
 			<card:Header title="Ruby on Rail" iconSrc="./img/ror.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Ruby on Rail"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of Ruby on Rail"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Electron skill-->
@@ -50,7 +65,10 @@
 			<card:Header title="Electron" iconSrc="./img/electron.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of Electron"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of Electron"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--React Native skill-->
@@ -59,7 +77,10 @@
 			<card:Header title="React Native" iconSrc="./img/react.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion of React Native"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion of React Native"/>
+			</m:VBox>
 		</content>
 	</Card>
 </core:FragmentDefinition>

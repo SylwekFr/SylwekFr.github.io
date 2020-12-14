@@ -5,7 +5,10 @@
 			<card:Header title="Microsoft Office" iconSrc="./img/office.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular with Microsoft Office"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular with Microsoft Office"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--G Suite skill-->
@@ -14,7 +17,10 @@
 			<card:Header title="G Suite" iconSrc="./img/gsuite.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="4" tooltip="Regular with G Suite"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="Regular with G Suite"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Sylob7 skill-->
@@ -23,7 +29,10 @@
 			<card:Header title="Sylob7" iconSrc="./img/sylob7.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior with Sylob7"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior with Sylob7"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--SolidWorks skill-->
@@ -32,7 +41,10 @@
 			<card:Header title="SolidWorks" iconSrc="./img/solidworks.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior with SolidWorks"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior with SolidWorks"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Salesforce skill-->
@@ -41,7 +53,10 @@
 			<card:Header title="Salesforce" iconSrc="./img/salesforce.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="3" tooltip="Junior with Salesforce"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="Junior with Salesforce"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Catia skill-->
@@ -50,7 +65,10 @@
 			<card:Header title="Catia" iconSrc="./img/catia.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion with Catia"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion with Catia"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Adobe Photoshop skill-->
@@ -59,7 +77,10 @@
 			<card:Header title="Adobe Photoshop" iconSrc="./img/photoshop.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion with Adobe Photoshop"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion with Adobe Photoshop"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Adobe Premiere Pro skill-->
@@ -68,7 +89,10 @@
 			<card:Header title="Adobe Premiere Pro" iconSrc="./img/premiere.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion with Adobe Premiere Pro"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion with Adobe Premiere Pro"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Weka skill-->
@@ -77,7 +101,10 @@
 			<card:Header title="Weka" iconSrc="./img/weka.jpg"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion with Weka"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion with Weka"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Statistica skill-->
@@ -86,7 +113,10 @@
 			<card:Header title="Statistica" iconSrc="./img/statistica.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="2" tooltip="Notion with Statistica"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="Notion with Statistica"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--FlexSim skill-->
@@ -95,7 +125,10 @@
 			<card:Header title="FlexSim" iconSrc="./img/flexsim.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="1" tooltip="Knowledge on FlexSim"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="1" tooltip="Knowledge on FlexSim"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Blender skill-->
@@ -104,7 +137,10 @@
 			<card:Header title="Blender" iconSrc="./img/blender.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="1" tooltip="Knowledge on Blender"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="1" tooltip="Knowledge on Blender"/>
+			</m:VBox>
 		</content>
 	</Card>
 	<!--Unreal skill-->
@@ -113,7 +149,10 @@
 			<card:Header title="Unreal Engine" iconSrc="./img/unreal.png"/>
 		</header>
 		<content>
-			<m:RatingIndicator maxValue="5" value="1" tooltip="Knowledge on Unreal Engine"/>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="1" tooltip="Knowledge on Unreal Engine"/>
+			</m:VBox>
 		</content>
 	</Card>
 </core:FragmentDefinition>
