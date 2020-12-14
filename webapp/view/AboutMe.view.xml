@@ -39,7 +39,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.WorkExperience" type="XML"/>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.WorkExperience" type="XML"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -48,7 +48,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.Education" type="XML"/>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.Education" type="XML"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -59,7 +59,7 @@
 					<ObjectPageSubSection title="{i18n>Languageskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="languagePanel" headerText="{i18n>Languageskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.LanguageSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.LanguageSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -67,7 +67,7 @@
 					<ObjectPageSubSection title="{i18n>programmingskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="programmingPanel" headerText="{i18n>programmingskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.ProgrammingTechSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.ProgrammingTechSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -75,7 +75,7 @@
 					<ObjectPageSubSection title="{i18n>frameworkskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="frameworkPanel" headerText="{i18n>frameworkskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.FrameworkSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.FrameworkSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -83,7 +83,7 @@
 					<ObjectPageSubSection title="{i18n>databaseskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="databasePanel" headerText="{i18n>databaseskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.DatabaseSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.DatabaseSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -91,7 +91,7 @@
 					<ObjectPageSubSection title="{i18n>engineeringskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="engineeringPanel" headerText="{i18n>engineeringskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.EngineeringSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.EngineeringSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -99,7 +99,7 @@
 					<ObjectPageSubSection title="{i18n>managementskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="managementPanel" headerText="{i18n>managementskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.ManagementSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.ManagementSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -107,7 +107,7 @@
 					<ObjectPageSubSection title="{i18n>businessskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="businessPanel" headerText="{i18n>businessskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.BusinessSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.BusinessSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -115,7 +115,7 @@
 					<ObjectPageSubSection title="{i18n>softwareskills}" showTitle="false">
 						<blocks>
 							<m:Panel id="softwarePanel" headerText="{i18n>softwareskills}" expandable="true" expand="onExpand">
-								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.SoftwareSkill" type="XML"/>
+								<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.SoftwareSkill" type="XML"/>
 							</m:Panel>
 						</blocks>
 					</ObjectPageSubSection>
@@ -125,7 +125,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.Miscellaneous" type="XML"/>
+							<core:Fragment fragmentName="web.app.theCuriousDude.view.fragment.AboutMe.Miscellaneous" type="XML"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
