@@ -1,0 +1,55 @@
+[{
+	"label": "envrionment",
+	"background": "./img/environementTileBg.jpg",
+	"header": "environment",
+	"subheader": "abouWorld",
+	"icon": "sap-icon://e-care"
+}, {
+	"label": "tech",
+	"background": "./img/technologyTileBg.jpg",
+	"header": "tech",
+	"subheader": "aboutTech",
+	"icon": "./img/robot.svg"
+}, {
+	"label": "transhumanism",
+	"background": "./img/transhumanismTileBg.jpg",
+	"header": "transhumanism",
+	"subheader": "aboutTranshumanism",
+	"icon": "./img/brain.svg"
+}, {
+	"label": "travel",
+	"background": "./img/travelTileBg.jpg",
+	"header": "travel",
+	"subheader": "aboutTravel",
+	"icon": "sap-icon://home-share"
+}, {
+	"label": "sport",
+	"background": "./img/sportTileBg.jpg",
+	"header": "sport",
+	"subheader": "aboutSport",
+	"icon": "sap-icon://competitor"
+}, {
+	"label": "videoGame",
+	"background": "./img/videoGameTileBg.jpg",
+	"header": "videoGame",
+	"subheader": "aboutVideoGame",
+	"icon": "./img/videogame.svg"
+}, {
+	"label": "boardGame",
+	"background": "./img/boardGametileBg.jpg",
+	"header": "boardGame",
+	"subheader": "aboutBoardGame",
+	"icon": "./img/boardgames.svg"
+}, {
+	"label": "personalDevelopment",
+	"background": "./img/personalDevelopmentTileBg.jpg",
+	"header": "persoDev",
+	"subheader": "aboutPersoDev",
+	"icon": "sap-icon://family-protection"
+}, {
+	"label": "aboutMe",
+	"background": "./img/aboutMeTileBg.jpg",
+	"header": "aboutMe",
+	"subheader": "myName",
+	"icon": "./img/Sylvain.jpg"
+}]

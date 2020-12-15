@@ -1,17 +1,19 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function (Controller) {
+	"sap/ui/core/mvc/Controller",
+	"web/app/theCuriousDude/model/models",
+	"web/app/theCuriousDude/model/formatter"
+], function (Controller, models, formatter) {
 	"use strict";
 
 	return Controller.extend("web.app.theCuriousDude.controller.HomePage", {
-
+		formatter: formatter,
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf web.app.theCuriousDude.view.HomePage
 		 */
 		onInit: function () {
-
+			this.getView().setModel(models.createHomeTiles(), "homeTiles");
 		},
 
 		
