@@ -1,0 +1,1 @@
+sap.ui.define([],function(){"use strict";return{getI18nValue:function(e){return this.getOwnerComponent().getModel("i18n").getProperty(e)}}});

@@ -1,9 +1,6 @@
 {
     "resources": [
         {
-            "name": "controller/BoardGameLaunch.controller.js"
-        },
-        {
             "name": "i18n/i18n_pl.properties",
             "raw": "i18n/i18n.properties",
             "locale": "_pl"
@@ -23,10 +20,21 @@
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "controller/PersonalDevelopmentLaunch.controller.js"
+            "name": "model/homeTiles.json"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_en"
         },
         {
             "name": "model/models.js"
+        },
+        {
+            "name": "model/formatter.js"
         },
         {
             "name": "controller/VideoGameLaunch.controller.js"
@@ -44,7 +52,7 @@
             "name": "controller/SportLaunch.controller.js"
         },
         {
-            "name": "manifest.json"
+            "name": "controller/PersonalDevelopmentLaunch.controller.js"
         },
         {
             "name": "controller/HomePage.controller.js"
@@ -53,9 +61,7 @@
             "name": "controller/EnvironementLaunch.controller.js"
         },
         {
-            "name": "i18n/i18n_en.properties",
-            "raw": "i18n/i18n.properties",
-            "locale": "_en"
+            "name": "controller/BoardGameLaunch.controller.js"
         },
         {
             "name": "controller/App.controller.js"
@@ -75,6 +81,10 @@
         },
         {
             "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/formatter-dbg.js",
             "isDebug": true
         },
         {
@@ -135,37 +145,37 @@
             "name": "di.code-validation.core_issues.json"
         },
         {
-            "name": "view/fragment/WorkExperience.fragment.xml"
+            "name": "view/fragment/AboutMe/WorkExperience.fragment.xml"
         },
         {
-            "name": "view/fragment/SoftwareSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/SoftwareSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/ProgrammingTechSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/ProgrammingTechSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/Miscellaneous.fragment.xml"
+            "name": "view/fragment/AboutMe/Miscellaneous.fragment.xml"
         },
         {
-            "name": "view/fragment/ManagementSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/ManagementSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/LanguageSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/LanguageSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/FrameworkSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/FrameworkSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/EngineeringSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/EngineeringSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/Education.fragment.xml"
+            "name": "view/fragment/AboutMe/Education.fragment.xml"
         },
         {
-            "name": "view/fragment/DatabaseSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/DatabaseSkill.fragment.xml"
         },
         {
-            "name": "view/fragment/BusinessSkill.fragment.xml"
+            "name": "view/fragment/AboutMe/BusinessSkill.fragment.xml"
         },
         {
             "name": "view/VideoGameLaunch.view.xml"

@@ -1,0 +1,38 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--strategy skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>strategy}" iconSrc="./img/strategy.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>strategyLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--business case skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>businessCase}" iconSrc="./img/businesscase.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>businessCaseLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--accounting skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>accounting}" iconSrc="sap-icon://expense-report"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="2" tooltip="{i18n>accountingLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+</core:FragmentDefinition>

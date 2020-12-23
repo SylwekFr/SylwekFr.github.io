@@ -1,0 +1,76 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<!--Arvato Card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="arvatoDetail" icon="./img/itmocny.svg" title="{i18n>sapFioriDeveloper}" titleUrl="{i18n>ItMocnyWebsite}"
+			description="{i18n>ItMocny}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateArvato}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationArvato}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksArvato}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--Nicman Card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="nicmanDetail" icon="./img/nicman.svg" title="{i18n>phpDeveloper}" titleUrl="{i18n>NicmanWebsite}"
+			description="{i18n>Nicman}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateNicman}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationNicman}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksNicman}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--IPS Card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="IpsDetail" icon="./img/IPS.svg" title="{i18n>softwareEngineer}" titleUrl="{i18n>IPSWebsite}" description="{i18n>IPS}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateIPS}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationIPS}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksIPS}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--Qiagen Card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="qiagenDetail" icon="./img/qiagen.svg" title="{i18n>telemarketing}" titleUrl="{i18n>qiagenWebsite}"
+			description="{i18n>qiagen}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateQiagen}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationQiagen}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksQiagen}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--Getinge Card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="getingeDetail" icon="./img/getinge.svg" title="{i18n>engineer}" titleUrl="{i18n>getingeWebsite}"
+			description="{i18n>getinge}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateGetinge}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationGetinge}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksGetinge}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--ibp card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="ibpDetail" icon="./img/ibp.svg" title="{i18n>technician}" titleUrl="{i18n>ibpWebsite}" description="{i18n>ibp}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateIbp}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationIbp}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksIbp}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+	<!--eas card-->
+	<QuickViewCard>
+		<QuickViewPage pageId="ibpDetail" icon="./img/eas.svg" title="{i18n>trainee}" titleUrl="{i18n>easWebsite}" description="{i18n>eas}">
+			<QuickViewGroup>
+				<QuickViewGroupElement label="{i18n>date}" value="{i18n>dateEas}"/>
+				<QuickViewGroupElement label="{i18n>location}" value="{i18n>locationEas}"/>
+				<QuickViewGroupElement label="{i18n>tasks}" value="{i18n>tasksEas}"/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickViewCard>
+</core:FragmentDefinition>

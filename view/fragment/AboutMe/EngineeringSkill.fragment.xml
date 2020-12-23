@@ -1,0 +1,62 @@
+<core:FragmentDefinition xmlns="sap.f" xmlns:card="sap.f.cards" xmlns:m="sap.m" xmlns:core="sap.ui.core">
+	<!--Wiring diagram skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>electricalDiagram}" iconSrc="./img/wiring.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="{i18n>wiringDiagramLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--Routing and B.O.M skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>routingAndBOM}" iconSrc="./img/routing.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="4" tooltip="{i18n>routingAndBOMLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--PLC & Ladder skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>ladderPLC}" iconSrc="./img/plc.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>ladderPLCLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--Technical drawing skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>techDraw}" iconSrc="./img/techdraw.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>techDrawLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+	<!--Fluids diagram skill-->
+	<Card class="sapUiMediumMargin" width="auto">
+		<header>
+			<card:Header title="{i18n>fluidDiagram}" iconSrc="./img/fluiddiagram.svg"/>
+		</header>
+		<content>
+			<m:VBox alignItems="Center" width="100%">
+				<m:RatingIndicator iconSelected="sap-icon://circle-task-2" iconUnselected="sap-icon://circle-task" displayOnly="true" iconSize="1.375rem"
+					class="sapUiTinyMarginTopBottom" maxValue="5" value="3" tooltip="{i18n>fluidDiagramLevel}"/>
+			</m:VBox>
+		</content>
+	</Card>
+</core:FragmentDefinition>

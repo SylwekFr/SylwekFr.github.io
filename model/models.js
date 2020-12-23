@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,n){"use strict";return{createDeviceModel:function(){var i=new e(n);i.setDefaultBindingMode("OneWay");return i}}});
+sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,n){"use strict";return{createDeviceModel:function(){var i=new e(n);i.setDefaultBindingMode("OneWay");return i},createHomeTiles:function(){var n=jQuery.sap.getModulePath("web.app.theCuriousDude","/model/homeTiles.json");var i=new e(n);i.setDefaultBindingMode("OneWay");return i}}});
