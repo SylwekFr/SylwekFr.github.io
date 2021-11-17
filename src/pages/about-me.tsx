@@ -66,7 +66,7 @@ const AboutMe = () => {
             <Box>
                 <TabContext value={tabs}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                    <TabList onChange={handleChange} aria-label="CV sections" allowScrollButtonsMobile>
+                    <TabList onChange={handleChange} aria-label="CV sections" variant="fullWidth">
                         <Tab label="Professional Experiences" value="1" />
                         <Tab label="Studies" value="2" />
                         <Tab label="Certifications" value="3" />
