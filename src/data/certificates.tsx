@@ -2,6 +2,12 @@ import { Certification } from '../types'
 
 export const certificates: Certification[] = [
     {
+        certificationCompany: "Scaled Agile Inc",
+        logo: "https://images.credly.com/size/340x340/images/050eb175-b923-4c68-9dfe-aa8da5f43281/cert_mark_SDP_badge_large_300px.png",
+        name: "Certified SAFe® 5 DevOps Practitioner",
+        obtentionDate: "November 2021",
+    },
+    {
         certificationCompany: "Microsoft",
         logo: "https://images.credly.com/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
         name: "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
