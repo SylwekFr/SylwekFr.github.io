@@ -46,7 +46,7 @@ function App(): JSX.Element {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline /> 
-          <Header title="The curious dude"/>
+          <Header title="Just a curious guy"/>
           <BrowserRouter>
             <Switch>
               <Route path={routes.home} exact component={Home} />

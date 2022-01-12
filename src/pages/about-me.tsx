@@ -22,6 +22,7 @@ import ExperienceCard from '../components/experience-card';
 import HobbyCard from '../components/hobby-card';
 import StudyCard from '../components/study-card';
 import CertificationCard from '../components/certification-card';
+import { Helmet } from "react-helmet";
 
 const AboutMe = () => {
 
@@ -32,87 +33,93 @@ const AboutMe = () => {
     };
 
     return(
-    <Grid container spacing={2}>
-        <Grid item xs={12} sm={4} md={3} xl={2}>
-            <Paper>
-                <Box
-                    sx={{
-                    display: 'flex',
-                    justifyContent: 'space-around',
-                    alignItems: 'center',
-                    }}
-                >
-                    <Avatar src="../img/me.jpg" alt="me" sx={{ width: 56, height: 56 }}>
-                        SM
-                    </Avatar>
-                    <Typography variant="h5">
-                        Sylvain Michel
-                    </Typography>            
-                </Box>
-                {contactInfo.map((contact) =>
-                <ListItemButton onClick={contact.action}>
-                    <ListItemIcon>
-                        {contact.icon}
-                    </ListItemIcon>
-                    <ListItemText primary={contact.text} />
-                </ListItemButton>
-                )}  
-                {skillList.map((skill) => 
-                    <SkillContainer {...skill}/>
-                )}
-            </Paper>
-        </Grid>
-        <Grid item xs={12} sm={8} md={9} xl={10}>
-            <Box>
-                <TabContext value={tabs}>
-                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                    <TabList onChange={handleChange} aria-label="CV sections" variant="fullWidth">
-                        <Tab label="Professional Experiences" value="1" />
-                        <Tab label="Studies" value="2" />
-                        <Tab label="Certifications" value="3" />
-                        <Tab label="Hobbies" value="4" />
-                    </TabList>
+    <>
+        <Helmet>
+            <title>Sylvain Michel</title>
+            <meta name="description" content="some information about me, sort of my online resume / CV"/>
+        </Helmet>  
+        <Grid container spacing={2}>
+            <Grid item xs={12} sm={4} md={3} xl={2}>
+                <Paper>
+                    <Box
+                        sx={{
+                        display: 'flex',
+                        justifyContent: 'space-around',
+                        alignItems: 'center',
+                        }}
+                    >
+                        <Avatar src="../img/me.jpg" alt="me" sx={{ width: 56, height: 56 }}>
+                            SM
+                        </Avatar>
+                        <Typography variant="h5">
+                            Sylvain Michel
+                        </Typography>            
                     </Box>
-                    <TabPanel value="1">
-                        <Grid container spacing={2}>
-                            {profesionalXp.map((experience)=>
-                                <Grid item xs={12} sm={6} md={4} xl={3}>
-                                    <ExperienceCard {...experience}/>
-                                </Grid>
-                            )}
-                        </Grid>
-                    </TabPanel>
-                    <TabPanel value="2">
-                        <Grid container spacing={2}>
-                            {studies.map((study)=>
-                                <Grid item xs={12} sm={6} md={4} xl={3}>
-                                    <StudyCard {...study}/>
-                                </Grid>
-                            )}
-                        </Grid>
-                    </TabPanel>
-                    <TabPanel value="3">
-                        <Grid container spacing={2}>
-                            {certificates.map((certificate)=>
-                                <Grid item xs={12} sm={6} md={4} xl={3}>
-                                    <CertificationCard {...certificate}/>
-                                </Grid>
-                            )}
-                        </Grid>
-                    </TabPanel>
-                    <TabPanel value="4">
-                        <Grid container spacing={2}>
-                            {hobbies.map((hobby)=>
-                                <Grid item xs={12} sm={6} md={4} xl={3}>
-                                    <HobbyCard {...hobby}/>
-                                </Grid>
-                            )}
-                        </Grid>
-                    </TabPanel>
-                </TabContext>
-            </Box>
+                    {contactInfo.map((contact) =>
+                    <ListItemButton onClick={contact.action}>
+                        <ListItemIcon>
+                            {contact.icon}
+                        </ListItemIcon>
+                        <ListItemText primary={contact.text} />
+                    </ListItemButton>
+                    )}  
+                    {skillList.map((skill) => 
+                        <SkillContainer {...skill}/>
+                    )}
+                </Paper>
+            </Grid>
+            <Grid item xs={12} sm={8} md={9} xl={10}>
+                <Box>
+                    <TabContext value={tabs}>
+                        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                        <TabList onChange={handleChange} aria-label="CV sections" variant="fullWidth">
+                            <Tab label="Professional Experiences" value="1" />
+                            <Tab label="Studies" value="2" />
+                            <Tab label="Certifications" value="3" />
+                            <Tab label="Hobbies" value="4" />
+                        </TabList>
+                        </Box>
+                        <TabPanel value="1">
+                            <Grid container spacing={2}>
+                                {profesionalXp.map((experience)=>
+                                    <Grid item xs={12} sm={6} md={4} xl={3}>
+                                        <ExperienceCard {...experience}/>
+                                    </Grid>
+                                )}
+                            </Grid>
+                        </TabPanel>
+                        <TabPanel value="2">
+                            <Grid container spacing={2}>
+                                {studies.map((study)=>
+                                    <Grid item xs={12} sm={6} md={4} xl={3}>
+                                        <StudyCard {...study}/>
+                                    </Grid>
+                                )}
+                            </Grid>
+                        </TabPanel>
+                        <TabPanel value="3">
+                            <Grid container spacing={2}>
+                                {certificates.map((certificate)=>
+                                    <Grid item xs={12} sm={6} md={4} xl={3}>
+                                        <CertificationCard {...certificate}/>
+                                    </Grid>
+                                )}
+                            </Grid>
+                        </TabPanel>
+                        <TabPanel value="4">
+                            <Grid container spacing={2}>
+                                {hobbies.map((hobby)=>
+                                    <Grid item xs={12} sm={6} md={4} xl={3}>
+                                        <HobbyCard {...hobby}/>
+                                    </Grid>
+                                )}
+                            </Grid>
+                        </TabPanel>
+                    </TabContext>
+                </Box>
+            </Grid>
         </Grid>
-    </Grid>
+    </>
     )
 };
 export default AboutMe;
