@@ -19,10 +19,10 @@ export const tabletopGames: TabletopGame[] = [
         title: "Cyclades",
    },{
        author: "Matago",
-       avatar: "../img/matago.svg",
+       avatar: "../img/matagot.webp",
        date: 2011,
        detail: "The Cyclades: hades is an extension of Cyclades, then the Cyclades is needed (c.f. Cyclades description). It adds hades has a good, some creatures, objects, and heroes. With hades as a god, you will control the undead for a turn. This extension is a game-changer.",
-       picture: "https://cf.geekdo-images.com/WJsPlarVu1FzM-bfJ2WbnQ__itemrep/img/pW2ON0B-Q8sRtb2rkgvATzKi2u4=/fit-in/246x300/filters:strip_icc()/pic1247242.jpg",
+       picture: "../img/cyclades-hades.webp",
        sumup: "An enjoyable extension to the Cyclades.",
        title: "Cyclades: Hades",
     },{
