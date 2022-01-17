@@ -20,7 +20,7 @@ export const categories: Category[] = [
   {
        name : "About me",
        sumup : "some information on me",
-       picture: "../img/me.jpg",
+       picture: "../img/me.webp",
        path: "/about-me"
    }
 ]

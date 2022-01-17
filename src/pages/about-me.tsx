@@ -48,7 +48,7 @@ const AboutMe = () => {
                         alignItems: 'center',
                         }}
                     >
-                        <Avatar src="../img/me.jpg" alt="me" sx={{ width: 56, height: 56 }}>
+                        <Avatar src="../img/me.webp" alt="me" sx={{ width: 56, height: 56 }}>
                             SM
                         </Avatar>
                         <Typography variant="h5">
