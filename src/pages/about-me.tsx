@@ -51,7 +51,7 @@ const AboutMe = () => {
                         <Avatar src="../img/me.webp" alt="me" sx={{ width: 56, height: 56 }}>
                             SM
                         </Avatar>
-                        <Typography variant="h5">
+                        <Typography component="h1" variant="h5">
                             Sylvain Michel
                         </Typography>            
                     </Box>
@@ -73,10 +73,26 @@ const AboutMe = () => {
                     <TabContext value={tabs}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <TabList onChange={handleChange} aria-label="CV sections" variant="fullWidth">
-                            <Tab label="Professional Experiences" value="1" />
-                            <Tab label="Studies" value="2" />
-                            <Tab label="Certifications" value="3" />
-                            <Tab label="Hobbies" value="4" />
+                            <Tab label={
+                                <Typography component="h2" variant="button">
+                                    Professional experience
+                                </Typography>
+                            } value="1" />
+                            <Tab label={
+                                <Typography component="h2" variant="button">
+                                    Studies
+                                </Typography>
+                            } value="2" />
+                            <Tab label={
+                                <Typography component="h2" variant="button">
+                                    Certifications
+                                </Typography>
+                            } value="3" />
+                            <Tab label={
+                                <Typography component="h2" variant="button">
+                                    Hobbies
+                                </Typography>
+                            } value="4" />
                         </TabList>
                         </Box>
                         <TabPanel value="1">

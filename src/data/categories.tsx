@@ -8,13 +8,13 @@ export const categories: Category[] = [
     {
        name : "Books",
        sumup : "some books to read and enjoy",
-       picture: "../img/books.jpg",
+       picture: "../img/books.webp",
        path: "/books"
    },
    {
        name : "Tabletop games",
        sumup : "some game to play and have fun",
-       picture: "../img/board-game.jpg",
+       picture: "../img/board-game.webp",
        path: "/tabletop-game"
    },
   {

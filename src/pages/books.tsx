@@ -10,7 +10,7 @@ export default function Books() {
       <>
         <Helmet>
           <title>SylwekFr - Books</title>
-          <meta name="description" content="Some books I encourage to read or that I liked"/>
+          <meta name="description" content="Welcome to the book's part. This part contains books I recommend reading. If you read those books, I hope you will enjoy them as much as I did. Wishing you some lovely reading time."/>
         </Helmet>
         <Grid container justifyContent="space-around" alignContent="center" spacing={3}>
           {books.map((book) => 

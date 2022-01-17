@@ -22,7 +22,7 @@ export default function Home() {
                 alt={category.name}
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="h2">
                   {category.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">

@@ -40,8 +40,8 @@ export default function Header(props: HeaderProps){
             <AppBar position="sticky" sx={{mb: 3}}>
                 <Toolbar>
                     <Typography
-                      component="h2"
-                      variant="h5"
+                      component="h1"
+                      variant="h4"
                       color="inherit"
                       align="center"
                       noWrap
