@@ -8,6 +8,7 @@ import AboutMe from './pages/about-me';
 import NotFound from './pages/not-found';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
+import { useTranslation} from 'react-i18next'
 
 export const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
@@ -17,8 +18,6 @@ enum routes {
   tabletopGame = "/tabletop-game",
   aboutMe = "/about-me"
 }
-
-
 
 function App(): JSX.Element {
   const [mode, setMode] = React.useState<'light' | 'dark'>('light');
@@ -41,24 +40,24 @@ function App(): JSX.Element {
     }),
     [],
   );
-
+    const { t } = useTranslation();
   return (
-    <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline /> 
-          <Header title="Just a curious guy"/>
-          <BrowserRouter>
-            <Switch>
-              <Route path={routes.home} exact component={Home} />
-              <Route path={routes.book} exact component={Books} />
-              <Route path={routes.tabletopGame} exact component={TabletopGames} />
-              <Route path={routes.aboutMe} exact component={AboutMe} />
-              <Route component={NotFound} />
-            </Switch>
-          </BrowserRouter>        
-      </ThemeProvider>
-    </ColorModeContext.Provider>
-    
+      <ColorModeContext.Provider value={colorMode}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline /> 
+            
+              <Header title={t<string>('title')}/>
+              <BrowserRouter>
+                <Switch>
+                  <Route path={routes.home} exact component={Home} />
+                  <Route path={routes.book} exact component={Books} />
+                  <Route path={routes.tabletopGame} exact component={TabletopGames} />
+                  <Route path={routes.aboutMe} exact component={AboutMe} />
+                  <Route component={NotFound} />
+                </Switch>
+              </BrowserRouter>        
+        </ThemeProvider>
+      </ColorModeContext.Provider>
   );
 }
 
