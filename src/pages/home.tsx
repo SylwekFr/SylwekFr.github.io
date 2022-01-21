@@ -8,7 +8,7 @@ import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import {  useTranslation } from 'react-i18next';
 
-interface IndexProps {
+interface categoryIndex {
   name: string;
   sumup: string;
   picture: string;
@@ -16,8 +16,8 @@ interface IndexProps {
 }
 
 export default function Home() {
-    const {t} = useTranslation() 
-    const localCategories = t<string, IndexProps[]>('categories', { returnObjects: true })
+    const {t} = useTranslation("home") 
+    const localCategories = t<string, categoryIndex[]>('categories', { returnObjects: true })
     return(        
       <Grid container justifyContent="space-around" alignContent="center" spacing={3}>
         {localCategories.map(({name, sumup, picture, path}) => 

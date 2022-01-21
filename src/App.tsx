@@ -40,7 +40,7 @@ function App(): JSX.Element {
     }),
     [],
   );
-    const { t } = useTranslation();
+    const { t } = useTranslation("home");
   return (
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>

@@ -27,7 +27,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
     }),
 }));
 
-type ReviewCardProps = {
+export type ReviewCardProps = {
     avatar?: string;
     author: string;
     date: number;
