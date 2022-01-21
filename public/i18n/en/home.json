@@ -1,0 +1,24 @@
+{
+    "title": "Just a curious guy",
+    "more": "learn more",
+    "categories": [
+        {
+            "name" : "Books",
+            "sumup" : "Some books to read and enjoy",
+            "picture": "../img/books.webp",
+            "path": "/books"
+        },
+        {
+            "name" : "Tabletop games",
+            "sumup" : "Some game to play and have fun",
+            "picture": "../img/board-game.webp",
+            "path": "/tabletop-game"
+        },
+       {
+            "name" : "About me",
+            "sumup" : "Some information on me",
+            "picture": "../img/me.webp",
+            "path": "/about-me"
+        }
+    ]
+}
