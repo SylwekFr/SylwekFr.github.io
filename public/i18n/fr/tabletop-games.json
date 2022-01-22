@@ -1,0 +1,29 @@
+{
+    "tabletopGames": [
+        {
+            "author": "Matago",
+            "avatar": "../img/matagot.webp",
+            "date": 2009,
+            "detail": "Cyclades est un jeu pour les 14 ans et plus qui prend environ 60 minutes pour une partie. C'est un super jeu entre amis. L'objectif est de construire (ou de capturer) 2 métropoles. Pour cela, vous devrez gérer vos soldats, votre flotte, votre économie, et quel dieu vénérer",
+            "picture": "https://cdn1.trictrac.net/documents/formats/thumb_300_300/documents/originals/dc/cc/539bd2ba3be435ff3c308a5e8995985f648b0a5c35087be4a90352bdbd1a.png",
+            "sumup": "Un jeu de société de 2 à 5 qui rentreront en compétition pour être le premier à construire son empire (2 métropoles).",
+            "title": "Cyclades"
+       },{
+           "author": "Matago",
+           "avatar": "../img/matagot.webp",
+           "date": 2011,
+           "detail": "Cyclades : Hadès est une extension de Cyclades, alors Cyclade est nécessaire (ref. description Cyclades). Elle ajoute Hadès comme Dieu, des objets magiques, des héros et quelques créatures. Avec Hadès comme dieu, vous contrôlerez les morts-vivants pendant un tour. Cette extension change la donne. ",
+           "picture": "../img/cyclades-hades.webp",
+           "sumup": "Une bonne extension au jeu de base Cyclades.",
+           "title": "Cyclades: Hades"
+        },{
+            "author": "Unstable Games",
+            "avatar": "../img/unstablegames.svg",
+            "date": 2017,
+            "detail": "Unstable unicorn est un jeu pour les 8 ans et +, de 2 à 8 joueurs qui prend entre 30 et 60 minutes à jouer. Ce jeu est génial sont emplis d'ascenseurs émotionnels. Votre objectif semble simple : avoir 7 licornes dans votre écurie, simple, n'est-ce pas ?",
+            "picture": "https://12ax7web.s3.amazonaws.com/accounts/2/products/1986199881276/UU_2ndEdition_Game-Box_Left-1-1000x1000.jpg",
+            "sumup": "\"Construisez une armée de licornes. Tournez le dos à vos vieux amis. Les licornes sont vos seules amies maintenant.\"",
+            "title": "Unstable Unicorns"
+        }
+    ]
+}
