@@ -1,0 +1,24 @@
+{
+    "title": "Juste quelqu'un de curieux",
+    "more": "en savoir plus",
+    "categories": [
+        {
+            "name" : "Livres",
+            "sumup" : "Quelques livres à lire et à apprécier",
+            "picture": "../img/books.webp",
+            "path": "/books"
+        },
+        {
+            "name" : "Jeux de société",
+            "sumup" : "Quelques jeux pour jouer ensemble et se retrouver",
+            "picture": "../img/board-game.webp",
+            "path": "/tabletop-game"
+        },
+       {
+            "name" : "A propos de moi",
+            "sumup" : "Quelques informations à propos de moi",
+            "picture": "../img/me.webp",
+            "path": "/about-me"
+        }
+    ]
+}
