@@ -1,0 +1,220 @@
+{
+  "certificationsTab": "Certifications",
+  "certifications": [
+    {
+      "certificationCompany": "Scaled Agile Inc",
+      "logo": "https://images.credly.com/size/340x340/images/050eb175-b923-4c68-9dfe-aa8da5f43281/cert_mark_SDP_badge_large_300px.png",
+      "name": "Certified SAFe® 5 DevOps Practitioner",
+      "obtentionDate": "Novembre 2021"
+    },
+    {
+      "certificationCompany": "Microsoft",
+      "logo": "https://images.credly.com/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
+      "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+      "obtentionDate": "Octobre 2021"
+    },
+    {
+      "certificationCompany": "Microsoft",
+      "logo": "https://images.credly.com/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png",
+      "name": "Microsoft Certified: Azure Fundamentals ",
+      "obtentionDate": "Septembre 2021"
+    },
+    {
+      "certificationCompany": "SAP",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
+      "name": "SAP Intelligent Robotic Process Automation in a Nutshell",
+      "obtentionDate": "Juin 2020"
+    },
+    {
+      "certificationCompany": "SAP",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
+      "name": "The Internet of Things with SAP",
+      "obtentionDate": "Juin 2020"
+    },
+    {
+      "certificationCompany": "SAP",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
+      "name": "Evolved Web Apps with SAPUI5",
+      "obtentionDate": "Mai 2020"
+    }
+  ],
+  "hobbiesTab": "Passe-temps",
+  "hobbies": [
+    {
+      "abbreviation": "MC",
+      "federationLogo": "../img/diego-logo.jpg",
+      "name": "Mon Chien",
+      "picture": "../img/diego-pics.jpg",
+      "sumUp": "Mon plus gros passe-temps est probablement de passer du temps avec mon chien, partir en promenade, lui apprendre de nouvelles choses ou tout simplement se détendre."
+    },
+    {
+      "abbreviation": "LR",
+      "federationLogo": "https://www.iconpacks.net/icons/2/free-opened-book-icon-3169-thumb.png",
+      "name": "Lire",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg2O-22eM2ZcJoXMJQAFRjiheUMyQAEqt8lTzB8MPC7vPLxN7i0Lu42xHYqqZXe-FtD-0&usqp=CAU",
+      "sumUp": "Depuis mon enfance, j'adore lire, de la BD au roman en passant par les livres techniques. Sur ma page, vous pouvez visiter ma section sur les livres pour voir quelques livres que j'ai lus, n'hésitez pas à me recommander un livre à lire, je suis particulièrement intéressé par la SF & le fantastique concernant les romans. Et les nouvelles technologies , l'ingénierie sociale, PLN & red teaming pour les livres techniques"
+    },
+    {
+      "abbreviation": "SB",
+      "federationLogo": "https://sambo.sport/upload/iblock/76e/76ec47778f25af6a15476167c6f2344c.jpg",
+      "name": "Sambo",
+      "picture": "https://sambo.sport/upload/iblock/aff/aff35819b812ebae85383bfaf5bd8c1b.jpg",
+      "sumUp": "Le sambo est un art martial d'origine russe que j'aime pratiquer. Avec la pratique, la volonté, la bonne voie spirituelle et la confiance (en nous-mêmes et dans les autres pratiquants avec nous), cela conduit à améliorer la réalisation de soi, le pouvoir et la conduite. Le sambo porte également les valeurs de liberté, d'amitié, de respect et d'inclusion."
+    },
+    {
+      "abbreviation": "JS",
+      "federationLogo": "https://i.pinimg.com/originals/d9/3d/91/d93d91a57281e6e96dc86c97c5047b30.png",
+      "name": "Jeux de sociétés",
+      "picture": "https://media.wired.com/photos/60c000d6206ef134c14e7571/master/pass/games_board-games_2FR3A46.jpg",
+      "sumUp": "Quel moment agréable que de se retrouver entre amis autour d'un jeu de société, boire un verre et discuter ou aller dans le roleplay"
+    },
+    {
+      "abbreviation": "VY",
+      "federationLogo": "https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Travel-Logo-Graphics-1-36.jpg",
+      "name": "Voyager",
+      "picture": "https://poradniksukces.com/wp/wp-content/uploads/2016/05/Travel-suitcase.jpg",
+      "sumUp": "J'aime voyager et découvrir de nouvelles cultures, j'ai eu la chance de visiter l'Albanie, l'Andorre, l'Autriche, l'Angleterre, la Belgique, l'Espagne, la France, la Hongrie, l'Islande, l'Italie, les Pays-Bas, la Pologne, la Slovaquie"
+    },
+    {
+      "abbreviation": "VG",
+      "federationLogo": "https://i.pinimg.com/originals/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.png",
+      "name": "Jeux vidéo",
+      "picture": "https://i.pinimg.com/736x/b7/6b/82/b76b82fed49d43f0d2e2555b7ced5a91--game-concept-art-fallout-.jpg",
+      "sumUp": "Dans un mauvais jour ? Pourquoi ne pas s'évader dans un monde virtuel dont vous êtes le héros (ou le méchant 😉) pour se changer les idées, je suis personnellement fan de la série et de l'univers Fallout."
+    }
+  ],
+  "profesionalExp": "Expérience professionnelle",
+  "profesionalXp": [
+    {
+      "company": "GSK",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/1200px-GSK_logo_2014.svg.png",
+      "context": "Je travaille actuellement pour GlaxoSmithKline, une entreprise internationale (industrie pharmaceutique), en tant qu'ingénieur logiciel  sur le développement full-stack d'une application R&D interne au sein d'une équipe Agile",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Développement Front-End",
+        "Développement d'API",
+        "Développement Cloud",
+        "Télétravail"
+      ],
+      "tags": [
+        "Azure",
+        "Docker",
+        "GraphQL",
+        "NestJS",
+        "React",
+        "Remote",
+        "TypeScript"
+      ],
+      "timeRanges": "De juin 2021 à février 2022"
+    },
+    {
+      "company": "Arvato Bertelsmann",
+      "companyLogo": "https://www.bertelsmann.com/media/layout/images/logos/randspalte/2016-pngs/arvato-logo-1600x900px-transp_division_logo_gt_1200_grid.png",
+      "context": "J'ai travaillé pour Arvato Bertelsmann, une société de services mondiale, depuis le bureau de Poznan, en tant que développeur junior Fiori pour le développement front-end d'applications liées à la logistique telles que l'inventaire, le suivi et la traçabilité, la personnalisation d'applications, etc.",
+      "position": "Développeur Junior Fiori",
+      "tasks": [
+        "Développement Front-End",
+        "UI/UX design",
+        "Création et édition de Data model",
+        "Télétravail"
+      ],
+      "tags": [
+        "ABAP",
+        "Build.me",
+        "JavaScript",
+        "oData",
+        "REST",
+        "SAP",
+        "SAPUI5"
+      ],
+      "timeRanges": "De novembre 2019 à mai 2021"
+    },
+    {
+      "company": "Nicman Group",
+      "companyLogo": "https://www.nicmangroup.com/sites/default/files/nicman-logo_0.png",
+      "context": "J'ai travaillé pour Nicman Group, une société de services informatiques américaine, depuis le bureau de Poznan en tant que développeur PHP sur une application de feedback interne et une application d'e-commerce pour un client.",
+      "position": "Développeur PHP Junior",
+      "tasks": ["Développement Full-stack", "Développement e-commerce"],
+      "tags": ["Drupal 7", "JavaScript", "Magento", "PHP"],
+      "timeRanges": "De juillet 2019 à octobre 2019"
+    },
+    {
+      "company": "IPS Control",
+      "companyLogo": "https://www.ipscontrol.com/storage/cms/layouts/2/ipscontrolrgb400.jpg",
+      "context": "J'ai travaillé pour IPS Control, une société d'automatisation polonaise, depuis les bureaux de Jasin en tant qu'ingénieur logiciel pour développer une application intranet pour le contrôle et la gestion à distance des automates programmables industriels.",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Développement Full-stack",
+        "Développement pour le control à distance"
+      ],
+      "tags": ["CSS3", "HTML5", "JavaScript", "jQuery", "PHP"],
+      "timeRanges": "De janvier 2019 à juin 2019"
+    },
+    {
+      "company": "QIAGEN",
+      "companyLogo": "https://www.qiagen.com/sfc/images/qiagen-logo.png",
+      "context": "J'ai travaillé pour QIAGEN, une société internationale de biotechnologie, depuis le bureau de Wroclaw en tant que spécialiste du télémarketing pour le contact avec les clients francophones et anglophones",
+      "position": "Spécialiste du télémarketing",
+      "tasks": [
+        "Contact client et conseils sur les produits des sciences de la vie et les dispositifs médicaux",
+        "Développement d'un assistant virtuel de télémarketing"
+      ],
+      "tags": ["Salesforce", "SQL", "VBA"],
+      "timeRanges": "D'octobre 2018 à décembre 2018"
+    },
+    {
+      "company": "Getinge",
+      "companyLogo": "data:image/jpeg;base64,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",
+      "context": "J'ai travaillé pour Getinge, entreprise internationale de fabrication de dispositif médicaux et de santé, depuis le bureau de Tournefeuille en tant qu'apprenti ingénieur au pôle méthodes et industrialisation.",
+      "position": "Apprenti ingénieur méthodes et industrialisation",
+      "tasks": [
+        "Mise en place du Lean sur une ligne de production.",
+        "Industrialisation de nouveaux produits avec prototypages, gammes et nomenclatures & édition d'instructions de travail.",
+        "Support de production pour les listes de stock, les schémas électriques et la modification des spécifications produit",
+        "Coopération internationale avec Getinge IC Plewiska sur le service qualité ",
+        "Coopération internationale avec ArjoHuntleigh Komorniki pour l'optimisation de la production"
+      ],
+      "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PHPP", "Sylob7", "VSM"],
+      "timeRanges": "De septembre 2015 à septembre 2018"
+    },
+    {
+      "company": "I-BP",
+      "companyLogo": "https://media-exp1.licdn.com/dms/image/C560BAQFvC6yTQiWa0A/company-logo_200_200/0/1537768689243?e=2159024400&v=beta&t=HwQoidxEoCNKlKz4EiJnB7GoXx8X_EK4CO-gC2JszZM",
+      "context": "J'ai travaillé pour I-BP, une société française de services informatiques pour la banque, depuis les bureaux de Balma en tant qu'auxiliaire d'été pour la maintenance des ordinateurs de bureau, des ordinateurs portables et des serveurs.",
+      "position": "Auxiliaire d'été",
+      "tasks": [
+        "Suppression des données bancaires.",
+        "Maintenance des ordinateurs de bureau, des ordinateurs portables et des serveurs."
+      ],
+      "tags": ["DBAN", "Linux", "Windows"],
+      "timeRanges": "de juillet 2015 à août 2015"
+    }
+  ],
+  "studiesTab": "Études",
+  "studies": [
+    {
+      "date": "2020",
+      "degree": "M.Sc. Computer Science sp. génie logiciel",
+      "school": "Poznan University of Technology",
+      "schoolLogo": "http://i.studyinpoland.pl/universities/logo/poznan-university-of-technology.png"
+    },
+    {
+      "date": "2018",
+      "degree": "\"Diplôme d'Ingénieur\" agrée CTI",
+      "school": "ICAM",
+      "schoolLogo": "https://en.icam.fr/wp-content/themes/icam/icam_img/logo.png"
+    },
+    {
+      "date": "2015",
+      "degree": "BTS ATI",
+      "school": "ICAM",
+      "schoolLogo": "https://en.icam.fr/wp-content/themes/icam/icam_img/logo.png"
+    },
+    {
+      "date": "2015",
+      "degree": "Baccalauréat STI2D ITEC mention très bien",
+      "school": "Lycée Pablo Picasso",
+      "schoolLogo": "https://lyc-picasso-perpignan.ac-montpellier.fr/sites/lyc-picasso-perpignan/files/styles/actualite-defilante_breakpoints_theme_etablissements_wide_1x/public/images/lycee_2019.jpg?itok=8sCNolzc"
+    }
+  ]
+}

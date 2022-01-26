@@ -1,21 +1,22 @@
 {
-    "books": [
-        {
-            "author": "Yuval Noah Harari",
-            "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
-            "date": 2015,
-            "detail": "Avant de lire Homo Deus, je pense que c'est un bon prélude. Personnellement j'ai même préféré ce livre. Il montre notre empreinte sur notre monde et comment nous y prenons nos droits tout en nous questionnant sur nos devoirs en retour. Ainsi que la question de ce que nous rendons réel mais qui ne l'est que dans nos esprits.",
-            "picture": "https://static.fnac-static.com/multimedia/Images/FR/NR/48/79/6c/7108936/1507-1/tsp20210806072330/Sapiens.jpg",
-            "sumup": "Homo Sapiens: Une brève histoire de l'humanité décrit comment nous prenons le contrôle de notre monde en étant capables de croire en des concepts existant uniquement dans notre imagination",
-            "title": "Homo Sapiens: Une brève histoire de l'humanité"
-       },{
-            "author": "Yuval Noah Harari",
-            "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
-            "date": 2017,
-            "detail": "Après avoir lu Homo Sapiens, Homo Deus semble la suite logique sur notre liste de lecture. Ce livre nous invite à réfléchir sur notre future et de nous projeter sur l'effet de nos actions d'aujourd'hui. L'auteur nous sensibilise aussi au risque d'abus lié aux technologies, comparent les abus d'aujourd'hui ayant une \"portée limitée\" aux abus de demain qui pourraient avoir de plus grandes conséquences, et nous pose la question: où poser des limites s'il doit y en avoir ?",
-            "picture": "https://static.fnac-static.com/multimedia/Images/FR/NR/29/7a/85/8747561/1507-1/tsp20210806071710/Homo-deus.jpg",
-            "sumup": "Homo Deus: Une brève histoire du futur décrit des scénarios possibles pour un monde où les vieux mythes rencontrent des technologies \"divines\", l'évolution de nos technologies modernes",
-            "title": "Homo Deus: Une brève histoire du futur"
-       }
-    ]
+  "books": [
+    {
+      "author": "Yuval Noah Harari",
+      "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
+      "date": 2015,
+      "detail": "Avant de lire Homo Deus, je pense que c'est un bon prélude. Personnellement j'ai même préféré ce livre. Il montre notre empreinte sur notre monde et comment nous y prenons nos droits tout en nous questionnant sur nos devoirs en retour. Ainsi que la question de ce que nous rendons réel mais qui ne l'est que dans nos esprits.",
+      "picture": "https://static.fnac-static.com/multimedia/Images/FR/NR/48/79/6c/7108936/1507-1/tsp20210806072330/Sapiens.jpg",
+      "sumup": "Homo Sapiens: Une brève histoire de l'humanité décrit comment nous prenons le contrôle de notre monde en étant capables de croire en des concepts existant uniquement dans notre imagination",
+      "title": "Homo Sapiens: Une brève histoire de l'humanité"
+    },
+    {
+      "author": "Yuval Noah Harari",
+      "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
+      "date": 2017,
+      "detail": "Après avoir lu Homo Sapiens, Homo Deus semble la suite logique sur notre liste de lecture. Ce livre nous invite à réfléchir sur notre future et de nous projeter sur l'effet de nos actions d'aujourd'hui. L'auteur nous sensibilise aussi au risque d'abus lié aux technologies, comparent les abus d'aujourd'hui ayant une \"portée limitée\" aux abus de demain qui pourraient avoir de plus grandes conséquences, et nous pose la question: où poser des limites s'il doit y en avoir ?",
+      "picture": "https://static.fnac-static.com/multimedia/Images/FR/NR/29/7a/85/8747561/1507-1/tsp20210806071710/Homo-deus.jpg",
+      "sumup": "Homo Deus: Une brève histoire du futur décrit des scénarios possibles pour un monde où les vieux mythes rencontrent des technologies \"divines\", l'évolution de nos technologies modernes",
+      "title": "Homo Deus: Une brève histoire du futur"
+    }
+  ]
 }
