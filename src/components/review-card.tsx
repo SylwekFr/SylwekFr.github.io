@@ -61,6 +61,7 @@ const ReviewCard: VFC<ReviewCardProps> = (props: ReviewCardProps) => {
         />
         <CardMedia
           component="img"
+          loading="lazy"
           height={pictureHeight}
           image={picture}
           alt={title}
