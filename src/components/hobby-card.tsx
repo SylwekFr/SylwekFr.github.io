@@ -20,7 +20,13 @@ const HobbyCard: VFC<Hobby> = (props: Hobby) => {
           }
           title={name}
         />
-        <CardMedia component="img" height="200" image={picture} alt={name} />
+        <CardMedia
+          component="img"
+          height="200"
+          image={picture}
+          loading="lazy"
+          alt={name}
+        />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
             {sumUp}

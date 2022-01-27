@@ -1,12 +1,12 @@
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import { Link } from 'react-router-dom';
-import Typography from '@mui/material/Typography';
-import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 type categoryIndex = {
   name: string;
@@ -34,6 +34,7 @@ export default function Home(): JSX.Element {
               component="img"
               height="240"
               image={picture}
+              loading="lazy"
               alt={name}
             />
             <CardContent>
