@@ -42,9 +42,9 @@
   "hobbies": [
     {
       "abbreviation": "MC",
-      "federationLogo": "../img/diego-logo.jpg",
+      "federationLogo": "../img/diego-logo.webp",
       "name": "Mon Chien",
-      "picture": "../img/diego-pics.jpg",
+      "picture": "../img/diego-pics.webp",
       "sumUp": "Mon plus gros passe-temps est probablement de passer du temps avec mon chien, partir en promenade, lui apprendre de nouvelles choses ou tout simplement se détendre."
     },
     {
