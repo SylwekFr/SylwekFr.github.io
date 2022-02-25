@@ -86,9 +86,21 @@
   "profesionalExp": "Expérience professionnelle",
   "profesionalXp": [
     {
+      "company": "Astek",
+      "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
+      "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil, en tant que consultant en ingénierie logiciels et sécurité pour le dévelopement pour des systèmes de sécurité au sein d'une équipe Scrum",
+      "position": "Consultant en ingénierie logiciels & sécurité",
+      "tasks": [
+        "Développement Front-End",
+        "Développement d'API pour des sytèmes de sécurité"
+      ],
+      "tags": ["Angular", "Docker", "Flask", "Python", "TypeScript"],
+      "timeRanges": "De février 2022 à aujourd'hui"
+    },
+    {
       "company": "GSK",
       "companyLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/1200px-GSK_logo_2014.svg.png",
-      "context": "Je travaille actuellement pour GlaxoSmithKline, une entreprise internationale (industrie pharmaceutique), en tant qu'ingénieur logiciel  sur le développement full-stack d'une application R&D interne au sein d'une équipe Agile",
+      "context": "J'ai travaillé pour GlaxoSmithKline, une entreprise internationale (industrie pharmaceutique), en tant qu'ingénieur logiciel pour le développement full-stack d'une application R&D interne au sein d'une équipe Agile",
       "position": "Ingénieur Logiciel",
       "tasks": [
         "Développement Front-End",

@@ -86,9 +86,18 @@
   "profesionalExp": "Professional experience",
   "profesionalXp": [
     {
+      "company": "Astek",
+      "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
+      "context": "I am working for Astek, an international consulting company, as software engineering and security working on developement for security system within a Scrum team",
+      "position": "software Engineering & Security Consultant",
+      "tasks": ["Front-End development", "API development for security system"],
+      "tags": ["Angular", "Docker", "Flask", "Python", "TypeScript"],
+      "timeRanges": "from February 2022 to date"
+    },
+    {
       "company": "GSK",
       "companyLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/1200px-GSK_logo_2014.svg.png",
-      "context": "I am currently working for GlaxoSmithKline, an international pharmaceutical industry company, as software engineer to work on full-stack development on an internal R&D application within an Agile team",
+      "context": "I worked for GlaxoSmithKline, an international pharmaceutical industry company, as software engineer to work on full-stack development on an internal R&D application within an Agile team",
       "position": "Software Engineer",
       "tasks": [
         "Front-End development",
