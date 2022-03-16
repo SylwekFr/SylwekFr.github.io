@@ -26,6 +26,15 @@
       "picture": "../img/unstable-unicorns.webp",
       "sumup": "\"Construisez une armée de licornes. Tournez le dos à vos vieux amis. Les licornes sont vos seules amies maintenant.\"",
       "title": "Unstable Unicorns"
+    },
+    {
+      "author": "Unstable Games",
+      "avatar": "../img/unstablegames.svg",
+      "date": 2018,
+      "detail": "Unstable unicorn est un jeu pour les 18 ans et +, de 2 à 8 joueurs qui prend entre 30 et 60 minutes à jouer. Ce jeu est drôle mais nous fais nous poser des question sur ses créateurs. Votre objectif semble simple : avoir 7 licornes dans votre écurie, simple, n'est-ce pas ?",
+      "picture": "../img/unstable-unicorns-nsfw.webp",
+      "sumup": "\"Horrifiez vos amis. Abandonnez-les. Les licornes ne jugent pas.\"",
+      "title": "Unstable Unicorns NSFW"
     }
   ]
 }

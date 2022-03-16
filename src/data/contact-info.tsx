@@ -10,9 +10,9 @@ type Contact = {
 
 export const contactInfo: Contact[] = [
   {
-    action: () => window.open('tel:+48880108360'),
+    action: () => window.open('tel:+33767866022'),
     icon: <ContactPhoneIcon />,
-    text: '+48 880 108 360',
+    text: '+337 67 86 60 22',
   },
   {
     action: () => window.open('mailto:sylvain.michel@2018.icam.fr'),
