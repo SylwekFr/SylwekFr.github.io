@@ -1,22 +1,148 @@
 {
   "tabletopGames": [
     {
-      "author": "Matago",
+      "author": "Holger Bösch",
+      "avatar": "../img/holger-bosch.webp",
+      "date": 2004,
+      "detail": "Black Stories est un jeu pour 12ans et plus de 2 à 15 joueurs qui prend environ 20 minutes pour une partie. Les règles sont simples, le maître du jeu lit l'histoire puis les autres joueurs doivent deviner comment cela est arrivé",
+      "picture": "../img/black-stories.webp",
+      "sumup": "Le temps d'un jeu, devenez enquêteur et résolvez ces histoires sombres",
+      "title": "Black Stories"
+    },
+    {
+      "author": "Piotr Krzystek & Łukasz Wrona",
+      "avatar": "../img/wydawnictwo-alter.svg",
+      "date": 2016,
+      "detail": "Byle do pierwszego est un jeu pour 14ans et plus de 2 à 5 joueurs qui prend environ 40 minutes pour une partie. Les règles sont simples, i faut d'abord choisir combien de mois jouer puis payer les factures à la fin de chaque mois",
+      "picture": "../img/byle-do-1go.webp",
+      "sumup": "Pour un temps retour en PRL, maintenant il est temps de payer les factures .",
+      "title": "Byle do Pierwszego"
+    },
+    {
+      "author": "Klaus-Jürgen Wrede",
+      "avatar": "../img/klaus-jurgen-wrede.webp",
+      "date": 2000,
+      "detail": "Carcassonne est un jeu pour 7ans et plus de 2 à 5 joueurs qui prennent environ 40 minutes pour une partie. Les règles sont simples, vous devez placer des tuiles avec de la route, de la ville et/ou une chapelle. Puis placer des figurines afin de les contrôler.",
+      "picture": "../img/carcassonne.webp",
+      "sumup": "Avez-vous entendu parler de la cité fortifiée de Carcassonne ? bien rien en commun, il vous suffit de construire des routes et des villes à contrôler.",
+      "title": "Carcassonne"
+    },
+    {
+      "author": "Klaus Teuber",
+      "avatar": "../img/klaus-teuber.webp",
+      "date": 1995,
+      "detail": "Catan est un jeu pour 10ans et plus de 3 à 4 joueurs qui prennent environ 90 minutes pour une partie. Les règles peuvent sembler compliquées, cependant, en résumé, vous essaierez d'obtenir des ressources (en exploitant ou en échangeant) pour construire votre colonie.",
+      "picture": "../img/catan.webp",
+      "sumup": "Échangez, construisez, installez.",
+      "title": "Catan"
+    },
+    {
+      "author": "Bruno Cathala & Ludovic Maublanc",
       "avatar": "../img/matagot.webp",
       "date": 2009,
-      "detail": "Cyclades est un jeu pour les 14 ans et plus qui prend environ 60 minutes pour une partie. C'est un super jeu entre amis. L'objectif est de construire (ou de capturer) 2 métropoles. Pour cela, vous devrez gérer vos soldats, votre flotte, votre économie, et quel dieu vénérer",
+      "detail": "Cyclades est un jeu pour les 14 ans et plus de 2  à 5 joueurs qui prend environ 60 minutes pour une partie. C'est un super jeu entre amis. L'objectif est de construire (ou de capturer) 2 métropoles. Pour cela, vous devrez gérer vos soldats, votre flotte, votre économie, et quel dieu vénérer",
       "picture": "../img/cyclades.webp",
-      "sumup": "Un jeu de société de 2 à 5 qui rentreront en compétition pour être le premier à construire son empire (2 métropoles).",
+      "sumup": "Entrez en compétition pour être le premier à construire votre empire (2 métropoles).",
       "title": "Cyclades"
     },
     {
-      "author": "Matago",
+      "author": "Bruno Cathala & Ludovic Maublanc",
       "avatar": "../img/matagot.webp",
       "date": 2011,
       "detail": "Cyclades : Hadès est une extension de Cyclades, alors Cyclade est nécessaire (ref. description Cyclades). Elle ajoute Hadès comme Dieu, des objets magiques, des héros et quelques créatures. Avec Hadès comme dieu, vous contrôlerez les morts-vivants pendant un tour. Cette extension change la donne. ",
       "picture": "../img/cyclades-hades.webp",
       "sumup": "Une bonne extension au jeu de base Cyclades.",
       "title": "Cyclades: Hades"
+    },
+    {
+      "author": "2 Pionki",
+      "avatar": "../img/2-pionki.webp",
+      "date": 2019,
+      "detail": "Czółko : Bez Cenzury est un jeu pour les 18ans et plus de 2 à 8 joueurs qui prend environ 30 minutes pour un match. Les règles sont simples, vous devez utiliser des mouvements idiots, des accents et des performances étranges pour transmettre le mot ou la phrase sur la carte qui est sur la tête de votre ami pour l'aider à le deviner!",
+      "picture": "../img/czolko-bez-cenzury.webp",
+      "sumup": "Vous avez une carte sur la tête, vous devez la deviner et aider les autres à deviner la leur ",
+      "title": "Czółko: Bez Cenzury"
+    },
+    {
+      "author": "Matthew Inman, Elan Lee & Shane Small ",
+      "avatar": "../img/rebel.svg",
+      "date": 2015,
+      "detail": "Exploding Kitten est un jeu pour les 7ans et plus de 2 à 5 joueurs qui prend environ 15 minutes pour une partie. Les règles sont simples, soyez celui qui n'explose pas.",
+      "picture": "../img/exploding-kitten.webp",
+      "sumup": "Demandez des faveurs, attaquez des amis, voyez l'avenir - tout ce qu'il faut pour éviter d'exploser !",
+      "title": "Exploding Kitten"
+    },
+    {
+      "author": "Andrew Fischer & Nathan I. Hajek ",
+      "avatar": "../img/bethesda.svg",
+      "date": 2017,
+      "detail": "Fallout est un jeu pour les 14ans et plus de 1 à 4 joueurs qui prend environ 150 minutes pour une partie. Les règles sont un peu compliquées, en bref pour gagner il faudra soit maximiser son influence personnelle soit celle de sa faction.",
+      "picture": "../img/fallout.webp",
+      "sumup": "Trouvez des alliés, des compétences et de l'équipement en lançant des dés à travers l'apocalypse nucléaire.",
+      "title": "Fallout"
+    },
+    {
+      "author": "Andrew Fischer",
+      "avatar": "../img/bethesda.svg",
+      "date": 2020,
+      "detail": "Fallout Shelter est un jeu pour les 14ans et plus de 2 à 4 joueurs qui prennent environ 60 minutes pour une partie. Les règles sont simples : vous devez placer votre habitant pour rassembler des ressources, construire des pièces et affronter les menaces. Le gagnant sera celui qui aura le plus de points de bonheur.",
+      "picture": "../img/fallout-shelter.webp",
+      "sumup": "Qui deviendra le meilleur superviseur ?",
+      "title": "Fallout Shelter"
+    },
+    {
+      "author": "POZnan",
+      "avatar": "../img/poznan.svg",
+      "date": 2018,
+      "detail": "Monopoly Poznań est un jeu pour les 8ans et plus de 2 à 6 joueurs qui prennent environ 90 minutes pour une partie. Le but est simple, devenir le plus riche et mettre les autres joueurs en faillite.",
+      "picture": "../img/monopoly-poznan.webp",
+      "sumup": "Comme le Monopoly standard mais à Poznań ",
+      "title": "Monopoly Poznań"
+    },
+    {
+      "author": "Michael Sistrunk",
+      "avatar": "../img/trefl.webp",
+      "date": 2017,
+      "detail": "5 Sekund: Bez Cenzury est un jeu pour les 18ans et plus de 2 à 30 joueurs qui prend entre 15 et 60 minutes pour une partie. Les règles sont simples, vous avez 5 secondes pour répondre à une carte. Spoiler alert, il y a des allusions ambiguës.",
+      "picture": "../img/5sec-uncensored.webp",
+      "sumup": "Vous avez 5 secondes, préparez-vous !",
+      "title": "5 Sekund: Bez Cenzury"
+    },
+    {
+      "author": "Rory O'Connor",
+      "avatar": "../img/rory-connor.webp",
+      "date": 2019,
+      "detail": "Rory's Story Cubes: Primal est un jeu pour les 6ans et plus de 1 à ♾ joueurs qui prend le temps que vous décidez. Les règles sont simples: roulez les dés et inventer une histoire adaptée aux dés. Pas de gagnant pas de perdant.",
+      "picture": "../img/story-cube.webp",
+      "sumup": "Depuis le début des langues, les gens se sont rencontrés pour se raconter des histoires ",
+      "title": "Rory's Story Cubes: Primal"
+    },
+    {
+      "author": "Marcin Minor",
+      "avatar": "../img/nasza-ksiegarnia.svg",
+      "date": 2017,
+      "detail": "Sen est un jeu pour les 8ans et plus de 2 à 5 joueurs qui prend environ 20 minutes pour une partie. Les règles sont simples : vous avez 4 cartes que vous ne connaissez pas devant vous, au début vous pouvez en voir 2. L'objectif? Avoir le moins de points.",
+      "picture": "../img/sen.webp",
+      "sumup": "Dans le monde des rêves, vous souhaitez avoir le moins de corbeaux (points) possible.",
+      "title": "Sen"
+    },
+    {
+      "author": "Jacob Fryxelius",
+      "avatar": "../img/jacob-fryxelius.webp",
+      "date": 2016,
+      "detail": "Terraforming Mars est un jeu pour 12+ de 1 à 5 joueurs qui prennent environ 120 minutes pour une partie. Les règles peuvent être un peu difficiles à appréhender. Le but est de développer votre colonie pour compléter la terraformation de Mars.",
+      "picture": "../img/terraforming-mars.webp",
+      "sumup": "Rivalisez avec des PDG rivaux pour rendre Mars habitable et construire votre empire commercial.",
+      "title": "Terraforming Mars"
+    },
+    {
+      "author": "Merle Robbins",
+      "avatar": "../img/merle-robbins.webp",
+      "date": 1971,
+      "detail": "Uno est un jeu pour les 7ans et plus de 2 à 10 joueurs qui prend environ 30 minutes pour une partie. Les règles sont simples : vous devez vous débarrasser de vos cartes en premier. ",
+      "picture": "../img/uno.webp",
+      "sumup": "Débarrassez-vous de vos cartes en premier, mais n'oubliez pas de dire \"UNO !\"",
+      "title": "Uno"
     },
     {
       "author": "Unstable Games",

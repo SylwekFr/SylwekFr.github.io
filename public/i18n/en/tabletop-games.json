@@ -1,22 +1,148 @@
 {
   "tabletopGames": [
     {
-      "author": "Matago",
+      "author": "Holger Bösch",
+      "avatar": "../img/holger-bosch.webp",
+      "date": 2004,
+      "detail": "Black Stories is a game for 12+ from 2 to 15 players who take around 20 minutes to one game. The rules are simple, the master of the game read the story then other players have to guess how it happened ",
+      "picture": "../img/black-stories.webp",
+      "sumup": "The time of a game, become an investigator and solve those black stories.",
+      "title": "Black Stories"
+    },
+    {
+      "author": "Piotr Krzystek & Łukasz Wrona",
+      "avatar": "../img/wydawnictwo-alter.svg",
+      "date": 2016,
+      "detail": "Byle do pierwszego is a game for 14+ from 2 to 5 players who take around 40 minutes to one game. The rules are simple, we chose how many months we wish to play and we have to pay the bills by the end of each month",
+      "picture": "../img/byle-do-1go.webp",
+      "sumup": "For a time return to PRL, now it is time to pay the bills.",
+      "title": "Byle do Pierwszego"
+    },
+    {
+      "author": "Klaus-Jürgen Wrede",
+      "avatar": "../img/klaus-jurgen-wrede.webp",
+      "date": 2000,
+      "detail": "Carcassonne is a game for 7+ from 2 to 5 players who take around 40 minutes to one game. The rules are simple, you have to place tiles with road, city, and church. Then to place figurines in order to control them.",
+      "picture": "../img/carcassonne.webp",
+      "sumup": "Did you hear of the city Carcassonne? well nothing in common, just build roads and cities to control.",
+      "title": "Carcassonne"
+    },
+    {
+      "author": "Klaus Teuber",
+      "avatar": "../img/klaus-teuber.webp",
+      "date": 1995,
+      "detail": "Catan is a game for 10+ from 3 to 4 players who take around 90 minutes to one game. The rules may look complicated however, basically, you will try to get resources (by exploiting or trading) to build your settlement.",
+      "picture": "../img/catan.webp",
+      "sumup": "Trade, Build, Settle.",
+      "title": "Catan"
+    },
+    {
+      "author": "Bruno Cathala & Ludovic Maublanc",
       "avatar": "../img/matagot.webp",
       "date": 2009,
-      "detail": "The Cyclades is a game for 14+ who take around 60 minutes to one game. It is very nice to play with friends. The aim is to build (or take over) 2 metropolises; to do so, you will have to manage your soldiers, your navy, your economy, and which god to venerate",
+      "detail": "The Cyclades is a game for 14+ from 2 to 5 players who take around 60 minutes to one game. It is very nice to play with friends. The aim is to build (or take over) 2 metropolises; to do so, you will have to manage your soldiers, your navy, your economy, and which god to venerate",
       "picture": "../img/cyclades.webp",
-      "sumup": "A tabletop game form 2 to 5 players to compete to be the one to build his empire of 2 metropolises.",
+      "sumup": "Compete to be the one to build your empire of 2 metropolises.",
       "title": "Cyclades"
     },
     {
-      "author": "Matago",
+      "author": "Bruno Cathala & Ludovic Maublanc",
       "avatar": "../img/matagot.webp",
       "date": 2011,
       "detail": "The Cyclades: hades is an extension of Cyclades, then the Cyclades is needed (c.f. Cyclades description). It adds hades has a god, some creatures, objects, and heroes. With hades as a god, you will control the undead for a turn. This extension is a game-changer.",
       "picture": "../img/cyclades-hades.webp",
       "sumup": "An enjoyable extension to the Cyclades.",
       "title": "Cyclades: Hades"
+    },
+    {
+      "author": "2 Pionki",
+      "avatar": "../img/2-pionki.webp",
+      "date": 2019,
+      "detail": "Czółko: Bez Cenzury is a game for 18+ from 2 to 8 players who take around 30 minutes to one game. The rules are simple, you should use silly moves, accents, and weird performances to convey the word or phrase on the card that’s on your friend's head to help him or her guess it!",
+      "picture": "../img/czolko-bez-cenzury.webp",
+      "sumup": "You have a card on your head has everybody you have to guess it and help others to guess their.",
+      "title": "Czółko: Bez Cenzury"
+    },
+    {
+      "author": "Matthew Inman, Elan Lee & Shane Small ",
+      "avatar": "../img/rebel.svg",
+      "date": 2015,
+      "detail": "Exploding Kitten is a game for 7+ from 2 to 5 players who take around 15 minutes to one game. The rules are simple, be the one who doesn't explode.",
+      "picture": "../img/exploding-kitten.webp",
+      "sumup": "Ask for favors, attack friends, see the future- whatever it takes to avoid exploding!",
+      "title": "Exploding Kitten"
+    },
+    {
+      "author": " Andrew Fischer & Nathan I. Hajek ",
+      "avatar": "../img/bethesda.svg",
+      "date": 2017,
+      "detail": "Fallout is a game for 14+ from 1 to 4 players who take around 150 minutes to one game. The rules are a bit complicated, in short in order to win you will have either to max your personal influence or your faction influence.",
+      "picture": "../img/fallout.webp",
+      "sumup": "Find allies, skills, and equipment as you chuck dice through the nuclear apocalypse.",
+      "title": "Fallout"
+    },
+    {
+      "author": "Andrew Fischer",
+      "avatar": "../img/bethesda.svg",
+      "date": 2020,
+      "detail": "Fallout Shelter is a game for 14+ from 2 to 4 players who take around 60 minutes to one game. The rules are simple: you have to place your dweller to gather resources, build room and fight with threats. The winner will be the one who has the most happiness points.",
+      "picture": "../img/fallout-shelter.webp",
+      "sumup": "Who will become the best Overseer ?",
+      "title": "Fallout Shelter"
+    },
+    {
+      "author": "POZnan",
+      "avatar": "../img/poznan.svg",
+      "date": 2018,
+      "detail": "Monopoly Poznań is a game for 8+ from 2 to 6 players who take around 90 minutes to one game. The aim is simple, become the richest and make other players bankrupt.",
+      "picture": "../img/monopoly-poznan.webp",
+      "sumup": "Like regular Monopoly but in Poznań",
+      "title": "Monopoly Poznań"
+    },
+    {
+      "author": "Michael Sistrunk",
+      "avatar": "../img/trefl.webp",
+      "date": 2017,
+      "detail": "5 Sekund: Bez Cenzury is a game for 18+ from 2 to 30 players who take between 15 and  60 minutes to one game. The rules are simple, you have 5 seconds to reply to a card. Spoiler alert, there are ambiguous allusions.",
+      "picture": "../img/5sec-uncensored.webp",
+      "sumup": "You have 5 seconds, get ready!",
+      "title": "5 Sekund: Bez Cenzury"
+    },
+    {
+      "author": "Rory O'Connor",
+      "avatar": "../img/rory-connor.webp",
+      "date": 2019,
+      "detail": "Rory's Story Cubes: Primal is a game for 6+ from 1 to ♾ players who take the time you decide. The rules are simple: roll the dices and invent a story fitting the dices. No winner no loser.",
+      "picture": "../img/story-cube.webp",
+      "sumup": "Since the beginning of languages, people met to tell stories",
+      "title": "Rory's Story Cubes: Primal"
+    },
+    {
+      "author": "Marcin Minor",
+      "avatar": "../img/nasza-ksiegarnia.svg",
+      "date": 2017,
+      "detail": "Sen is a game for 8+ from 2 to 5 players who take around 20 minutes to one game. The rules are simple: you have 4 cards you don't know in front of you, at the beginning you can have a look at 2 of them. Your aim? Having the least points.",
+      "picture": "../img/sen.webp",
+      "sumup": "In the world of dreams, you wish to have the least crows (points) possible.",
+      "title": "Sen"
+    },
+    {
+      "author": "Jacob Fryxelius",
+      "avatar": "../img/jacob-fryxelius.webp",
+      "date": 2016,
+      "detail": "Terraforming Mars is a game for 12+ from 1 to 5 players who take around 120 minutes to one game. The rules can be a bit hard to apprehend. The aim is to develop your colony to complete the terraformation of Mars.",
+      "picture": "../img/terraforming-mars.webp",
+      "sumup": "Compete with rival CEOs to make Mars habitable and build your corporate empire.",
+      "title": "Terraforming Mars"
+    },
+    {
+      "author": "Merle Robbins",
+      "avatar": "../img/merle-robbins.webp",
+      "date": 1971,
+      "detail": "Uno is a game for 7+ from 2 to 10 players who take around 30 minutes to one game. The rules are simple: you need to get rid of your cards first.",
+      "picture": "../img/uno.webp",
+      "sumup": "Get rid of your cards first, but don't forget to say \"UNO!\"",
+      "title": "Uno"
     },
     {
       "author": "Unstable Games",
