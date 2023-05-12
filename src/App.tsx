@@ -6,7 +6,7 @@ import TabletopGames from './pages/tabletop-game';
 import AboutMe from './pages/about-me';
 import NotFound from './pages/not-found';
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
@@ -50,13 +50,13 @@ function App(): JSX.Element {
         <CssBaseline />
         <Header title={t<string>('title')} />
         <BrowserRouter>
-          <Switch>
-            <Route path={routes.home} exact component={Home} />
-            <Route path={routes.book} exact component={Books} />
-            <Route path={routes.tabletopGame} exact component={TabletopGames} />
-            <Route path={routes.aboutMe} exact component={AboutMe} />
-            <Route component={NotFound} />
-          </Switch>
+          <Routes>
+            <Route path={routes.home} element={<Home />} />
+            <Route path={routes.book} element={<Books />} />
+            <Route path={routes.tabletopGame} element={<TabletopGames />} />
+            <Route path={routes.aboutMe} element={<AboutMe />} />
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
         </BrowserRouter>
       </ThemeProvider>
     </ColorModeContext.Provider>
