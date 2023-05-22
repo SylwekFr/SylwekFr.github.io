@@ -13,7 +13,7 @@ import NativeSelect from '@mui/material/NativeSelect';
 import { useTheme } from '@mui/material/styles';
 import React, { useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ColorModeContext } from '../App';
+import { ColorModeContext } from '../../App';
 
 type HeaderProps = {
   title: string;

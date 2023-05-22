@@ -1,8 +1,8 @@
 import Grid from '@mui/material/Grid';
 import React from 'react';
-import ReviewCard from '../components/review-card';
+import ReviewCard from '../../shared/components/review-card';
 import { Helmet } from 'react-helmet';
-import { TabletopGame } from '../types';
+import { TabletopGame } from '../../types';
 import { useTranslation } from 'react-i18next';
 
 export default function TabletopGames(): JSX.Element {

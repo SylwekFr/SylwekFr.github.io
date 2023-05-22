@@ -11,7 +11,7 @@ import { styled } from '@mui/material/styles';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
-import { Experience } from '../types';
+import Experience from '../entities/experience';
 
 type ExpandMoreProps = {
   expand: boolean;

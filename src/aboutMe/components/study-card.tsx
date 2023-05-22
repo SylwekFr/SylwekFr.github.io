@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import Tooltip from '@mui/material/Tooltip';
 import { FC } from 'react';
-import { Study } from '../types';
+import { Study } from '../../types';
 
 const StudyCard: FC<Study> = (props: Study) => {
   const { date, degree, school, schoolLogo } = props;

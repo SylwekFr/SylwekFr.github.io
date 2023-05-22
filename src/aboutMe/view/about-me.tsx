@@ -20,7 +20,9 @@ import SkillContainer from '../components/skill-container';
 import StudyCard from '../components/study-card';
 import { contactInfo } from '../data/contact-info';
 import { skillList } from '../data/skills';
-import { Certification, Experience, Hobby, Study } from '../types';
+import { Hobby, Study } from '../../types';
+import { Certification } from '../entities/certification';
+import Experience from '../entities/experience';
 
 const AboutMe = (): JSX.Element => {
   const [tabs, setTabs] = useState('1');

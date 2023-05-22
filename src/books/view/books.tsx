@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import React from 'react';
-import ReviewCard, { ReviewCardProps } from '../components/review-card';
+import ReviewCard, { ReviewCardProps } from '../../shared/components/review-card';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 

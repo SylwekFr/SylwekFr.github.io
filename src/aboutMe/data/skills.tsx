@@ -7,7 +7,7 @@ import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import SecurityIcon from '@mui/icons-material/Security';
 import StorageIcon from '@mui/icons-material/Storage';
-import { Skill, SkillContainr } from '../types';
+import { Skill, SkillContainr } from '../../types';
 
 const compliance: Skill[] = [
   {
