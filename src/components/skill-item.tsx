@@ -2,10 +2,10 @@ import Avatar from '@mui/material/Avatar';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
-import { VFC } from 'react';
+import { FC } from 'react';
 import { Skill } from '../types';
 
-const SkillItem: VFC<Skill> = (props: Skill) => {
+const SkillItem: FC<Skill> = (props: Skill) => {
   const { abbreviation, level, logo, name } = props;
   return (
     <ListItem>

@@ -2,10 +2,10 @@ import Avatar from '@mui/material/Avatar';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import Tooltip from '@mui/material/Tooltip';
-import { VFC } from 'react';
+import { FC } from 'react';
 import { Certification } from '../types';
 
-const CertificationCard: VFC<Certification> = (props: Certification) => {
+const CertificationCard: FC<Certification> = (props: Certification) => {
   const { certificationCompany, logo, name, obtentionDate } = props;
   return (
     <>

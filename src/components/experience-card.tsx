@@ -10,7 +10,7 @@ import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import { styled } from '@mui/material/styles';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import React, { VFC } from 'react';
+import React, { FC } from 'react';
 import { Experience } from '../types';
 
 type ExpandMoreProps = {
@@ -28,7 +28,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   }),
 }));
 
-const ExperienceCard: VFC<Experience> = (props: Experience) => {
+const ExperienceCard: FC<Experience> = (props: Experience) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const onExpand = () => {

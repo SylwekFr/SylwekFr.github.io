@@ -2,10 +2,10 @@ import Avatar from '@mui/material/Avatar';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import Tooltip from '@mui/material/Tooltip';
-import { VFC } from 'react';
+import { FC } from 'react';
 import { Study } from '../types';
 
-const StudyCard: VFC<Study> = (props: Study) => {
+const StudyCard: FC<Study> = (props: Study) => {
   const { date, degree, school, schoolLogo } = props;
   return (
     <>
