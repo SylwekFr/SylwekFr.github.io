@@ -69,7 +69,7 @@ const AboutMe = (): JSX.Element => {
               </ListItemButton>
             ))}
             {skillList.map((skill) => (
-              <SkillContainer {...skill} />
+              <SkillContainer key={ skill.name } {...skill} />
             ))}
           </Paper>
         </Grid>

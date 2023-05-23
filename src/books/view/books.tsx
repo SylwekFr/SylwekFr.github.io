@@ -24,7 +24,7 @@ export default function Books(): JSX.Element {
       >
         {t<string, Book[]>('books', { returnObjects: true }).map(
           (book) => (
-            <Grid item justifyItems="center" sm={12} md={6} lg={3}>
+            <Grid key={book.title} item justifyItems="center" sm={12} md={6} lg={3}>
               <ReviewCard {...book} pictureHeight={500} />
             </Grid>
           ),

@@ -25,7 +25,7 @@ export default function TabletopGames(): JSX.Element {
         {t<string, TabletopGame[]>('tabletopGames', {
           returnObjects: true,
         }).map((tabletopGame) => (
-          <Grid item justifyItems="center" sm={12} md={6} lg={3}>
+          <Grid key={ tabletopGame.title } item justifyItems="center" sm={12} md={6} lg={3}>
             <ReviewCard pictureHeight={300} {...tabletopGame} />
           </Grid>
         ))}
