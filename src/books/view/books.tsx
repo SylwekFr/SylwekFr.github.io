@@ -1,6 +1,7 @@
 import Grid from '@mui/material/Grid';
 import React from 'react';
-import ReviewCard, { ReviewCardProps } from '../components/review-card';
+import ReviewCard from '../../shared/components/review-card';
+import Book from '../entities/book';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 
@@ -21,9 +22,9 @@ export default function Books(): JSX.Element {
         alignContent="center"
         spacing={3}
       >
-        {t<string, ReviewCardProps[]>('books', { returnObjects: true }).map(
+        {t<string, Book[]>('books', { returnObjects: true }).map(
           (book) => (
-            <Grid item justifyItems="center" sm={12} md={6} lg={3}>
+            <Grid key={book.title} item justifyItems="center" sm={12} md={6} lg={3}>
               <ReviewCard {...book} pictureHeight={500} />
             </Grid>
           ),

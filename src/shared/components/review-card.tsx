@@ -4,14 +4,13 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
-import Chip from '@mui/material/Chip';
+import CardMedia from '@mui/material/CardMedia';
 import Collapse from '@mui/material/Collapse';
 import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import { styled } from '@mui/material/styles';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import React, { VFC } from 'react';
-import { Experience } from '../types';
+import React, { FC } from 'react';
 
 type ExpandMoreProps = {
   expand: boolean;
@@ -28,30 +27,48 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   }),
 }));
 
-const ExperienceCard: VFC<Experience> = (props: Experience) => {
+export type ReviewCardProps = {
+  avatar?: string;
+  author: string;
+  date: number;
+  detail: string;
+  picture: string;
+  pictureHeight: number;
+  sumup: string;
+  title: string;
+};
+
+const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const onExpand = () => {
     setExpanded(!expanded);
   };
 
-  const { company, companyLogo, context, position, tasks, tags, timeRanges } =
+  const { author, avatar, date, detail, picture, pictureHeight, sumup, title } =
     props;
   return (
     <>
       <Card sx={{ maxWidth: 345, m: 'auto' }}>
         <CardHeader
           avatar={
-            <Tooltip title={company}>
-              <Avatar aria-label="author" alt={company} src={companyLogo} />
+            <Tooltip title={author}>
+              <Avatar aria-label="author" alt={author} src={avatar} />
             </Tooltip>
           }
-          title={position}
-          subheader={timeRanges}
+          title={title}
+          subheader={date}
+        />
+        <CardMedia
+          component="img"
+          loading="lazy"
+          height={pictureHeight}
+          image={picture}
+          alt={title}
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            {context}
+            {sumup}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -66,23 +83,12 @@ const ExperienceCard: VFC<Experience> = (props: Experience) => {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>
-              <ul>
-                {tasks.map((task) => (
-                  <li>{task}</li>
-                ))}
-              </ul>
-            </Typography>
+            <Typography paragraph>{detail}</Typography>
           </CardContent>
         </Collapse>
-        <CardContent>
-          {tags.map((tag) => (
-            <Chip label={tag} size="small" />
-          ))}
-        </CardContent>
       </Card>
     </>
   );
 };
 
-export default ExperienceCard;
+export default ReviewCard;

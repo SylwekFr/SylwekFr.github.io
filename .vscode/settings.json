@@ -1,0 +1,16 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.options": { "overrideConfigFile": ".eslintrc.json" },
+    "prettier.configPath": ".prettierrc.json",
+    "prettier.ignorePath": ".prettierignore",
+    "files.trimTrailingWhitespace": true,
+    "[typescript]": {
+      "editor.detectIndentation": false,
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+  }

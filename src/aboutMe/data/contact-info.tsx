@@ -24,6 +24,7 @@ export const contactInfo: Contact[] = [
       window.open(
         'https://www.linkedin.com/in/sylvain-michel-065652119/',
         '_blank',
+        "noopener"
       ),
     icon: <LinkedInIcon />,
     text: 'Sylvain Michel',

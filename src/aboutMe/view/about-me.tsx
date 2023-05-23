@@ -20,7 +20,10 @@ import SkillContainer from '../components/skill-container';
 import StudyCard from '../components/study-card';
 import { contactInfo } from '../data/contact-info';
 import { skillList } from '../data/skills';
-import { Certification, Experience, Hobby, Study } from '../types';
+import Hobby from '../entities/hobby';
+import Study from '../entities/study';
+import Certification from '../entities/certification';
+import Experience from '../entities/experience';
 
 const AboutMe = (): JSX.Element => {
   const [tabs, setTabs] = useState('1');
@@ -66,7 +69,7 @@ const AboutMe = (): JSX.Element => {
               </ListItemButton>
             ))}
             {skillList.map((skill) => (
-              <SkillContainer {...skill} />
+              <SkillContainer key={ skill.name } {...skill} />
             ))}
           </Paper>
         </Grid>

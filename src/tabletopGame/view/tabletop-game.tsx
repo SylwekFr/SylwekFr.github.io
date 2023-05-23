@@ -1,8 +1,8 @@
 import Grid from '@mui/material/Grid';
 import React from 'react';
-import ReviewCard from '../components/review-card';
+import ReviewCard from '../../shared/components/review-card';
 import { Helmet } from 'react-helmet';
-import { TabletopGame } from '../types';
+import TabletopGame from '../entities/tabletopGame';
 import { useTranslation } from 'react-i18next';
 
 export default function TabletopGames(): JSX.Element {
@@ -25,7 +25,7 @@ export default function TabletopGames(): JSX.Element {
         {t<string, TabletopGame[]>('tabletopGames', {
           returnObjects: true,
         }).map((tabletopGame) => (
-          <Grid item justifyItems="center" sm={12} md={6} lg={3}>
+          <Grid key={ tabletopGame.title } item justifyItems="center" sm={12} md={6} lg={3}>
             <ReviewCard pictureHeight={300} {...tabletopGame} />
           </Grid>
         ))}
