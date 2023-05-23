@@ -5,10 +5,10 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { FC, useState } from 'react';
-import { SkillContainr } from '../../types';
+import { SkillContainer } from '../entities/skill';
 import SkillItem from './skill-item';
 
-const SkillContainer: FC<SkillContainr> = (props: SkillContainr) => {
+const SkillContainer: FC<SkillContainer> = (props: SkillContainer) => {
   const { data, icon, name } = props;
   const [open, setOpen] = useState(false);
 

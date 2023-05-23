@@ -7,7 +7,7 @@ import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import SecurityIcon from '@mui/icons-material/Security';
 import StorageIcon from '@mui/icons-material/Storage';
-import { Skill, SkillContainr } from '../../types';
+import { Skill, SkillContainer } from '../entities/skill';
 
 const compliance: Skill[] = [
   {
@@ -384,7 +384,7 @@ const softwares: Skill[] = [
   },
 ];
 
-export const skillList: SkillContainr[] = [
+export const skillList: SkillContainer[] = [
   {
     name: 'Languages',
     icon: <LanguageIcon />,

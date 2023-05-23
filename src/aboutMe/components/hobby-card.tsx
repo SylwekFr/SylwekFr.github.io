@@ -5,7 +5,7 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { FC } from 'react';
-import { Hobby } from '../../types';
+import Hobby from '../entities/hobby';
 
 const HobbyCard: FC<Hobby> = (props: Hobby) => {
   const { abbreviation, federationLogo, name, picture, sumUp } = props;

@@ -3,7 +3,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import { FC } from 'react';
-import { Skill } from '../../types';
+import { Skill } from '../entities/skill';
 
 const SkillItem: FC<Skill> = (props: Skill) => {
   const { abbreviation, level, logo, name } = props;
