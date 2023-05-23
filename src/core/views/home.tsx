@@ -28,7 +28,7 @@ export default function Home(): JSX.Element {
       spacing={3}
     >
       {localCategories.map(({ name, sumup, picture, path }) => (
-        <Grid item justifyItems="center" sm={12} md={6} lg={3}>
+        <Grid key="name" item justifyItems="center" sm={12} md={6} lg={3}>
           <Card sx={{ maxWidth: 345, m: 'auto' }}>
             <CardMedia
               component="img"
