@@ -31,7 +31,7 @@ export type ReviewCardProps = {
   avatar?: string;
   author: string;
   date: number;
-  detail: string;
+  detail?: string;
   picture: string;
   pictureHeight: number;
   sumup: string;
@@ -66,11 +66,13 @@ const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
           image={picture}
           alt={title}
         />
+        { detail && (
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            {sumup}
+            {detail}
           </Typography>
         </CardContent>
+        )}
         <CardActions disableSpacing>
           <ExpandMore
             expand={expanded}
@@ -83,7 +85,7 @@ const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>{detail}</Typography>
+            <Typography paragraph>{sumup}</Typography>
           </CardContent>
         </Collapse>
       </Card>

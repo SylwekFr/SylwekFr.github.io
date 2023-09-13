@@ -1,40 +1,10 @@
 {
   "books": [
-    {
-      "author": "Yuval Noah Harari",
-      "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
-      "date": 2015,
-      "detail": "Avant de lire Homo Deus, je pense que c'est un bon prélude. Personnellement j'ai même préféré ce livre. Il montre notre empreinte sur notre monde et comment nous y prenons nos droits tout en nous questionnant sur nos devoirs en retour. Ainsi que la question de ce que nous rendons réel mais qui ne l'est que dans nos esprits.",
-      "picture": "../img/sapiens-fr.webp",
-      "sumup": "Sapiens: Une brève histoire de l'humanité décrit comment nous prenons le contrôle de notre monde en étant capables de croire en des concepts existant uniquement dans notre imagination",
-      "title": "Sapiens: Une brève histoire de l'humanité"
-    },
-    {
-      "author": "Yuval Noah Harari",
-      "avatar": "https://pbs.twimg.com/profile_images/1034789978444886017/9GqAdkNk_200x200.jpg",
-      "date": 2017,
-      "detail": "Après avoir lu Sapiens, Homo Deus semble la suite logique sur notre liste de lecture. Ce livre nous invite à réfléchir sur notre future et de nous projeter sur l'effet de nos actions d'aujourd'hui. L'auteur nous sensibilise aussi au risque d'abus lié aux technologies, comparent les abus d'aujourd'hui ayant une \"portée limitée\" aux abus de demain qui pourraient avoir de plus grandes conséquences, et nous pose la question: où poser des limites s'il doit y en avoir ?",
-      "picture": "../img/homo-deus-fr.webp",
-      "sumup": "Homo Deus: Une brève histoire du futur décrit des scénarios possibles pour un monde où les vieux mythes rencontrent des technologies \"divines\", l'évolution de nos technologies modernes",
-      "title": "Homo Deus: Une brève histoire du futur"
-    },
-    {
-      "author": "Laurent Alexandre",
-      "avatar": "https://pbs.twimg.com/profile_images/445621152572907521/j44-eFi5_400x400.jpeg",
-      "date": 2017,
-      "detail": "Ce livre ouvre le débat sur les NBIC avec un focus particulier sur l'I des NBIC avec l'IA, et comment cette dernière pourrait changer considérablement nos modes de vie. Une attention toute particulière est apportée à l'éducation avec d'un côté l'IA et son évolution rapide et de l'autre \"l'école\" qui n'a presque pas évolué depuis 250 ans et forme souvent à des métiers/techniques qui sont souvent déjà dépassés ou en passe d'être dépassés sur le marché du travail. Une question est donc comment \"faire face\". Le Dr. Laurent Alexandre nous propose trois scénarios: Accepté les transhumanismes et s'améliorer génétiquement/biologiquement . Toujours dans le transhumaniste s'améliorer technologiquement en devenant des \"cyborg\" ? Ou limité voir interdire l'IA .",
-      "picture": "../img/la-guerre-des-intelligence.webp",
-      "sumup": "La guerre des intelligences: Intelligence Artificielle versus intelligence Humaine ouvre le débat sur le futur de l'IA mais amène aussi sur la table les NBIC et soulève les inégalités sociales de notre société",
-      "title": "La guerre des intelligences"
-    },
-    {
-      "author": "Randall Munroe",
-      "avatar": "https://pbs.twimg.com/profile_images/1488600831377252354/hEpPeSu0_400x400.jpg",
-      "date": 2015,
-      "detail": "Je ne veux pas spoiler ici, alors si vous posez des questions existentielles (par exemple et si tout le monde sur terre sautait en même temps ? Et si mon ADN disparaissait soudainement ?) et que vous cherchez des réponses scientifiques, alors ce livre est fait pour vous.",
-      "picture": "../img/et-si.webp",
-      "sumup": "\"les réponses les plus scientifiques aux questions que vous ne vous êtes sûrement jamais posées.\" Si vous aussi vous vous posez beaucoup de questions sur tout et n'importe quoi, je vous recommande fortement ce livre.",
-      "title": "Et si ... ?"
-    }
+    "2226479821",
+    "2226479813",
+    "2709660849",
+    "2081343010",
+    "232600227X",
+    "232600289X"
   ]
 }
