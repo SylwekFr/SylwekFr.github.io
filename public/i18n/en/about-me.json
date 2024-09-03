@@ -2,6 +2,12 @@
   "certificationsTab": "Certifications",
   "certifications": [
     {
+      "certificationCompany": "Certible",
+      "logo": "https://assets.badges.certible.com/baked-badges/certible/db9e289e-0963-47c7-8e37-f9738d8c03c2.png",
+      "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
+      "obtentionDate": "November 2023"
+    },
+    {
       "certificationCompany": "Scaled Agile Inc",
       "logo": "https://images.credly.com/size/340x340/images/050eb175-b923-4c68-9dfe-aa8da5f43281/cert_mark_SDP_badge_large_300px.png",
       "name": "Certified SAFe® 5 DevOps Practitioner",
@@ -86,13 +92,13 @@
   "profesionalExp": "Professional experience",
   "profesionalXp": [
     {
-      "company": "Astek",
+      "company": "Astek Technology",
       "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
       "context": "I am working for Astek, an international consulting company, as software engineering and security working on developement for security system within a Scrum team",
-      "position": "software Engineering & Security Consultant",
+      "position": "DevSecOps Consultant",
       "tasks": ["Front-End development", "API development for security system"],
-      "tags": ["Angular", "Docker", "Flask", "Python", "TypeScript"],
-      "timeRanges": "from February 2022 to date"
+      "tags": ["Angular", "Docker", "FastAPI", "Flask", "Python", "TypeScript"],
+      "timeRanges": "from February 2022 to July 2024"
     },
     {
       "company": "GSK",

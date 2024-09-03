@@ -22,7 +22,7 @@ export const contactInfo: Contact[] = [
   {
     action: () =>
       window.open(
-        'https://www.linkedin.com/in/sylvain-michel-065652119/',
+        'https://www.linkedin.com/in/sylvain--michel/',
         '_blank',
         "noopener"
       ),
