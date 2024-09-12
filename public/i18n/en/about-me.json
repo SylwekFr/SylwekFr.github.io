@@ -94,7 +94,16 @@
     {
       "company": "Astek Technology",
       "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
-      "context": "I am working for Astek, an international consulting company, as software engineering and security working on developement for security system within a Scrum team",
+      "context": "Astek is an international consulting company, I work for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement",
+      "position": "CISO Consultant",
+      "tasks": ["Front-End development", "API development for security system"],
+      "tags": ["ASP.NET", "C#", "Python", "TypeScript", "Vue.js"],
+      "timeRanges": "from July 2024"
+    },
+    {
+      "company": "Astek Technology",
+      "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
+      "context": "Astek is an international consulting company, I worked for Orange Cyberdefense client on a solution to backup security equipements configurations daily and another to register equipements under security equipements",
       "position": "DevSecOps Consultant",
       "tasks": ["Front-End development", "API development for security system"],
       "tags": ["Angular", "Docker", "FastAPI", "Flask", "Python", "TypeScript"],
