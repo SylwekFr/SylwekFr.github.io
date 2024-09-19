@@ -173,10 +173,11 @@
       "context": "J'ai travaillé pour Arvato Bertelsmann, une société de services internationale, à Poznań, autour de trois applications : une application de suivis de colis B2B, une  B2C et une application pour personnaliser le look and feel de l'application B2C. J'étais dans une équipe de deux développeurs en flex office avec du télétravail illimité.",
       "position": "Développeur Junior Fiori",
       "tasks": [
-        "Développement Front-End",
-        "UI/UX design",
-        "Création et édition de Data model",
-        "Télétravail"
+        "Développement et maintenance de la partie front-end (SAPUI5) d'applications de suivi de colis (une B2B et une B2C) chargées de suivre plus de 100 000 colis par jour par application.",
+        "Création d'une application de personnalisation permettant aux utilisateurs privilégiés d'adapter l'application B2C en fonction du fournisseur de livraison de colis, en utilisant les numéros de colis comme référence.",
+        "Conception de l'interface utilisateur et de l'expérience utilisateur (UI/UX) avec BUILD.me pour l'application de personnalisation, garantissant une interface conviviale et intuitive.",
+        "Gestion des modèles ABAP pour les trois applications, assurant la cohérence et la fiabilité des données.",
+        "Rédaction d'un script Python pour automatiser la génération de fichiers i18n à partir d'une feuille Excel."
       ],
       "tags": [
         "ABAP",
@@ -194,8 +195,16 @@
       "companyLogo": "https://www.nicmangroup.com/sites/default/files/nicman-logo_0.png",
       "context": "J'ai travaillé pour Nicman Group, une société de services américaine, depuis Poznań, autour d'une application d'e-commerce de liqueurs et spiritueux pour un client New-Yorkais. J'étais en autonomie et en présentiel.",
       "position": "Développeur PHP Junior",
-      "tasks": ["Développement Full-stack", "Développement e-commerce"],
-      "tags": ["Drupal 7", "JavaScript", "Magento", "PHP"],
+      "tasks": [
+        "Conception d'un module personnalisé (Magento 2) pour dessiner plusieurs zones de livraison sur une carte en attribuant des frais pour chaque zone au sein d'une application de e-commerce spécialisée dans la vente de spiritueux.",
+        "Amélioration d'un module (Drupal 7) destiné aux nouveaux employés pour évaluer le processus d'intégration de l'entreprise."
+      ],
+      "tags": [
+        "Drupal 7",
+        "JavaScript",
+        "Magento",
+        "PHP"
+      ],
       "timeRanges": "De juillet 2019 à octobre 2019"
     },
     {
@@ -204,10 +213,15 @@
       "context": "J'ai travaillé pour IPS Control, une société d'automatisation industrielle polonaise, à Jasin pour le développement d'une application intranet pour le contrôle et la gestion à distance d'une ligne de production de savon. J'étais en autonomie et en présentiel.",
       "position": "Ingénieur Logiciel",
       "tasks": [
-        "Développement Full-stack",
-        "Développement pour le control à distance"
+        "Conception et mise en place d'une application intranet monolithique (PHP, jQuery, HTML et CSS). L'application a servi à contrôler à distance une ligne de production de savon, améliorant ainsi l'efficacité et la précision dans le processus de fabrication."
       ],
-      "tags": ["CSS3", "HTML5", "JavaScript", "jQuery", "PHP"],
+      "tags": [
+        "CSS3",
+        "HTML5",
+        "JavaScript",
+        "jQuery",
+        "PHP"
+      ],
       "timeRanges": "De janvier 2019 à juin 2019"
     },
     {
@@ -216,10 +230,15 @@
       "context": "J'ai travaillé pour QIAGEN, une société internationale de biotechnologie, à Wroclaw, pour prospecter les clients francophones et anglophones. J'étais dans une équipe de six en présentiel.",
       "position": "Spécialiste du télémarketing",
       "tasks": [
-        "Contact client et conseils sur les produits des sciences de la vie et les dispositifs médicaux",
-        "Développement d'un assistant virtuel de télémarketing"
+        "Conçu un assistant de télémarketing connecté à la base de données client sous Excel en utilisant VBA. L'assistant affichait les prospects à appeler en fonction du fuseau horaire, du taux de réponse précédent et du nombre d'appels effectués dans la journée.",
+        "Contacté des prospects potentiels par e-mail et appels téléphoniques en français et en anglais pour présenter des dispositifs médicaux et des produits de sciences de la vie.",
+        "Conseillé les clients sur les dispositifs médicaux et les produits de sciences de la vie."
       ],
-      "tags": ["Salesforce", "SQL", "VBA"],
+      "tags": [
+        "Salesforce",
+        "SQL",
+        "VBA"
+        ],
       "timeRanges": "D'octobre 2018 à décembre 2018"
     },
     {
@@ -228,26 +247,14 @@
       "context": "J'ai travaillé pour Getinge, entreprise internationale de production de dispositifs médicaux et de science de la vie, à Tournefeuille, autour de la mise en place de standards et du Lean management. J'étais dans une équipe de quatre en présentiel.",
       "position": "Apprenti ingénieur méthodes et industrialisation",
       "tasks": [
-        "Mise en place du Lean sur une ligne de production.",
-        "Industrialisation de nouveaux produits avec prototypages, gammes et nomenclatures & édition d'instructions de travail.",
-        "Support de production pour les listes de stock, les schémas électriques et la modification des spécifications produit",
-        "Coopération internationale avec Getinge IC Plewiska sur le service qualité ",
-        "Coopération internationale avec ArjoHuntleigh Komorniki pour l'optimisation de la production"
+        "Réalisé une analyse VSM et utilisé les principes de Lean Manufacturing pour optimiser les processus.",
+        "Mis en place la méthodologie 5S sur les lignes de production standard, améliorant la VA (Valeur Ajoutée en Fabrication).",
+        "Rectifié les divergences dans les gammes et la nomenclatures au sein du système ERP (Sylob7) pour les aligner sur les problèmes réels en production.",
+        "Actualisé les instructions d'assemblage, intégrant des fonctionnalités telles que l'affichage automatique ou non des options de la machine pour réduire les erreurs.",
+        "Créé de nouvelles instructions d'assemblage à partir de modèles 3D et de schémas électriques, les validant grâce à une production initiale de machines avec les opérateurs."
       ],
       "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PHPP", "Sylob7", "VSM"],
       "timeRanges": "De septembre 2015 à septembre 2018"
-    },
-    {
-      "company": "I-BP",
-      "companyLogo": "https://media-exp1.licdn.com/dms/image/C560BAQFvC6yTQiWa0A/company-logo_200_200/0/1537768689243?e=2159024400&v=beta&t=HwQoidxEoCNKlKz4EiJnB7GoXx8X_EK4CO-gC2JszZM",
-      "context": "J'ai travaillé pour I-BP, une société française de services informatiques bancaires, à Balma sur la maintenance du parc informatique. J'étais en autonomie et en présentiel.",
-      "position": "Auxiliaire d'été",
-      "tasks": [
-        "Suppression des données bancaires.",
-        "Maintenance des ordinateurs de bureau, des ordinateurs portables et des serveurs."
-      ],
-      "tags": ["DBAN", "Linux", "Windows"],
-      "timeRanges": "de juillet 2015 à août 2015"
     }
   ],
   "studiesTab": "Études",

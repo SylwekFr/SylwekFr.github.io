@@ -94,31 +94,67 @@
     {
       "company": "Astek Technology",
       "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
-      "context": "Astek is an international consulting company, I work for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement",
+      "context": "Astek is an international consulting company, I work for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement. I work across development teams in a hybrid mode (three days on-site weekly).",
       "position": "CISO Consultant",
-      "tasks": ["Front-End development", "API development for security system"],
-      "tags": ["ASP.NET", "C#", "Python", "TypeScript", "Vue.js"],
+      "tasks": [
+        "Refactoring code (ASP.NET & Python) and CI/CD to meet security and quality standards, as well as writing code that could be used as an example for further development.",
+        "Collecting proofs for the security side of the Segur, and creating an action plan and planning to meet the objectives in time.",
+        "Writing guidelines and best practices regarding cybersecurity related to the languages, framework, and infrastructure used by the client.",
+        "Conducting training in cybersecurity for the client’s employees corresponding to their roles."
+      ],
+      "tags": [
+        "ASP.NET",
+        "C#",
+        "Mitre Att&ck",
+        "Python",
+        "SonarQube",
+        "Threat Modeling",
+        "TypeScript",
+        "Vue.js"
+      ],
       "timeRanges": "from July 2024"
     },
     {
       "company": "Astek Technology",
       "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
-      "context": "Astek is an international consulting company, I worked for Orange Cyberdefense client on a solution to backup security equipements configurations daily and another to register equipements under security equipements",
+      "context": "Astek is an international consulting company, I worked for Orange Cyberdefense client, in Rennes, on a solution to backup security equipements configurations daily and another to register equipements under security equipements. I was part of a six-person Scrum team in a hybrid mode (two days of remote work weekly).",
       "position": "DevSecOps Consultant",
-      "tasks": ["Front-End development", "API development for security system"],
-      "tags": ["Angular", "Docker", "FastAPI", "Flask", "Python", "TypeScript"],
+      "tasks": [
+        "Developed and maintained, with security in mind, a monolithic application (Python/Flask & Angular) responsible for 8k+ daily security system configuration backups, and a microservices application (Python/FastAPI) and CLI tools (Go) to automate over 10k devices registration across 4 security systems.",
+        "Orchestrated the migration from monolithic to service-oriented architecture, employing C4 modeling, risk analysis, and prototyping as well as documenting changes with ADRs.",
+        "Refactored both applications to adhere to SOLID and Clean Architecture principles. Implemented comprehensive unit tests and achieved higher test coverage. Added security test with Bandit and Safety.",
+        "Improved build processes using Poetry and refactored the CI/CD using the open-source To-Be-Continuous project, which includes SonarQube and Trivy jobs.",
+        "Conducted training sessions for 40 consultants to raise awareness of secure development practices, covering topics such as OWASP TOP10 vulnerabilities, helpful tools, and lifecycle.",
+        "Led a 4-person team as the Scrum Master, facilitating Agile processes, and ensuring efficient development execution."
+      ],
+      "tags": [
+        "Angular",
+        "Ansible",
+        "Clean Architecture",
+        "C4Model",
+        "DDD",
+        "Docker",
+        "Go",
+        "FastAPI",
+        "Flask",
+        "Microservice",
+        "Plug-in Architecture",
+        "Python",
+        "Service Oriented Architecture",
+        "SonarQube",
+        "TypeScript",
+        "UML"
+      ],
       "timeRanges": "from February 2022 to July 2024"
     },
     {
       "company": "GSK",
       "companyLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/1200px-GSK_logo_2014.svg.png",
-      "context": "I worked for GlaxoSmithKline, an international pharmaceutical industry company, as software engineer to work on full-stack development on an internal R&D application within an Agile team",
+      "context": "I worked for GlaxoSmithKline, an international pharmaceutical company, in Poznań, on an application that allowed researchers to take structured notes, which could then be utilized by data science solutions. I was part of an agile team of four people, working in a flexible office environment with unlimited remote work.",
       "position": "Software Engineer",
       "tasks": [
-        "Front-End development",
-        "API development",
-        "Cloud deployement",
-        "Working remotly"
+        "Developed and maintained a monolithic application (NestJs & React) for thousands of researchers to store research note in structured way allowing to exploit data later on.",
+        "Handled continuous integration (CI) processes on the Microsoft Azure Cloud platform."
       ],
       "tags": [
         "Azure",
@@ -134,13 +170,14 @@
     {
       "company": "Arvato Bertelsmann",
       "companyLogo": "https://www.bertelsmann.com/media/layout/images/logos/randspalte/2016-pngs/arvato-logo-1600x900px-transp_division_logo_gt_1200_grid.png",
-      "context": "I worked for Arvato Bertelsmann, a global services company, from Poznan office, as junior Fiori developer to develop front-end of logistic related applcation such as inventory, track & trace, app customization, etc.",
+      "context": "I worked for Arvato Bertelsmann, an international service company, in Poznań, on three applications: a B2B parcel tracking application, a B2C parcel tracking application, and an application to customize the look and feel of the B2C app. I was part of a two-developer team, working in a flexible office environment with unlimited remote work.",
       "position": "Junior Fiori Developer",
       "tasks": [
-        "Front-End development",
-        "UI/UX design",
-        "Data model creation and edition",
-        "Working remotly since Mach 2020"
+        "Developed and maintained the front-end (SAPUI5) of a B2B and a B2C track and trace application, responsible for tracking over 100,000 packages per day per app.",
+        "Created a customization app that allowed privileged users to tailor the B2C application based on the parcel delivery supplier, using parcel numbers as a reference.",
+        "Designed the user interface and user experience (UI/UX) with BUILD.me for the customization application, ensuring a user-friendly and intuitive interface.",
+        "Managed ABAP models for all three applications, ensuring data consistency and reliability.",
+        "Wrote a Python script to automate the generation of i18n files from an Excel sheet."
       ],
       "tags": [
         "ABAP",
@@ -156,29 +193,33 @@
     {
       "company": "Nicman Group",
       "companyLogo": "https://www.nicmangroup.com/sites/default/files/nicman-logo_0.png",
-      "context": "I worked for Nicman Group, an American IT service company, from Poznan office as a PHP developer on internal feedback application and an e-commerce application for a customer",
+      "context": "I worked for Nicman Group, an American service company, from Poznań, on an e-commerce application for liquors and spirits for a New York-based client. I worked autonomously and on-site",
       "position": "Junior PHP Developer",
-      "tasks": ["Full-stack development", "e-commerce developement"],
+      "tasks": [
+        "Authored a custom module (Magento 2) to draw multiple delivery areas on a map with fee attribution system for each area for an e-commerce application specializing in spirit sales.",
+        "Enhanced a module (Drupal 7) for new employees to rate the company onboarding process."
+      ],
       "tags": ["Drupal 7", "JavaScript", "Magento", "PHP"],
       "timeRanges": "from July 2019 to October 2019"
     },
     {
       "company": "IPS Control",
       "companyLogo": "https://www.ipscontrol.com/storage/cms/layouts/2/ipscontrolrgb400.jpg",
-      "context": "I worked for IPS Control, a Polish automation company, from Jasin office as a software engineer for developing an intranet application to remote control and management of machinery",
+      "context": "I worked for IPS Control, a Polish industrial automation company in Jasin, on the development of an intranet application for remote control and management of a soap production line. I worked autonomously and on-site.",
       "position": "Software Engineer",
-      "tasks": ["Full-stack development", "remote control developement"],
+      "tasks": ["Designed and implemented a monolithic intranet application (PHP, jQuery, HTML, and CSS). The application served to remotely control a soap production line, improving efficiency and accuracy in the manufacturing process."],
       "tags": ["CSS3", "HTML5", "JavaScript", "jQuery", "PHP"],
       "timeRanges": "from January 2019 to June 2019"
     },
     {
       "company": "QIAGEN",
       "companyLogo": "https://www.qiagen.com/sfc/images/qiagen-logo.png",
-      "context": "I worked for QIAGEN, an international biotech company, from Wroclaw office as a Telemarketing specialist for contact with French speaking and English speaking customer",
+      "context": "I worked for QIAGEN, an international biotechnology company, in Wroclaw, where I prospected French-speaking and English-speaking clients. I was part of a six-person team, working on-site.",
       "position": "Telemarketing specialist",
       "tasks": [
-        "Customer contact and advices on life science products and medical device",
-        "Telemarketing virtual assistant developement"
+        "Authored a telemarketing assistant connected to the customer database in Excel using VBA. The assistant displayed prospects to call in function of time zone, previous answer rate, and the number of calls within the day.",
+        "Contacted potential prospects via email and phone calls in French and English to present medical devices and life science products.",
+        "Advised customers on medical devices and life science products"
       ],
       "tags": ["Salesforce", "SQL", "VBA"],
       "timeRanges": "from October 2018 to December 2018"
@@ -186,29 +227,17 @@
     {
       "company": "Getinge",
       "companyLogo": "data:image/jpeg;base64,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",
-      "context": "I worked for Getinge, an international healthcare company, from Tournefeuille office as an apprentice engineer in the methods and industrialisation hub",
+      "context": "I worked for Getinge, an international medical devices and life sciences company, in Tournefeuille, focusing on implementing standards and Lean management. I was part of a four-person team, working on-site.",
       "position": "Apprentice processes engineer",
       "tasks": [
-        "Implementing Lean on a production line",
-        "New product industrialisation with prototyping, Routing and B.O.M., & work instruction edition",
-        "Production support for stocklist, electrical diagram & product specification modification",
-        "International cooperation with Getinge IC Plewiska on quality department",
-        "International cooperation with ArjoHuntleigh Komorniki for production optimization"
+        "Conducted VSM analysis and utilized Lean Manufacturing principles to optimize processes.",
+        "Implemented 5S methodology on standard production lines, enhancing MVA (Manufacturing Value-Added).",
+        "Rectified routing and B.O.M. discrepancies within the ERP system (Sylob7) to align with actual production issues.",
+        "Updated assembly instructions, incorporating features such as auto-displaying or hiding of machine options to reduce errors.",
+        "Created new assembly instructions from 3D models and electrical diagrams, validating them through initial machine production with operators."
       ],
       "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PPAP", "Sylob7", "VSM"],
       "timeRanges": "from September 2015 to September 2018"
-    },
-    {
-      "company": "I-BP",
-      "companyLogo": "https://media-exp1.licdn.com/dms/image/C560BAQFvC6yTQiWa0A/company-logo_200_200/0/1537768689243?e=2159024400&v=beta&t=HwQoidxEoCNKlKz4EiJnB7GoXx8X_EK4CO-gC2JszZM",
-      "context": "I worked for I-BP, a French IT service company for banking, from Balma office as a maintenance technician substitute to maintain computers, laptops and servers",
-      "position": "Maintenance technician substitute",
-      "tasks": [
-        "Erasing banking data",
-        "maintenance on computers, laptops and servers"
-      ],
-      "tags": ["DBAN", "Linux", "Windows"],
-      "timeRanges": "from July 2015 to August 2015"
     }
   ],
   "studiesTab": "Studies",
