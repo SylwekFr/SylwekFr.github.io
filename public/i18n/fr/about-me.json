@@ -3,13 +3,13 @@
   "certifications": [
     {
       "certificationCompany": "Certible",
-      "logo": "https://assets.badges.certible.com/baked-badges/certible/db9e289e-0963-47c7-8e37-f9738d8c03c2.png",
+      "logo": "../img/cpsa-f.webp",
       "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
       "obtentionDate": "November 2023"
     },
     {
       "certificationCompany": "Scaled Agile Inc",
-      "logo": "https://images.credly.com/size/340x340/images/050eb175-b923-4c68-9dfe-aa8da5f43281/cert_mark_SDP_badge_large_300px.png",
+      "logo": "../img/SAFe5DevOps.webp",
       "name": "Certified SAFe® 5 DevOps Practitioner",
       "obtentionDate": "Novembre 2021"
     },
