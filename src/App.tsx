@@ -2,7 +2,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Header from './core/components/header';
 import Home from './core/views/home';
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
@@ -22,6 +22,29 @@ enum routes {
   tabletopGame = '/tabletop-game',
   aboutMe = '/about-me',
 }
+
+const router = createBrowserRouter([
+  {
+    path: routes.home,
+    element: <Home />,
+  },
+  {
+    path: routes.book,
+    element: <Books />,
+  },
+  {
+    path: routes.tabletopGame,
+    element: <TabletopGames />,
+  },
+  {
+    path: routes.aboutMe,
+    element: <AboutMe />,
+  },
+  {
+    path: "/*",
+    element: <NotFound />,
+  },
+]);
 
 function App(): JSX.Element {
   const [mode, setMode] = React.useState<'light' | 'dark'>('light');
@@ -50,17 +73,9 @@ function App(): JSX.Element {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header title={t<string>('title')} />
-        <BrowserRouter>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Routes>
-              <Route path={routes.home} element={<Home />} />
-              <Route path={routes.book} element={<Books />} />
-              <Route path={routes.tabletopGame} element={<TabletopGames />} />
-              <Route path={routes.aboutMe} element={<AboutMe />} />
-              <Route path="/*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </BrowserRouter>
+            <Suspense fallback={<div>Loading...</div>}>
+              <RouterProvider router={router} />
+            </Suspense>
       </ThemeProvider>
     </ColorModeContext.Provider>
   );
