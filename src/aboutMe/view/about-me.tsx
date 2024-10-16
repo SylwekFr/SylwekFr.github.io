@@ -13,14 +13,13 @@ import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
-import CertificationCard from '../components/certification-card';
+import CertificationList from '../components/certification-list';
 import ExperienceCard from '../components/experience-card';
 import HobbyCard from '../components/hobby-card';
 import SkillContainer from '../components/skill-container';
 import { contactInfo } from '../data/contact-info';
 import { skillList } from '../data/skills';
 import Hobby from '../entities/hobby';
-import Certification from '../entities/certification';
 import Experience from '../entities/experience';
 import StudiesTimeline from '../components/studies-timeline';
 
@@ -131,15 +130,7 @@ const AboutMe = (): JSX.Element => {
                   <StudiesTimeline/>
               </TabPanel>
               <TabPanel value="3">
-                <Grid container spacing={2}>
-                  {t<string, Certification[]>('certifications', {
-                    returnObjects: true,
-                  }).map((certificate) => (
-                    <Grid item xs={12} sm={6} md={4} xl={3}>
-                      <CertificationCard {...certificate} />
-                    </Grid>
-                  ))}
-                </Grid>
+                <CertificationList />
               </TabPanel>
               <TabPanel value="4">
                 <Grid container spacing={2}>
