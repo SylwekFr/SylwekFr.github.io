@@ -1,49 +1,5 @@
 {
   "certificationsTab": "Certifications",
-  "certifications": [
-    {
-      "certificationCompany": "Certible",
-      "logo": "../img/cpsa-f.webp",
-      "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
-      "obtentionDate": "November 2023"
-    },
-    {
-      "certificationCompany": "Scaled Agile Inc",
-      "logo": "../img/SAFe5DevOps.webp",
-      "name": "Certified SAFe® 5 DevOps Practitioner",
-      "obtentionDate": "Novembre 2021"
-    },
-    {
-      "certificationCompany": "Microsoft",
-      "logo": "https://images.credly.com/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
-      "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
-      "obtentionDate": "Octobre 2021"
-    },
-    {
-      "certificationCompany": "Microsoft",
-      "logo": "https://images.credly.com/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png",
-      "name": "Microsoft Certified: Azure Fundamentals ",
-      "obtentionDate": "Septembre 2021"
-    },
-    {
-      "certificationCompany": "SAP",
-      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
-      "name": "SAP Intelligent Robotic Process Automation in a Nutshell",
-      "obtentionDate": "Juin 2020"
-    },
-    {
-      "certificationCompany": "SAP",
-      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
-      "name": "The Internet of Things with SAP",
-      "obtentionDate": "Juin 2020"
-    },
-    {
-      "certificationCompany": "SAP",
-      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFC1AyyoOWnXg/company-logo_200_200/0/1625579523932?e=1643846400&v=beta&t=U_gAAbwsoYluDyyjYnzKfjRqL-2_kfNcTLCNgj8G4UI",
-      "name": "Evolved Web Apps with SAPUI5",
-      "obtentionDate": "Mai 2020"
-    }
-  ],
   "hobbiesTab": "Passe-temps",
   "hobbies": [
     {
@@ -257,31 +213,5 @@
       "timeRanges": "De septembre 2015 à septembre 2018"
     }
   ],
-  "studiesTab": "Études",
-  "studies": [
-    {
-      "date": "2020",
-      "degree": "M.Sc. Computer Science sp. génie logiciel",
-      "school": "Poznan University of Technology",
-      "schoolLogo": "http://i.studyinpoland.pl/universities/logo/poznan-university-of-technology.png"
-    },
-    {
-      "date": "2018",
-      "degree": "\"Diplôme d'Ingénieur\" agrée CTI",
-      "school": "ICAM",
-      "schoolLogo": "https://en.icam.fr/wp-content/themes/icam/icam_img/logo.png"
-    },
-    {
-      "date": "2015",
-      "degree": "BTS ATI",
-      "school": "ICAM",
-      "schoolLogo": "https://en.icam.fr/wp-content/themes/icam/icam_img/logo.png"
-    },
-    {
-      "date": "2015",
-      "degree": "Baccalauréat STI2D ITEC mention très bien",
-      "school": "Lycée Pablo Picasso",
-      "schoolLogo": "https://lyc-picasso-perpignan.ac-montpellier.fr/sites/lyc-picasso-perpignan/files/styles/actualite-defilante_breakpoints_theme_etablissements_wide_1x/public/images/lycee_2019.jpg?itok=8sCNolzc"
-    }
-  ]
+  "studiesTab": "Études"
 }

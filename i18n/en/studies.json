@@ -1,0 +1,28 @@
+{
+    "studies": [
+    {
+      "date": "2020",
+      "degree": "M.Sc. Computer Science sp. software engineering",
+      "school": "Poznan University of Technology",
+      "schoolLogo": "../img/put-logo.webp"
+    },
+    {
+      "date": "2018",
+      "degree": "M.Sc. General Engineering",
+      "school": "ICAM",
+      "schoolLogo": "../img/icam-logo.webp"
+    },
+    {
+      "date": "2015",
+      "degree": "BTS ATI",
+      "school": "ICAM",
+      "schoolLogo": "../img/icam-logo.webp"
+    },
+    {
+      "date": "2015",
+      "degree": "Baccalaureate STI2D ITEC with distinction",
+      "school": "Lycée Pablo Picasso",
+      "schoolLogo": "../img/lycee-picasso.webp"
+    }
+  ]
+}

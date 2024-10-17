@@ -1,0 +1,46 @@
+{
+    "certifications": [
+        {
+        "certificationCompany": "Certible",
+        "logo": "../img/cpsa-f.webp",
+        "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
+        "obtentionDate": "November 2023"
+        },
+        {
+        "certificationCompany": "Scaled Agile Inc",
+        "logo": "../img/SAFe5DevOps.webp",
+        "name": "Certified SAFe® 5 DevOps Practitioner",
+        "obtentionDate": "November 2021"
+        },
+        {
+        "certificationCompany": "Microsoft",
+        "logo": "../img/sc-900.webp",
+        "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+        "obtentionDate": "October 2021"
+        },
+        {
+        "certificationCompany": "Microsoft",
+        "logo": "../img/az-900.webp",
+        "name": "Microsoft Certified: Azure Fundamentals ",
+        "obtentionDate": "September 2021"
+        },
+        {
+        "certificationCompany": "SAP",
+        "logo": "../img/SAP.webp",
+        "name": "SAP Intelligent Robotic Process Automation in a Nutshell",
+        "obtentionDate": "June 2020"
+        },
+        {
+        "certificationCompany": "SAP",
+        "logo": "../img/SAP.webp",
+        "name": "The Internet of Things with SAP",
+        "obtentionDate": "June 2020"
+        },
+        {
+        "certificationCompany": "SAP",
+        "logo": "../img/SAP.webp",
+        "name": "Evolved Web Apps with SAPUI5",
+        "obtentionDate": "May 2020"
+        }
+    ]
+}
