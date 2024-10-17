@@ -13,17 +13,16 @@ import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
-import CertificationCard from '../components/certification-card';
+import CertificationList from '../components/certification-list';
 import ExperienceCard from '../components/experience-card';
 import HobbyCard from '../components/hobby-card';
 import SkillContainer from '../components/skill-container';
-import StudyCard from '../components/study-card';
 import { contactInfo } from '../data/contact-info';
 import { skillList } from '../data/skills';
 import Hobby from '../entities/hobby';
-import Study from '../entities/study';
-import Certification from '../entities/certification';
 import Experience from '../entities/experience';
+import StudiesTimeline from '../components/studies-timeline';
+
 
 const AboutMe = (): JSX.Element => {
   const [tabs, setTabs] = useState('1');
@@ -128,26 +127,10 @@ const AboutMe = (): JSX.Element => {
                 </Grid>
               </TabPanel>
               <TabPanel value="2">
-                <Grid container spacing={2}>
-                  {t<string, Study[]>('studies', {
-                    returnObjects: true,
-                  }).map((study) => (
-                    <Grid item xs={12} sm={6} md={4} xl={3}>
-                      <StudyCard {...study} />
-                    </Grid>
-                  ))}
-                </Grid>
+                  <StudiesTimeline/>
               </TabPanel>
               <TabPanel value="3">
-                <Grid container spacing={2}>
-                  {t<string, Certification[]>('certifications', {
-                    returnObjects: true,
-                  }).map((certificate) => (
-                    <Grid item xs={12} sm={6} md={4} xl={3}>
-                      <CertificationCard {...certificate} />
-                    </Grid>
-                  ))}
-                </Grid>
+                <CertificationList />
               </TabPanel>
               <TabPanel value="4">
                 <Grid container spacing={2}>
