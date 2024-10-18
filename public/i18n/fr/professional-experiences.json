@@ -1,0 +1,169 @@
+{
+    "professional-experiences": [
+    {
+      "company": "Astek Technology",
+      "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
+      "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. Je travaille pour le client Hospices Civile de Lyon à Lyon pour la sécurisation conforme Ségur d'une application de gestion hospitalière considéré dispositif médical. Je travaille en transverse des équipes développement en mode hybride (trois jours sur site hebdomadaire).",
+      "position": "Consultant RSSI",
+      "tasks": [
+        "Refactorisation du code (C#/ASP.NET) et du CI/CD pour répondre aux normes de sécurité et de qualité, ainsi que l’écriture de code pouvant servir d'exemple pour les futurs développements.",
+        "Collecte de preuves pour la partie sécurité du Ségur, création d'un plan d'action et de planning pour atteindre les objectifs dans les délais impartis.",
+        "Rédaction de lignes directrices et de meilleures pratiques concernant la cybersécurité, en lien avec les langages, frameworks et infrastructures utilisées par le client.",
+        "Animation de formations en cybersécurité pour les employés du client en fonction de leurs rôles."
+      ],
+      "tags": [
+        "ASP.NET",
+        "C#",
+        "JavaScript",
+        "Mend.io",
+        "MITRE ATT&CK",
+        "OWASP TOP10",
+        "Python",
+        "SANS25",
+        "Security-by-Design",
+        "SonarQube"
+      ],
+      "timeRanges": "Depuis juillet 2024"
+    },
+    {
+      "company": "Astek Technology",
+      "companyLogo": "https://ecarrieres.com/wp-content/uploads/2018/11/logo_astek.jpg",
+      "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. J'ai travaillé pour le client Orange Cyberdefense à Rennes autour d'une application de sauvegardes journalières de configurations d'équipements de sécurités, et d'une application pour enregistrer des équipements dans des équipements de sécurités. J'étais dans une équipe Scrum de six personnes en mode hybride (deux jours de télétravail hebdomadaire).",
+      "position": "Consultant DevSecOps",
+      "tasks": [
+        "Développement et maintenance, en tenant compte de la sécurité, d'une application monolithique (Python/Flask & Angular), responsable de plus de 8 000 sauvegardes quotidiennes de configurations de systèmes de sécurité, ainsi qu'une application de microservices (Python/FastAPI) avec un outil CLI (Go) pour automatiser l'enregistrement de plus de 10 000 appareils à travers 4 systèmes de sécurité.",
+        "Orchestration de la migration d'une architecture monolithique vers une architecture orientée services, en utilisant le modèle C4, l'analyse des risques et le prototypage, ainsi que la documentation des changements avec des ADR.",
+        "Refactorisation des deux applications pour respecter les principes SOLID et Clean Architecture. Mise en place de tests unitaires complets et obtention d'une meilleure couverture de tests. Ajout de tests de sécurité avec Bandit et Safety.",
+        "Amélioration des processus de build en utilisant Poetry et refactorisation du CI/CD en utilisant le projet open-source To-Be-Continuous, comprenant des jobs SonarQube et Trivy.",
+        "Animation de sessions de formation pour 40 consultants afin de sensibiliser aux pratiques de développement sécurisé, couvrant des sujets tels que les vulnérabilités OWASP TOP10, des outils utiles et le cycle de vie.",
+        "Encadrement d'une équipe de 4 personnes en tant que Scrum Master, facilitant les processus Agile et assurant une exécution efficace du développement."
+      ],
+      "tags": [
+        "Angular",
+        "Architecture Orientée Service",
+        "Architecture PlugIn",
+        "Clean Architecture",
+        "C4Model",
+        "DDD",
+        "Docker",
+        "Go",
+        "FastAPI",
+        "Flask",
+        "Microservice",
+        "Python",
+        "TypeScript",
+        "UML"
+      ],
+      "timeRanges": "De février 2022 à juillet 2024"
+    },
+    {
+      "company": "GSK",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/1200px-GSK_logo_2014.svg.png",
+      "context": "J'ai travaillé pour GlaxoSmithKline, un laboratoire pharmaceutique international, à Poznań, autour d'une application permettant aux chercheurs de prendre des notes de manière structurées qui puisse ensuite être exploité par des solutions data science. J'étais dans une équipe agile de quatre personnes en flex office avec du télétravail illimité.",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Développement et maintenance d'une application monolithique (NestJs & React) permettant à des milliers de chercheurs de stocker des notes de recherche de manière structurée, facilitant ainsi l'exploitation ultérieure des données.",
+        "Gestion des processus de l'intégration continue (CI) sur la plateforme Microsoft Azure Cloud."
+      ],
+      "tags": [
+        "Azure",
+        "Docker",
+        "GraphQL",
+        "NestJS",
+        "React",
+        "Remote",
+        "TypeScript"
+      ],
+      "timeRanges": "De juin 2021 à février 2022"
+    },
+    {
+      "company": "Arvato Bertelsmann",
+      "companyLogo": "https://www.bertelsmann.com/media/layout/images/logos/randspalte/2016-pngs/arvato-logo-1600x900px-transp_division_logo_gt_1200_grid.png",
+      "context": "J'ai travaillé pour Arvato Bertelsmann, une société de services internationale, à Poznań, autour de trois applications : une application de suivis de colis B2B, une  B2C et une application pour personnaliser le look and feel de l'application B2C. J'étais dans une équipe de deux développeurs en flex office avec du télétravail illimité.",
+      "position": "Développeur Junior Fiori",
+      "tasks": [
+        "Développement et maintenance de la partie front-end (SAPUI5) d'applications de suivi de colis (une B2B et une B2C) chargées de suivre plus de 100 000 colis par jour par application.",
+        "Création d'une application de personnalisation permettant aux utilisateurs privilégiés d'adapter l'application B2C en fonction du fournisseur de livraison de colis, en utilisant les numéros de colis comme référence.",
+        "Conception de l'interface utilisateur et de l'expérience utilisateur (UI/UX) avec BUILD.me pour l'application de personnalisation, garantissant une interface conviviale et intuitive.",
+        "Gestion des modèles ABAP pour les trois applications, assurant la cohérence et la fiabilité des données.",
+        "Rédaction d'un script Python pour automatiser la génération de fichiers i18n à partir d'une feuille Excel."
+      ],
+      "tags": [
+        "ABAP",
+        "Build.me",
+        "JavaScript",
+        "oData",
+        "REST",
+        "SAP",
+        "SAPUI5"
+      ],
+      "timeRanges": "De novembre 2019 à mai 2021"
+    },
+    {
+      "company": "Nicman Group",
+      "companyLogo": "https://www.nicmangroup.com/sites/default/files/nicman-logo_0.png",
+      "context": "J'ai travaillé pour Nicman Group, une société de services américaine, depuis Poznań, autour d'une application d'e-commerce de liqueurs et spiritueux pour un client New-Yorkais. J'étais en autonomie et en présentiel.",
+      "position": "Développeur PHP Junior",
+      "tasks": [
+        "Conception d'un module personnalisé (Magento 2) pour dessiner plusieurs zones de livraison sur une carte en attribuant des frais pour chaque zone au sein d'une application de e-commerce spécialisée dans la vente de spiritueux.",
+        "Amélioration d'un module (Drupal 7) destiné aux nouveaux employés pour évaluer le processus d'intégration de l'entreprise."
+      ],
+      "tags": [
+        "Drupal 7",
+        "JavaScript",
+        "Magento",
+        "PHP"
+      ],
+      "timeRanges": "De juillet 2019 à octobre 2019"
+    },
+    {
+      "company": "IPS Control",
+      "companyLogo": "https://www.ipscontrol.com/storage/cms/layouts/2/ipscontrolrgb400.jpg",
+      "context": "J'ai travaillé pour IPS Control, une société d'automatisation industrielle polonaise, à Jasin pour le développement d'une application intranet pour le contrôle et la gestion à distance d'une ligne de production de savon. J'étais en autonomie et en présentiel.",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Conception et mise en place d'une application intranet monolithique (PHP, jQuery, HTML et CSS). L'application a servi à contrôler à distance une ligne de production de savon, améliorant ainsi l'efficacité et la précision dans le processus de fabrication."
+      ],
+      "tags": [
+        "CSS3",
+        "HTML5",
+        "JavaScript",
+        "jQuery",
+        "PHP"
+      ],
+      "timeRanges": "De janvier 2019 à juin 2019"
+    },
+    {
+      "company": "QIAGEN",
+      "companyLogo": "https://www.qiagen.com/sfc/images/qiagen-logo.png",
+      "context": "J'ai travaillé pour QIAGEN, une société internationale de biotechnologie, à Wroclaw, pour prospecter les clients francophones et anglophones. J'étais dans une équipe de six en présentiel.",
+      "position": "Spécialiste du télémarketing",
+      "tasks": [
+        "Conçu un assistant de télémarketing connecté à la base de données client sous Excel en utilisant VBA. L'assistant affichait les prospects à appeler en fonction du fuseau horaire, du taux de réponse précédent et du nombre d'appels effectués dans la journée.",
+        "Contacté des prospects potentiels par e-mail et appels téléphoniques en français et en anglais pour présenter des dispositifs médicaux et des produits de sciences de la vie.",
+        "Conseillé les clients sur les dispositifs médicaux et les produits de sciences de la vie."
+      ],
+      "tags": [
+        "Salesforce",
+        "SQL",
+        "VBA"
+        ],
+      "timeRanges": "D'octobre 2018 à décembre 2018"
+    },
+    {
+      "company": "Getinge",
+      "companyLogo": "data:image/jpeg;base64,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",
+      "context": "J'ai travaillé pour Getinge, entreprise internationale de production de dispositifs médicaux et de science de la vie, à Tournefeuille, autour de la mise en place de standards et du Lean management. J'étais dans une équipe de quatre en présentiel.",
+      "position": "Apprenti ingénieur méthodes et industrialisation",
+      "tasks": [
+        "Réalisé une analyse VSM et utilisé les principes de Lean Manufacturing pour optimiser les processus.",
+        "Mis en place la méthodologie 5S sur les lignes de production standard, améliorant la VA (Valeur Ajoutée en Fabrication).",
+        "Rectifié les divergences dans les gammes et la nomenclatures au sein du système ERP (Sylob7) pour les aligner sur les problèmes réels en production.",
+        "Actualisé les instructions d'assemblage, intégrant des fonctionnalités telles que l'affichage automatique ou non des options de la machine pour réduire les erreurs.",
+        "Créé de nouvelles instructions d'assemblage à partir de modèles 3D et de schémas électriques, les validant grâce à une production initiale de machines avec les opérateurs."
+      ],
+      "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PHPP", "Sylob7", "VSM"],
+      "timeRanges": "De septembre 2015 à septembre 2018"
+    }
+  ]
+}
