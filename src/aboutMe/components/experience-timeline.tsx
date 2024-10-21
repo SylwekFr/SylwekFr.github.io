@@ -36,7 +36,7 @@ const ExperiencesTimeline: FC = () => {
               <ExperienceDialog {...xp} />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent sx={{ width: '20%' }}>
+            <TimelineContent sx={{ width: '20%', minWidth: '270px' }}>
               <Card variant="outlined">
                 <Box sx={{ p: 2 }}>
                   <Stack
@@ -46,7 +46,7 @@ const ExperiencesTimeline: FC = () => {
                     <Typography gutterBottom variant="h5" component="div">
                       {xp.position}
                     </Typography>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography gutterBottom variant="h6" component="div" display={{xs: 'none', lg: 'block'}}>
                       {xp.company}
                     </Typography>
                   </Stack>
