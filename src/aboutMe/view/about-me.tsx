@@ -127,7 +127,7 @@ const AboutMe = (): JSX.Element => {
                 <Grid container spacing={2}>
                   {t<string, Hobby[]>('hobbies', {
                     returnObjects: true,
-                  }).map((hobby) => (
+                  }).map((hobby: Hobby) => (
                     <Grid item xs={12} sm={6} md={4} xl={3}>
                       <HobbyCard {...hobby} />
                     </Grid>

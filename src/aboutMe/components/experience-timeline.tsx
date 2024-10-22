@@ -18,12 +18,11 @@ import ExperienceDialog from './experience-modal';
 const ExperiencesTimeline: FC = () => {
   const { t } = useTranslation('professional-experiences');
   return (
-    <>
       <Timeline position="alternate">
         {t<string, Experience[]>('professional-experiences', {
           returnObjects: true,
-        }).map(( xp : Experience) => (
-          <TimelineItem>
+        }).map(( xp : Experience, index: number) => (
+          <TimelineItem key={index}>
             <TimelineOppositeContent
               sx={{ m: '17px 0' }}
               align="right"
@@ -57,8 +56,8 @@ const ExperiencesTimeline: FC = () => {
                 <Divider />
                 <Box sx={{ p: 2, overflowX: 'scroll'}}>
                   <Stack direction="row" spacing={1} >
-                    {xp.tags.map((tag) => (
-                      <Chip label={tag} size="small" />
+                    {xp.tags.map((tag, index) => (
+                      <Chip label={tag} size="small" key={index} />
                     ))}
                   </Stack>
                 </Box>
@@ -67,7 +66,6 @@ const ExperiencesTimeline: FC = () => {
           </TimelineItem>
         ))}
         </Timeline>
-    </>
   );
 };
 

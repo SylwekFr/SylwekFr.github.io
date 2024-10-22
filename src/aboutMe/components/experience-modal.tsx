@@ -49,8 +49,8 @@ const ExperienceDialog: FC<Experience> = (xp: Experience) => {
         <Avatar aria-label="company" src={companyLogo} />
       </IconButton>
       <DialogContent dividers>
-        {tasks.map((task) => (
-          <Typography gutterBottom>
+        {tasks.map((task, index) => (
+          <Typography gutterBottom key={index}>
             {task}
           </Typography>
         ))}

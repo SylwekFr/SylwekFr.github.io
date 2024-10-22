@@ -13,8 +13,8 @@ const CertificationList: FC = () => {
     <List>
       {t<string, Certification[]>('certifications', {
           returnObjects: true,
-        }).map((cert: Certification) => (
-          <ListItem>
+        }).map((cert: Certification, index: number) => (
+          <ListItem key={index}>
           <ListItemAvatar>
             <Avatar aria-label="certification company" alt={cert.certificationCompany} src={cert.logo}/>
           </ListItemAvatar>

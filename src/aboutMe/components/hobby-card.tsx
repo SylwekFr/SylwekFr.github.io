@@ -10,30 +10,28 @@ import Hobby from '../entities/hobby';
 const HobbyCard: FC<Hobby> = (props: Hobby) => {
   const { abbreviation, federationLogo, name, picture, sumUp } = props;
   return (
-    <>
-      <Card sx={{ maxWidth: 345, m: 'auto' }}>
-        <CardHeader
-          avatar={
-            <Avatar aria-label="name" src={federationLogo}>
-              {abbreviation}
-            </Avatar>
-          }
-          title={name}
-        />
-        <CardMedia
-          component="img"
-          height="200"
-          image={picture}
-          loading="lazy"
-          alt={name}
-        />
-        <CardContent sx={{ height: "10em",overflowY: 'scroll'}}>
-          <Typography variant="body2" color="text.secondary">
-            {sumUp}
-          </Typography>
-        </CardContent>
-      </Card>
-    </>
+    <Card sx={{ maxWidth: 345, m: 'auto' }}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="name" src={federationLogo}>
+            {abbreviation}
+          </Avatar>
+        }
+        title={name}
+      />
+      <CardMedia
+        component="img"
+        height="200"
+        image={picture}
+        loading="lazy"
+        alt={name}
+      />
+      <CardContent sx={{ height: "10em",overflowY: 'scroll'}}>
+        <Typography variant="body2" color="text.secondary">
+          {sumUp}
+        </Typography>
+      </CardContent>
+    </Card>
   );
 };
 

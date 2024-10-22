@@ -48,48 +48,46 @@ const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
   const { author, avatar, date, detail, picture, pictureHeight, sumup, title } =
     props;
   return (
-    <>
-      <Card sx={{ maxWidth: 345, m: 'auto' }}>
-        <CardHeader
-          avatar={
-            <Tooltip title={author}>
-              <Avatar aria-label="author" alt={author} src={avatar} />
-            </Tooltip>
-          }
-          title={title}
-          subheader={date}
-        />
-        <CardMedia
-          component="img"
-          loading="lazy"
-          height={pictureHeight}
-          image={picture}
-          alt={title}
-        />
-        { detail && (
+    <Card sx={{ maxWidth: 345, m: 'auto' }}>
+      <CardHeader
+        avatar={
+          <Tooltip title={author}>
+            <Avatar aria-label="author" alt={author} src={avatar} />
+          </Tooltip>
+        }
+        title={title}
+        subheader={date}
+      />
+      <CardMedia
+        component="img"
+        loading="lazy"
+        height={pictureHeight}
+        image={picture}
+        alt={title}
+      />
+      { detail && (
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+          {detail}
+        </Typography>
+      </CardContent>
+      )}
+      <CardActions disableSpacing>
+        <ExpandMore
+          expand={expanded}
+          onClick={onExpand}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </ExpandMore>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            {detail}
-          </Typography>
+          <Typography paragraph>{sumup}</Typography>
         </CardContent>
-        )}
-        <CardActions disableSpacing>
-          <ExpandMore
-            expand={expanded}
-            onClick={onExpand}
-            aria-expanded={expanded}
-            aria-label="show more"
-          >
-            <ExpandMoreIcon />
-          </ExpandMore>
-        </CardActions>
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography paragraph>{sumup}</Typography>
-          </CardContent>
-        </Collapse>
-      </Card>
-    </>
+      </Collapse>
+    </Card>
   );
 };
 
