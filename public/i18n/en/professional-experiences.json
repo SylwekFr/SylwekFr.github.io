@@ -1,0 +1,152 @@
+{
+    "professional-experiences": [
+    {
+      "company": "Astek Technology",
+      "companyLogo": "../img/astek.svg",
+      "context": "Astek is an international consulting company, I work for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement. I work across development teams in a hybrid mode (three days on-site weekly).",
+      "position": "CISO Consultant",
+      "tasks": [
+        "Refactoring code (ASP.NET & Python) and CI/CD to meet security and quality standards, as well as writing code that could be used as an example for further development.",
+        "Collecting proofs for the security side of the Segur, and creating an action plan and planning to meet the objectives in time.",
+        "Writing guidelines and best practices regarding cybersecurity related to the languages, framework, and infrastructure used by the client.",
+        "Conducting training in cybersecurity for the client’s employees corresponding to their roles."
+      ],
+      "tags": [
+        "ASP.NET",
+        "C#",
+        "Mitre Att&ck",
+        "Python",
+        "SonarQube",
+        "Threat Modeling",
+        "TypeScript",
+        "Vue.js"
+      ],
+      "timeRanges": "from July 2024"
+    },
+    {
+      "company": "Astek Technology",
+      "companyLogo": "../img/astek.svg",
+      "context": "Astek is an international consulting company, I worked for Orange Cyberdefense client, in Rennes, on a solution to backup security equipements configurations daily and another to register equipements under security equipements. I was part of a six-person Scrum team in a hybrid mode (two days of remote work weekly).",
+      "position": "DevSecOps Consultant",
+      "tasks": [
+        "Developed and maintained, with security in mind, a monolithic application (Python/Flask & Angular) responsible for 8k+ daily security system configuration backups, and a microservices application (Python/FastAPI) and CLI tools (Go) to automate over 10k devices registration across 4 security systems.",
+        "Orchestrated the migration from monolithic to service-oriented architecture, employing C4 modeling, risk analysis, and prototyping as well as documenting changes with ADRs.",
+        "Refactored both applications to adhere to SOLID and Clean Architecture principles. Implemented comprehensive unit tests and achieved higher test coverage. Added security test with Bandit and Safety.",
+        "Improved build processes using Poetry and refactored the CI/CD using the open-source To-Be-Continuous project, which includes SonarQube and Trivy jobs.",
+        "Conducted training sessions for 40 consultants to raise awareness of secure development practices, covering topics such as OWASP TOP10 vulnerabilities, helpful tools, and lifecycle.",
+        "Led a 4-person team as the Scrum Master, facilitating Agile processes, and ensuring efficient development execution."
+      ],
+      "tags": [
+        "Angular",
+        "Ansible",
+        "Clean Architecture",
+        "C4Model",
+        "DDD",
+        "Docker",
+        "Go",
+        "FastAPI",
+        "Flask",
+        "Microservice",
+        "Plug-in Architecture",
+        "Python",
+        "Service Oriented Architecture",
+        "SonarQube",
+        "TypeScript",
+        "UML"
+      ],
+      "timeRanges": "from February 2022 to July 2024"
+    },
+    {
+      "company": "GSK",
+      "companyLogo": "../img/gsk-logo.webp",
+      "context": "I worked for GlaxoSmithKline, an international pharmaceutical company, in Poznań, on an application that allowed researchers to take structured notes, which could then be utilized by data science solutions. I was part of an agile team of four people, working in a flexible office environment with unlimited remote work.",
+      "position": "Software Engineer",
+      "tasks": [
+        "Developed and maintained a monolithic application (NestJs & React) for thousands of researchers to store research note in structured way allowing to exploit data later on.",
+        "Handled continuous integration (CI) processes on the Microsoft Azure Cloud platform."
+      ],
+      "tags": [
+        "Azure",
+        "Docker",
+        "GraphQL",
+        "NestJS",
+        "React",
+        "Remote",
+        "TypeScript"
+      ],
+      "timeRanges": "from June 2021 to February 2022"
+    },
+    {
+      "company": "Arvato Bertelsmann",
+      "companyLogo": "../img/arvato-logo.webp",
+      "context": "I worked for Arvato Bertelsmann, an international service company, in Poznań, on three applications: a B2B parcel tracking application, a B2C parcel tracking application, and an application to customize the look and feel of the B2C app. I was part of a two-developer team, working in a flexible office environment with unlimited remote work.",
+      "position": "Junior Fiori Developer",
+      "tasks": [
+        "Developed and maintained the front-end (SAPUI5) of a B2B and a B2C track and trace application, responsible for tracking over 100,000 packages per day per app.",
+        "Created a customization app that allowed privileged users to tailor the B2C application based on the parcel delivery supplier, using parcel numbers as a reference.",
+        "Designed the user interface and user experience (UI/UX) with BUILD.me for the customization application, ensuring a user-friendly and intuitive interface.",
+        "Managed ABAP models for all three applications, ensuring data consistency and reliability.",
+        "Wrote a Python script to automate the generation of i18n files from an Excel sheet."
+      ],
+      "tags": [
+        "ABAP",
+        "Build.me",
+        "JavaScript",
+        "oData",
+        "REST",
+        "SAP",
+        "SAPUI5"
+      ],
+      "timeRanges": "from November 2019 to May 2021"
+    },
+    {
+      "company": "Nicman Group",
+      "companyLogo": "../img/nicman-logo.webp",
+      "context": "I worked for Nicman Group, an American service company, from Poznań, on an e-commerce application for liquors and spirits for a New York-based client. I worked autonomously and on-site",
+      "position": "Junior PHP Developer",
+      "tasks": [
+        "Authored a custom module (Magento 2) to draw multiple delivery areas on a map with fee attribution system for each area for an e-commerce application specializing in spirit sales.",
+        "Enhanced a module (Drupal 7) for new employees to rate the company onboarding process."
+      ],
+      "tags": ["Drupal 7", "JavaScript", "Magento", "PHP"],
+      "timeRanges": "from July 2019 to October 2019"
+    },
+    {
+      "company": "IPS Control",
+      "companyLogo": "../img/ips-logo.webp",
+      "context": "I worked for IPS Control, a Polish industrial automation company in Jasin, on the development of an intranet application for remote control and management of a soap production line. I worked autonomously and on-site.",
+      "position": "Software Engineer",
+      "tasks": ["Designed and implemented a monolithic intranet application (PHP, jQuery, HTML, and CSS). The application served to remotely control a soap production line, improving efficiency and accuracy in the manufacturing process."],
+      "tags": ["CSS3", "HTML5", "JavaScript", "jQuery", "PHP"],
+      "timeRanges": "from January 2019 to June 2019"
+    },
+    {
+      "company": "QIAGEN",
+      "companyLogo": "../img/qiagen-logo.webp",
+      "context": "I worked for QIAGEN, an international biotechnology company, in Wroclaw, where I prospected French-speaking and English-speaking clients. I was part of a six-person team, working on-site.",
+      "position": "Telemarketing specialist",
+      "tasks": [
+        "Authored a telemarketing assistant connected to the customer database in Excel using VBA. The assistant displayed prospects to call in function of time zone, previous answer rate, and the number of calls within the day.",
+        "Contacted potential prospects via email and phone calls in French and English to present medical devices and life science products.",
+        "Advised customers on medical devices and life science products"
+      ],
+      "tags": ["Salesforce", "SQL", "VBA"],
+      "timeRanges": "from October 2018 to December 2018"
+    },
+    {
+      "company": "Getinge",
+      "companyLogo": "../img/getinge-logo.webp",
+      "context": "I worked for Getinge, an international medical devices and life sciences company, in Tournefeuille, focusing on implementing standards and Lean management. I was part of a four-person team, working on-site.",
+      "position": "Apprentice processes engineer",
+      "tasks": [
+        "Conducted VSM analysis and utilized Lean Manufacturing principles to optimize processes.",
+        "Implemented 5S methodology on standard production lines, enhancing MVA (Manufacturing Value-Added).",
+        "Rectified routing and B.O.M. discrepancies within the ERP system (Sylob7) to align with actual production issues.",
+        "Updated assembly instructions, incorporating features such as auto-displaying or hiding of machine options to reduce errors.",
+        "Created new assembly instructions from 3D models and electrical diagrams, validating them through initial machine production with operators."
+      ],
+      "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PPAP", "Sylob7", "VSM"],
+      "timeRanges": "from September 2015 to September 2018"
+    }
+  ]
+}

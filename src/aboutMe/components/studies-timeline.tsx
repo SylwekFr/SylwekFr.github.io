@@ -14,33 +14,31 @@ import Tooltip from '@mui/material/Tooltip/Tooltip';
 const StudiesTimeline: FC = () => {
   const { t } = useTranslation('studies');
   return (
-    <>
-      <Timeline position="alternate">
-        {t<string, Study[]>('studies', {
-          returnObjects: true,
-        }).map((study: Study) => (
-          <TimelineItem>
-            <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-            >
-                {study.date}
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <Tooltip title={study.school}>
-                <TimelineDot variant="outlined" sx={{ p: 0 }}>
-                  <Avatar aria-label="school" src={study.schoolLogo} />
-                </TimelineDot >
-              </Tooltip>
-              <TimelineConnector sx={{ minHeight: '15px' }}/>
-            </TimelineSeparator>
-            <TimelineContent sx={{ m: 'auto 0' }}> {study.degree} </TimelineContent>
-          </TimelineItem>
-        ))}
-        </Timeline>
-    </>
+    <Timeline position="alternate">
+      {t<string, Study[]>('studies', {
+        returnObjects: true,
+      }).map((study: Study, index: number) => (
+        <TimelineItem key={index}>
+          <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+          >
+              {study.date}
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <Tooltip title={study.school}>
+              <TimelineDot variant="outlined" sx={{ p: 0 }}>
+                <Avatar aria-label="school" src={study.schoolLogo} />
+              </TimelineDot >
+            </Tooltip>
+            <TimelineConnector sx={{ minHeight: '15px' }}/>
+          </TimelineSeparator>
+          <TimelineContent sx={{ m: 'auto 0' }}> {study.degree} </TimelineContent>
+        </TimelineItem>
+      ))}
+    </Timeline>
   );
 };
 

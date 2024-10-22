@@ -1,0 +1,169 @@
+{
+    "professional-experiences": [
+    {
+      "company": "Astek Technology",
+      "companyLogo": "../img/astek.svg",
+      "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. Je travaille pour le client Hospices Civile de Lyon à Lyon pour la sécurisation conforme Ségur d'une application de gestion hospitalière considéré dispositif médical. Je travaille en transverse des équipes développement en mode hybride (trois jours sur site hebdomadaire).",
+      "position": "Consultant RSSI",
+      "tasks": [
+        "Refactorisation du code (C#/ASP.NET) et du CI/CD pour répondre aux normes de sécurité et de qualité, ainsi que l’écriture de code pouvant servir d'exemple pour les futurs développements.",
+        "Collecte de preuves pour la partie sécurité du Ségur, création d'un plan d'action et de planning pour atteindre les objectifs dans les délais impartis.",
+        "Rédaction de lignes directrices et de meilleures pratiques concernant la cybersécurité, en lien avec les langages, frameworks et infrastructures utilisées par le client.",
+        "Animation de formations en cybersécurité pour les employés du client en fonction de leurs rôles."
+      ],
+      "tags": [
+        "ASP.NET",
+        "C#",
+        "JavaScript",
+        "Mend.io",
+        "MITRE ATT&CK",
+        "OWASP TOP10",
+        "Python",
+        "SANS25",
+        "Security-by-Design",
+        "SonarQube"
+      ],
+      "timeRanges": "Depuis juillet 2024"
+    },
+    {
+      "company": "Astek Technology",
+      "companyLogo": "../img/astek.svg",
+      "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. J'ai travaillé pour le client Orange Cyberdefense à Rennes autour d'une application de sauvegardes journalières de configurations d'équipements de sécurités, et d'une application pour enregistrer des équipements dans des équipements de sécurités. J'étais dans une équipe Scrum de six personnes en mode hybride (deux jours de télétravail hebdomadaire).",
+      "position": "Consultant DevSecOps",
+      "tasks": [
+        "Développement et maintenance, en tenant compte de la sécurité, d'une application monolithique (Python/Flask & Angular), responsable de plus de 8 000 sauvegardes quotidiennes de configurations de systèmes de sécurité, ainsi qu'une application de microservices (Python/FastAPI) avec un outil CLI (Go) pour automatiser l'enregistrement de plus de 10 000 appareils à travers 4 systèmes de sécurité.",
+        "Orchestration de la migration d'une architecture monolithique vers une architecture orientée services, en utilisant le modèle C4, l'analyse des risques et le prototypage, ainsi que la documentation des changements avec des ADR.",
+        "Refactorisation des deux applications pour respecter les principes SOLID et Clean Architecture. Mise en place de tests unitaires complets et obtention d'une meilleure couverture de tests. Ajout de tests de sécurité avec Bandit et Safety.",
+        "Amélioration des processus de build en utilisant Poetry et refactorisation du CI/CD en utilisant le projet open-source To-Be-Continuous, comprenant des jobs SonarQube et Trivy.",
+        "Animation de sessions de formation pour 40 consultants afin de sensibiliser aux pratiques de développement sécurisé, couvrant des sujets tels que les vulnérabilités OWASP TOP10, des outils utiles et le cycle de vie.",
+        "Encadrement d'une équipe de 4 personnes en tant que Scrum Master, facilitant les processus Agile et assurant une exécution efficace du développement."
+      ],
+      "tags": [
+        "Angular",
+        "Architecture Orientée Service",
+        "Architecture PlugIn",
+        "Clean Architecture",
+        "C4Model",
+        "DDD",
+        "Docker",
+        "Go",
+        "FastAPI",
+        "Flask",
+        "Microservice",
+        "Python",
+        "TypeScript",
+        "UML"
+      ],
+      "timeRanges": "De février 2022 à juillet 2024"
+    },
+    {
+      "company": "GSK",
+      "companyLogo": "../img/gsk-logo.webp",
+      "context": "J'ai travaillé pour GlaxoSmithKline, un laboratoire pharmaceutique international, à Poznań, autour d'une application permettant aux chercheurs de prendre des notes de manière structurées qui puisse ensuite être exploité par des solutions data science. J'étais dans une équipe agile de quatre personnes en flex office avec du télétravail illimité.",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Développement et maintenance d'une application monolithique (NestJs & React) permettant à des milliers de chercheurs de stocker des notes de recherche de manière structurée, facilitant ainsi l'exploitation ultérieure des données.",
+        "Gestion des processus de l'intégration continue (CI) sur la plateforme Microsoft Azure Cloud."
+      ],
+      "tags": [
+        "Azure",
+        "Docker",
+        "GraphQL",
+        "NestJS",
+        "React",
+        "Remote",
+        "TypeScript"
+      ],
+      "timeRanges": "De juin 2021 à février 2022"
+    },
+    {
+      "company": "Arvato Bertelsmann",
+      "companyLogo": "../img/arvato-logo.webp",
+      "context": "J'ai travaillé pour Arvato Bertelsmann, une société de services internationale, à Poznań, autour de trois applications : une application de suivis de colis B2B, une  B2C et une application pour personnaliser le look and feel de l'application B2C. J'étais dans une équipe de deux développeurs en flex office avec du télétravail illimité.",
+      "position": "Développeur Junior Fiori",
+      "tasks": [
+        "Développement et maintenance de la partie front-end (SAPUI5) d'applications de suivi de colis (une B2B et une B2C) chargées de suivre plus de 100 000 colis par jour par application.",
+        "Création d'une application de personnalisation permettant aux utilisateurs privilégiés d'adapter l'application B2C en fonction du fournisseur de livraison de colis, en utilisant les numéros de colis comme référence.",
+        "Conception de l'interface utilisateur et de l'expérience utilisateur (UI/UX) avec BUILD.me pour l'application de personnalisation, garantissant une interface conviviale et intuitive.",
+        "Gestion des modèles ABAP pour les trois applications, assurant la cohérence et la fiabilité des données.",
+        "Rédaction d'un script Python pour automatiser la génération de fichiers i18n à partir d'une feuille Excel."
+      ],
+      "tags": [
+        "ABAP",
+        "Build.me",
+        "JavaScript",
+        "oData",
+        "REST",
+        "SAP",
+        "SAPUI5"
+      ],
+      "timeRanges": "De novembre 2019 à mai 2021"
+    },
+    {
+      "company": "Nicman Group",
+      "companyLogo": "../img/nicman-logo.webp",
+      "context": "J'ai travaillé pour Nicman Group, une société de services américaine, depuis Poznań, autour d'une application d'e-commerce de liqueurs et spiritueux pour un client New-Yorkais. J'étais en autonomie et en présentiel.",
+      "position": "Développeur PHP Junior",
+      "tasks": [
+        "Conception d'un module personnalisé (Magento 2) pour dessiner plusieurs zones de livraison sur une carte en attribuant des frais pour chaque zone au sein d'une application de e-commerce spécialisée dans la vente de spiritueux.",
+        "Amélioration d'un module (Drupal 7) destiné aux nouveaux employés pour évaluer le processus d'intégration de l'entreprise."
+      ],
+      "tags": [
+        "Drupal 7",
+        "JavaScript",
+        "Magento",
+        "PHP"
+      ],
+      "timeRanges": "De juillet 2019 à octobre 2019"
+    },
+    {
+      "company": "IPS Control",
+      "companyLogo": "../img/ips-logo.webp",
+      "context": "J'ai travaillé pour IPS Control, une société d'automatisation industrielle polonaise, à Jasin pour le développement d'une application intranet pour le contrôle et la gestion à distance d'une ligne de production de savon. J'étais en autonomie et en présentiel.",
+      "position": "Ingénieur Logiciel",
+      "tasks": [
+        "Conception et mise en place d'une application intranet monolithique (PHP, jQuery, HTML et CSS). L'application a servi à contrôler à distance une ligne de production de savon, améliorant ainsi l'efficacité et la précision dans le processus de fabrication."
+      ],
+      "tags": [
+        "CSS3",
+        "HTML5",
+        "JavaScript",
+        "jQuery",
+        "PHP"
+      ],
+      "timeRanges": "De janvier 2019 à juin 2019"
+    },
+    {
+      "company": "QIAGEN",
+      "companyLogo": "../img/qiagen-logo.webp",
+      "context": "J'ai travaillé pour QIAGEN, une société internationale de biotechnologie, à Wroclaw, pour prospecter les clients francophones et anglophones. J'étais dans une équipe de six en présentiel.",
+      "position": "Spécialiste du télémarketing",
+      "tasks": [
+        "Conçu un assistant de télémarketing connecté à la base de données client sous Excel en utilisant VBA. L'assistant affichait les prospects à appeler en fonction du fuseau horaire, du taux de réponse précédent et du nombre d'appels effectués dans la journée.",
+        "Contacté des prospects potentiels par e-mail et appels téléphoniques en français et en anglais pour présenter des dispositifs médicaux et des produits de sciences de la vie.",
+        "Conseillé les clients sur les dispositifs médicaux et les produits de sciences de la vie."
+      ],
+      "tags": [
+        "Salesforce",
+        "SQL",
+        "VBA"
+        ],
+      "timeRanges": "D'octobre 2018 à décembre 2018"
+    },
+    {
+      "company": "Getinge",
+      "companyLogo": "../img/getinge-logo.webp",
+      "context": "J'ai travaillé pour Getinge, entreprise internationale de production de dispositifs médicaux et de science de la vie, à Tournefeuille, autour de la mise en place de standards et du Lean management. J'étais dans une équipe de quatre en présentiel.",
+      "position": "Apprenti ingénieur méthodes et industrialisation",
+      "tasks": [
+        "Réalisé une analyse VSM et utilisé les principes de Lean Manufacturing pour optimiser les processus.",
+        "Mis en place la méthodologie 5S sur les lignes de production standard, améliorant la VA (Valeur Ajoutée en Fabrication).",
+        "Rectifié les divergences dans les gammes et la nomenclatures au sein du système ERP (Sylob7) pour les aligner sur les problèmes réels en production.",
+        "Actualisé les instructions d'assemblage, intégrant des fonctionnalités telles que l'affichage automatique ou non des options de la machine pour réduire les erreurs.",
+        "Créé de nouvelles instructions d'assemblage à partir de modèles 3D et de schémas électriques, les validant grâce à une production initiale de machines avec les opérateurs."
+      ],
+      "tags": ["CAPA", "ERP", "Kaizen", "Lean", "PHPP", "Sylob7", "VSM"],
+      "timeRanges": "De septembre 2015 à septembre 2018"
+    }
+  ]
+}

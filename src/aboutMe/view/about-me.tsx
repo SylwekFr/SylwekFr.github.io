@@ -14,14 +14,13 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import CertificationList from '../components/certification-list';
-import ExperienceCard from '../components/experience-card';
 import HobbyCard from '../components/hobby-card';
 import SkillContainer from '../components/skill-container';
 import { contactInfo } from '../data/contact-info';
 import { skillList } from '../data/skills';
 import Hobby from '../entities/hobby';
-import Experience from '../entities/experience';
 import StudiesTimeline from '../components/studies-timeline';
+import ExperiencesTimeline from '../components/experience-timeline';
 
 
 const AboutMe = (): JSX.Element => {
@@ -116,15 +115,7 @@ const AboutMe = (): JSX.Element => {
                 </TabList>
               </Box>
               <TabPanel value="1">
-                <Grid container spacing={2}>
-                  {t<string, Experience[]>('profesionalXp', {
-                    returnObjects: true,
-                  }).map((experience) => (
-                    <Grid item xs={12} sm={6} md={4} xl={3}>
-                      <ExperienceCard {...experience} />
-                    </Grid>
-                  ))}
-                </Grid>
+                <ExperiencesTimeline />
               </TabPanel>
               <TabPanel value="2">
                   <StudiesTimeline/>
@@ -136,7 +127,7 @@ const AboutMe = (): JSX.Element => {
                 <Grid container spacing={2}>
                   {t<string, Hobby[]>('hobbies', {
                     returnObjects: true,
-                  }).map((hobby) => (
+                  }).map((hobby: Hobby) => (
                     <Grid item xs={12} sm={6} md={4} xl={3}>
                       <HobbyCard {...hobby} />
                     </Grid>
