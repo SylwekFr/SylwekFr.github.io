@@ -33,7 +33,7 @@ export class BookApiRepository{
                 reject(new Error("Not data retrieved for this book"));
             })
             .catch((error: AxiosError) => {
-                reject(error);
+                reject(new Error(error.message));
             });
         })
 

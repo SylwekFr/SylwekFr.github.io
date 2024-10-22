@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 import { ColorModeContext } from '../../App';
 
 type HeaderProps = {
-  title: string;
+  readonly title: string;
 };
 
 export default function Header(props: HeaderProps): JSX.Element {
@@ -46,75 +46,73 @@ export default function Header(props: HeaderProps): JSX.Element {
   };
 
   return (
-    <>
-      <AppBar position="sticky" sx={{ mb: 3 }}>
-        <Toolbar>
-          <Typography
-            component="h1"
-            variant="h4"
+    <AppBar position="sticky" sx={{ mb: 3 }}>
+      <Toolbar>
+        <Typography
+          component="h1"
+          variant="h4"
+          color="inherit"
+          align="center"
+          noWrap
+          sx={{ flex: 1 }}
+        >
+          {title}
+        </Typography>
+        <div>
+          <IconButton
+            size="large"
+            aria-label="account of current user"
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            onClick={handleMenu}
             color="inherit"
-            align="center"
-            noWrap
-            sx={{ flex: 1 }}
           >
-            {title}
-          </Typography>
-          <div>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleMenu}
-              color="inherit"
-            >
-              <SettingsIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorEl}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorEl)}
-              onClose={handleClose}
-            >
-              <FormControl fullWidth>
-                <InputLabel variant="standard" htmlFor="language-selector">
-                  {t<string>('langue')}
-                </InputLabel>
-                <NativeSelect
-                  onChange={onChangeLanguage}
-                  inputProps={{
-                    name: 'language',
-                    id: 'language-selector',
-                  }}
-                  value={language}
-                >
-                  <option value="en">English</option>
-                  <option value="fr">Français</option>
-                </NativeSelect>
-              </FormControl>
-              <MenuItem onClick={onChangeMode}>
-                <ListItemIcon>
-                  {theme.palette.mode === 'dark' ? (
-                    <Brightness7Icon />
-                  ) : (
-                    <Brightness4Icon />
-                  )}
-                </ListItemIcon>
-                <ListItemText>{theme.palette.mode} mode</ListItemText>
-              </MenuItem>
-            </Menu>
-          </div>
-        </Toolbar>
-      </AppBar>
-    </>
+            <SettingsIcon />
+          </IconButton>
+          <Menu
+            id="menu-appbar"
+            anchorEl={anchorEl}
+            anchorOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
+            keepMounted
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <FormControl fullWidth>
+              <InputLabel variant="standard" htmlFor="language-selector">
+                {t<string>('langue')}
+              </InputLabel>
+              <NativeSelect
+                onChange={onChangeLanguage}
+                inputProps={{
+                  name: 'language',
+                  id: 'language-selector',
+                }}
+                value={language}
+              >
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </NativeSelect>
+            </FormControl>
+            <MenuItem onClick={onChangeMode}>
+              <ListItemIcon>
+                {theme.palette.mode === 'dark' ? (
+                  <Brightness7Icon />
+                ) : (
+                  <Brightness4Icon />
+                )}
+              </ListItemIcon>
+              <ListItemText>{theme.palette.mode} mode</ListItemText>
+            </MenuItem>
+          </Menu>
+        </div>
+      </Toolbar>
+    </AppBar>
   );
 }
