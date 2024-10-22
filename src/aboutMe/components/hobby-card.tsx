@@ -27,7 +27,7 @@ const HobbyCard: FC<Hobby> = (props: Hobby) => {
           loading="lazy"
           alt={name}
         />
-        <CardContent>
+        <CardContent sx={{ height: "10em",overflowY: 'scroll'}}>
           <Typography variant="body2" color="text.secondary">
             {sumUp}
           </Typography>
