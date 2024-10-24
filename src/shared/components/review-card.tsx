@@ -66,7 +66,7 @@ const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
         alt={title}
       />
       { detail && (
-      <CardContent>
+      <CardContent sx={{ height: "5em",overflowY: 'scroll'}}>
         <Typography variant="body2" color="text.secondary">
           {detail}
         </Typography>
@@ -83,7 +83,7 @@ const ReviewCard: FC<ReviewCardProps> = (props: ReviewCardProps) => {
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
+        <CardContent sx={{ height: "15em",overflowY: 'scroll'}}>
           <Typography paragraph>{sumup}</Typography>
         </CardContent>
       </Collapse>
