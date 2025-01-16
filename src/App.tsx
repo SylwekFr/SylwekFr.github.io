@@ -2,7 +2,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Header from './core/components/header';
 import Home from './core/views/home';
 import React, { lazy, Suspense } from 'react';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {createHashRouter, RouterProvider} from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
@@ -23,7 +23,7 @@ enum routes {
   aboutMe = '/about-me',
 }
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: routes.home,
     element: <Home />,
