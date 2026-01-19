@@ -8,7 +8,7 @@
             <v-card-text>
               <div class="d-flex justify-space-around align-center">
                 <v-avatar size="56">
-                  <v-img src="../img/me.webp" alt="me" />
+                  <v-img src="/img/me.webp" alt="me" />
                   <template #placeholder>SM</template>
                 </v-avatar>
                 <v-card-title class="text-h5">Sylvain Michel</v-card-title>
