@@ -1,6 +1,6 @@
 import type { Book } from '@/models/entities/book'
 import BookApiRepository from '@/models/repositories/book'
-import { onMounted, ref } from 'vue'
+import { computed, ref, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 export function useBook() {
@@ -8,14 +8,15 @@ export function useBook() {
   const books = ref<Book[]>([])
   const loading = ref<boolean>(true)
 
+  const isbnArray = computed(() => tm('books') as string[])
+
   const loadBooks = async () => {
     try {
       loading.value = true
-      const isbnArray = tm('books') as string[]
       const bookGetter = new BookApiRepository()
 
       const bookDataArray = await Promise.all(
-        isbnArray.map((isbn) => bookGetter.getBook(isbn))
+        isbnArray.value.map((isbn) => bookGetter.getBook(isbn))
       )
 
       books.value = bookDataArray
@@ -27,8 +28,11 @@ export function useBook() {
     }
   }
 
-  onMounted(() => {
-    loadBooks()
+  // React to changes in the ISBN array (which changes with locale)
+  watchEffect(() => {
+    if (isbnArray.value.length > 0) {
+      loadBooks()
+    }
   })
 
   return {

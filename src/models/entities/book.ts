@@ -1,7 +1,7 @@
 export type Book = {
     avatar?: string;
     author: string;
-    date: number;
+    date: string;
     detail?: string;
     picture: string;
     sumup: string;
