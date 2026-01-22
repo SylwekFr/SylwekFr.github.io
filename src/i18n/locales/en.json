@@ -97,12 +97,20 @@
                 "companyLogo": "../img/ing-hubs.svg",
                 "context": "I work for ING, an international finance company, where I contribute to the Security Champions program while working mostly remotely from Poland.",
                 "position": "Secure Developement Engineer",
-                "tasks": [],
+                "tasks": [
+                    "Developed a secure, automation-driven SaaS API supporting the Security Champions program, covering onboarding, training lifecycle, certification workflows, and role-based access assignment, with security-by-design principles.",
+                    "Designed and implemented Infrastructure-as-Code architecture using Terraform, enabling secure, consistent, and repeatable deployments of the security champions managements solution.",
+                    "Established “documentation-as-code” for the Security Champions processes, architectural decisions, and security standards, improving governance, traceability, and developer adoption.",
+                    "Led technical evaluation and architectural selection of Threat Modeling tools, assessing usability, SDLC integration, and risk identification effectiveness, and defining how certified Security Champions apply threat modeling within their teams.",
+                    "Participated in architectural benchmarking of DAST solutions, defining evaluation criteria (accuracy, CI/CD integration, reporting, scalability) and recommending tools aligned with organizational security architecture and developer workflows."
+                ],
                 "tags": [
+                    "Azure",
                     "Checkmarx",
                     "Python",
                     "Security-by-Design",
                     "SonarQube",
+                    "Terraform",
                     "Threat Modeling"
                 ],
                 "timeRanges": "from March 2024"

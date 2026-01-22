@@ -97,7 +97,13 @@
                 "companyLogo": "../img/ing-hubs.svg",
                 "context": "Je travaille pour ING, une entreprise financière internationale, où je contribue au programme Security Champions tout en travaillant principalement à distance depuis la Pologne.",
                 "position": "Ingénieur Developpement Sécurisé",
-                "tasks": [],
+                "tasks": [
+                    "Développé une API SaaS sécurisée et pilotée par l'automatisation pour le programme Security Champions, couvrant l'onboarding, le cycle de vie des formations, les workflows de certification et l'attribution des rôles basée sur les accès, selon les principes de security by design.",
+                    "Conçu et mis en œuvre une architecture Infrastructure-as-Code (IaC) avec Terraform, permettant des déploiements sécurisés, cohérents et reproductibles de la solution de gestion des Security Champions.",
+                    "Mis en place une approche “documentation as code” pour les processus du programme Security Champions, les décisions d'architecture et les standards de sécurité, améliorant la gouvernance, la traçabilité et l'adoption par les équipes de développement.",
+                    "Piloté l'évaluation technique et la sélection architecturale d'outils de Threat Modeling, en analysant l'ergonomie, l'intégration au SDLC et l'efficacité dans l'identification des risques, et en définissant leur utilisation par les Security Champions certifiés au sein des équipes.",
+                    "Participé au benchmark architectural de solutions de DAST, en définissant des critères d'évaluation (précision, intégration CI/CD, capacités de reporting, scalabilité) et en recommandant des outils alignés avec l'architecture de sécurité de l'organisation et les workflows des développeurs."
+                ],
                 "tags": [
                     "Checkmarx",
                     "Python",
