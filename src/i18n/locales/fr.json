@@ -93,12 +93,27 @@
         "profesionalExp": "Professional experience",
         "professional-experiences": [
             {
+                "company": "ING Hubs",
+                "companyLogo": "../img/ing-hubs.svg",
+                "context": "Je travaille pour ING, une entreprise financière internationale, où je contribue au programme Security Champions tout en travaillant principalement à distance depuis la Pologne.",
+                "position": "Ingénieur Developpement Sécurisé",
+                "tasks": [],
+                "tags": [
+                    "Checkmarx",
+                    "Python",
+                    "Security-by-Design",
+                    "SonarQube",
+                    "Threat Modeling"
+                ],
+                "timeRanges": "Depuis mars 2024"
+            },
+            {
                 "company": "Astek Technology",
                 "companyLogo": "../img/astek.svg",
-                "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. Je travaille pour le client Hospices Civile de Lyon à Lyon pour la sécurisation conforme Ségur d'une application de gestion hospitalière considéré dispositif médical. Je travaille en transverse des équipes développement en mode hybride (trois jours sur site hebdomadaire).",
+                "context": "J'ai travaillé pour Astek, une entreprise internationale de conseil, pour le client Hospices Civile de Lyon à Lyon pour la sécurisation conforme Ségur d'une application de gestion hospitalière considéré dispositif médical. Je travaille en transverse des équipes développement en mode hybride (trois jours sur site hebdomadaire).",
                 "position": "Consultant RSSI",
                 "tasks": [
-                    "Refactorisation du code (C#/ASP.NET) et du CI/CD pour répondre aux normes de sécurité et de qualité, ainsi que l’écriture de code pouvant servir d'exemple pour les futurs développements.",
+                    "Refactorisation du code et du CI/CD pour répondre aux normes de sécurité et de qualité, ainsi que l’écriture de code pouvant servir d'exemple pour les futurs développements.",
                     "Collecte de preuves pour la partie sécurité du Ségur, création d'un plan d'action et de planning pour atteindre les objectifs dans les délais impartis.",
                     "Rédaction de lignes directrices et de meilleures pratiques concernant la cybersécurité, en lien avec les langages, frameworks et infrastructures utilisées par le client.",
                     "Animation de formations en cybersécurité pour les employés du client en fonction de leurs rôles."
@@ -115,12 +130,12 @@
                     "Security-by-Design",
                     "SonarQube"
                 ],
-                "timeRanges": "Depuis juillet 2024"
+                "timeRanges": "De juillet 2024 à février 2025"
             },
             {
                 "company": "Astek Technology",
                 "companyLogo": "../img/astek.svg",
-                "context": "Je travaille actuellement pour Astek, une entreprise internationale de conseil. J'ai travaillé pour le client Orange Cyberdefense à Rennes autour d'une application de sauvegardes journalières de configurations d'équipements de sécurités, et d'une application pour enregistrer des équipements dans des équipements de sécurités. J'étais dans une équipe Scrum de six personnes en mode hybride (deux jours de télétravail hebdomadaire).",
+                "context": "J'ai travaillé pour Astek, une entreprise internationale de conseil, pour le client Orange Cyberdefense à Rennes autour d'une application de sauvegardes journalières de configurations d'équipements de sécurités, et d'une application pour enregistrer des équipements dans des équipements de sécurités. J'étais dans une équipe Scrum de six personnes en mode hybride (deux jours de télétravail hebdomadaire).",
                 "position": "Consultant DevSecOps",
                 "tasks": [
                     "Développement et maintenance, en tenant compte de la sécurité, d'une application monolithique (Python/Flask & Angular), responsable de plus de 8 000 sauvegardes quotidiennes de configurations de systèmes de sécurité, ainsi qu'une application de microservices (Python/FastAPI) avec un outil CLI (Go) pour automatiser l'enregistrement de plus de 10 000 appareils à travers 4 systèmes de sécurité.",

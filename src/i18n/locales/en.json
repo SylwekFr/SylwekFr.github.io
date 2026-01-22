@@ -93,9 +93,24 @@
         "profesionalExp": "Professional experience",
         "professional-experiences": [
             {
+                "company": "ING Hubs",
+                "companyLogo": "../img/ing-hubs.svg",
+                "context": "I work for ING, an international finance company, where I contribute to the Security Champions program while working mostly remotely from Poland.",
+                "position": "Secure Developement Engineer",
+                "tasks": [],
+                "tags": [
+                    "Checkmarx",
+                    "Python",
+                    "Security-by-Design",
+                    "SonarQube",
+                    "Threat Modeling"
+                ],
+                "timeRanges": "from March 2024"
+            },
+            {
                 "company": "Astek Technology",
                 "companyLogo": "../img/astek.svg",
-                "context": "Astek is an international consulting company, I work for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement. I work across development teams in a hybrid mode (three days on-site weekly).",
+                "context": "Astek is an international consulting company, I worked for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement. I work across development teams in a hybrid mode (three days on-site weekly).",
                 "position": "CISO Consultant",
                 "tasks": [
                     "Refactoring code (ASP.NET & Python) and CI/CD to meet security and quality standards, as well as writing code that could be used as an example for further development.",
@@ -113,7 +128,7 @@
                     "TypeScript",
                     "Vue.js"
                 ],
-                "timeRanges": "from July 2024"
+                "timeRanges": "from July 2024 to February 2025"
             },
             {
                 "company": "Astek Technology",

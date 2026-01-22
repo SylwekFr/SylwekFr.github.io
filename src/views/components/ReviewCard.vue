@@ -63,7 +63,7 @@ import { useReviewCard } from '@/viewmodels/components/useReviewCard'
 export interface ReviewCardProps {
   avatar?: string
   author: string
-  date: number
+  date: string | number
   detail?: string
   picture: string
   pictureHeight: number

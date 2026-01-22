@@ -48,6 +48,7 @@
               v-for="(tag, tagIndex) in experience.tags"
               :key="tagIndex"
               size="small"
+              style="white-space: nowrap; min-width: fit-content;"
             >
               {{ tag }}
             </v-chip>
