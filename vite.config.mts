@@ -37,6 +37,7 @@ export default defineConfig({
     }),
   ],
   define: { 'process.env': {} },
+  base: '/SylwekFr.github.io/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('src', import.meta.url)),
