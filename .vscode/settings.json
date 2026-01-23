@@ -13,4 +13,5 @@
       "editor.formatOnSave": true,
       "editor.formatOnPaste": true
     },
+    "vue.hover.rich": true
   }
