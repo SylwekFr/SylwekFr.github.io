@@ -38,6 +38,19 @@ export default defineConfig({
   ],
   define: { 'process.env': {} },
   base: '/SylwekFr.github.io/',
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          // Handle font files separately
+          if (assetInfo.name?.match(/\.(woff|woff2|eot|ttf|otf)$/)) {
+            return 'assets/fonts/[name].[hash].[ext]'
+          }
+          return 'assets/[name].[hash].[ext]'
+        }
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('src', import.meta.url)),
