@@ -5,7 +5,7 @@ import fr from './locales/fr.json'
 const messages = { en, fr }
 
 const getBrowserLocale = () => {
-  if (typeof window === 'undefined') return 'en'
+  if (typeof globalThis.window === 'undefined') return 'en'
 
   const savedLocale = localStorage.getItem('locale')
   if (savedLocale) return savedLocale

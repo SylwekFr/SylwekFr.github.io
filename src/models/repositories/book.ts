@@ -31,12 +31,6 @@ export default class GoogleBooksApiRepository {
     }
 
     private getAuthorAvatar(authorName: string): string {
-        // Generate a placeholder avatar URL or use a service like Gravatar
-        const initials = authorName
-            .split(' ')
-            .map(word => word.charAt(0))
-            .join('')
-            .slice(0, 2)
 
         return `https://ui-avatars.com/api/?name=${encodeURIComponent(authorName)}&background=random&size=128`
     }

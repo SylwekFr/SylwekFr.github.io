@@ -9,7 +9,7 @@ type CategoryIndex = {
 }
 
 export function useHome() {
-  const { t, te, tm } = useI18n({ useScope: 'global' })
+  const { tm } = useI18n({ useScope: 'global' })
   const categories = computed<CategoryIndex[]>(() => {
     if (!tm('home.categories')) {
       console.warn('home.categories key not found')
