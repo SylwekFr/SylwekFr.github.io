@@ -1,0 +1,514 @@
+{
+    "aboutMe": {
+        "certificationsTab": "Certifications",
+        "certifications": [
+            {
+                "certificationCompany": "Certible",
+                "logo": "../img/cpsa-f.webp",
+                "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
+                "obtentionDate": "Novembre 2023"
+            },
+            {
+                "certificationCompany": "Scaled Agile Inc",
+                "logo": "../img/SAFe5DevOps.webp",
+                "name": "Certified SAFe® 5 DevOps Practitioner",
+                "obtentionDate": "Novembre 2021"
+            },
+            {
+                "certificationCompany": "Microsoft",
+                "logo": "../img/sc-900.webp",
+                "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+                "obtentionDate": "Octobre 2021"
+            },
+            {
+                "certificationCompany": "Microsoft",
+                "logo": "../img/az-900.webp",
+                "name": "Microsoft Certified: Azure Fundamentals ",
+                "obtentionDate": "Septembre 2021"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "SAP Intelligent Robotic Process Automation in a Nutshell",
+                "obtentionDate": "Juin 2020"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "The Internet of Things with SAP",
+                "obtentionDate": "Juin 2020"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "Evolved Web Apps with SAPUI5",
+                "obtentionDate": "Mai 2020"
+            }
+        ],
+        "hobbiesTab": "Hobbies",
+        "hobbies": [
+            {
+                "abbreviation": "MD",
+                "federationLogo": "../img/diego-logo.jpg",
+                "name": "My Dog",
+                "picture": "../img/diego-pics.jpg",
+                "sumUp": "Maybe my biggest hobby is spending time with my dog, going on walk and learning him new tricks or just chilling"
+            },
+            {
+                "abbreviation": "RD",
+                "federationLogo": "https://www.iconpacks.net/icons/2/free-opened-book-icon-3169-thumb.png",
+                "name": "Reading",
+                "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg2O-22eM2ZcJoXMJQAFRjiheUMyQAEqt8lTzB8MPC7vPLxN7i0Lu42xHYqqZXe-FtD-0&usqp=CAU",
+                "sumUp": "Since my childhood, I Love to read, from comics to novel passing by technical book. I my page you can visit my section about books to see some books I have read, if you would be so kind, don't hesitate to recommend me some book to read, i am particularly interested in SF & fantasy or novel and new technologies, social engineering, NLP & red teaming for tech book"
+            },
+            {
+                "abbreviation": "SB",
+                "federationLogo": "https://sambo.sport/upload/iblock/76e/76ec47778f25af6a15476167c6f2344c.jpg",
+                "name": "Sambo",
+                "picture": "https://sambo.sport/upload/iblock/aff/aff35819b812ebae85383bfaf5bd8c1b.jpg",
+                "sumUp": "Sambo is a russian originated martial art I love to practice. With practice, will, the right spiritual way & truth (in ourself and other practicing with us) it lead to improve self-realization, power & drive it also carry the values of freedom, friendship, respect & inculsion"
+            },
+            {
+                "abbreviation": "TG",
+                "federationLogo": "https://i.pinimg.com/originals/d9/3d/91/d93d91a57281e6e96dc86c97c5047b30.png",
+                "name": "Tabletop Games",
+                "picture": "https://media.wired.com/photos/60c000d6206ef134c14e7571/master/pass/games_board-games_2FR3A46.jpg",
+                "sumUp": "What a pleasing time to meet with friend around a tabletop game, enjoing a drink and discution or going roleplay"
+            },
+            {
+                "abbreviation": "TR",
+                "federationLogo": "https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Travel-Logo-Graphics-1-36.jpg",
+                "name": "Travel",
+                "picture": "https://poradniksukces.com/wp/wp-content/uploads/2016/05/Travel-suitcase.jpg",
+                "sumUp": "I enjoy to travel and get to knows new cultures, I had the chance to visit Albania, Andorra, Austria, Belgium, England, France, Hungary, Iceland, Italy, Netherlands, Poland, Slovakia, Spain"
+            },
+            {
+                "abbreviation": "VG",
+                "federationLogo": "https://i.pinimg.com/originals/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.png",
+                "name": "Video Games",
+                "picture": "https://i.pinimg.com/736x/b7/6b/82/b76b82fed49d43f0d2e2555b7ced5a91--game-concept-art-fallout-.jpg",
+                "sumUp": "Having a hard day ? let's go to a virtual world where you're the hero (or the villain 😉) to change mind, I am personally a fan of the Fallout series and universe"
+            }
+        ],
+        "profesionalExp": "Professional experience",
+        "professional-experiences": [
+            {
+                "company": "ING Hubs",
+                "companyLogo": "../img/ing-hubs.svg",
+                "context": "Je travaille pour ING, une entreprise financière internationale, où je contribue au programme Security Champions tout en travaillant principalement à distance depuis la Pologne.",
+                "position": "Ingénieur Developpement Sécurisé",
+                "tasks": [
+                    "Développé une API SaaS sécurisée et pilotée par l'automatisation pour le programme Security Champions, couvrant l'onboarding, le cycle de vie des formations, les workflows de certification et l'attribution des rôles basée sur les accès, selon les principes de security by design.",
+                    "Conçu et mis en œuvre une architecture Infrastructure-as-Code (IaC) avec Terraform, permettant des déploiements sécurisés, cohérents et reproductibles de la solution de gestion des Security Champions.",
+                    "Mis en place une approche “documentation as code” pour les processus du programme Security Champions, les décisions d'architecture et les standards de sécurité, améliorant la gouvernance, la traçabilité et l'adoption par les équipes de développement.",
+                    "Piloté l'évaluation technique et la sélection architecturale d'outils de Threat Modeling, en analysant l'ergonomie, l'intégration au SDLC et l'efficacité dans l'identification des risques, et en définissant leur utilisation par les Security Champions certifiés au sein des équipes.",
+                    "Participé au benchmark architectural de solutions de DAST, en définissant des critères d'évaluation (précision, intégration CI/CD, capacités de reporting, scalabilité) et en recommandant des outils alignés avec l'architecture de sécurité de l'organisation et les workflows des développeurs."
+                ],
+                "tags": [
+                    "Checkmarx",
+                    "Python",
+                    "Security-by-Design",
+                    "SonarQube",
+                    "Threat Modeling"
+                ],
+                "timeRanges": "Depuis mars 2024"
+            },
+            {
+                "company": "Astek Technology",
+                "companyLogo": "../img/astek.svg",
+                "context": "J'ai travaillé pour Astek, une entreprise internationale de conseil, pour le client Hospices Civile de Lyon à Lyon pour la sécurisation conforme Ségur d'une application de gestion hospitalière considéré dispositif médical. Je travaille en transverse des équipes développement en mode hybride (trois jours sur site hebdomadaire).",
+                "position": "Consultant RSSI",
+                "tasks": [
+                    "Refactorisation du code et du CI/CD pour répondre aux normes de sécurité et de qualité, ainsi que l’écriture de code pouvant servir d'exemple pour les futurs développements.",
+                    "Collecte de preuves pour la partie sécurité du Ségur, création d'un plan d'action et de planning pour atteindre les objectifs dans les délais impartis.",
+                    "Rédaction de lignes directrices et de meilleures pratiques concernant la cybersécurité, en lien avec les langages, frameworks et infrastructures utilisées par le client.",
+                    "Animation de formations en cybersécurité pour les employés du client en fonction de leurs rôles."
+                ],
+                "tags": [
+                    "ASP.NET",
+                    "C#",
+                    "JavaScript",
+                    "Mend.io",
+                    "MITRE ATT&CK",
+                    "OWASP TOP10",
+                    "Python",
+                    "SANS25",
+                    "Security-by-Design",
+                    "SonarQube"
+                ],
+                "timeRanges": "De juillet 2024 à février 2025"
+            },
+            {
+                "company": "Astek Technology",
+                "companyLogo": "../img/astek.svg",
+                "context": "J'ai travaillé pour Astek, une entreprise internationale de conseil, pour le client Orange Cyberdefense à Rennes autour d'une application de sauvegardes journalières de configurations d'équipements de sécurités, et d'une application pour enregistrer des équipements dans des équipements de sécurités. J'étais dans une équipe Scrum de six personnes en mode hybride (deux jours de télétravail hebdomadaire).",
+                "position": "Consultant DevSecOps",
+                "tasks": [
+                    "Développement et maintenance, en tenant compte de la sécurité, d'une application monolithique (Python/Flask & Angular), responsable de plus de 8 000 sauvegardes quotidiennes de configurations de systèmes de sécurité, ainsi qu'une application de microservices (Python/FastAPI) avec un outil CLI (Go) pour automatiser l'enregistrement de plus de 10 000 appareils à travers 4 systèmes de sécurité.",
+                    "Orchestration de la migration d'une architecture monolithique vers une architecture orientée services, en utilisant le modèle C4, l'analyse des risques et le prototypage, ainsi que la documentation des changements avec des ADR.",
+                    "Refactorisation des deux applications pour respecter les principes SOLID et Clean Architecture. Mise en place de tests unitaires complets et obtention d'une meilleure couverture de tests. Ajout de tests de sécurité avec Bandit et Safety.",
+                    "Amélioration des processus de build en utilisant Poetry et refactorisation du CI/CD en utilisant le projet open-source To-Be-Continuous, comprenant des jobs SonarQube et Trivy.",
+                    "Animation de sessions de formation pour 40 consultants afin de sensibiliser aux pratiques de développement sécurisé, couvrant des sujets tels que les vulnérabilités OWASP TOP10, des outils utiles et le cycle de vie.",
+                    "Encadrement d'une équipe de 4 personnes en tant que Scrum Master, facilitant les processus Agile et assurant une exécution efficace du développement."
+                ],
+                "tags": [
+                    "Angular",
+                    "Architecture Orientée Service",
+                    "Architecture PlugIn",
+                    "Clean Architecture",
+                    "C4Model",
+                    "DDD",
+                    "Docker",
+                    "Go",
+                    "FastAPI",
+                    "Flask",
+                    "Microservice",
+                    "Python",
+                    "TypeScript",
+                    "UML"
+                ],
+                "timeRanges": "De février 2022 à juillet 2024"
+            },
+            {
+                "company": "GSK",
+                "companyLogo": "../img/gsk-logo.webp",
+                "context": "J'ai travaillé pour GlaxoSmithKline, un laboratoire pharmaceutique international, à Poznań, autour d'une application permettant aux chercheurs de prendre des notes de manière structurées qui puisse ensuite être exploité par des solutions data science. J'étais dans une équipe agile de quatre personnes en flex office avec du télétravail illimité.",
+                "position": "Ingénieur Logiciel",
+                "tasks": [
+                    "Développement et maintenance d'une application monolithique (NestJs & React) permettant à des milliers de chercheurs de stocker des notes de recherche de manière structurée, facilitant ainsi l'exploitation ultérieure des données.",
+                    "Gestion des processus de l'intégration continue (CI) sur la plateforme Microsoft Azure Cloud."
+                ],
+                "tags": [
+                    "Azure",
+                    "Docker",
+                    "GraphQL",
+                    "NestJS",
+                    "React",
+                    "Remote",
+                    "TypeScript"
+                ],
+                "timeRanges": "De juin 2021 à février 2022"
+            },
+            {
+                "company": "Arvato Bertelsmann",
+                "companyLogo": "../img/arvato-logo.webp",
+                "context": "J'ai travaillé pour Arvato Bertelsmann, une société de services internationale, à Poznań, autour de trois applications : une application de suivis de colis B2B, une  B2C et une application pour personnaliser le look and feel de l'application B2C. J'étais dans une équipe de deux développeurs en flex office avec du télétravail illimité.",
+                "position": "Développeur Junior Fiori",
+                "tasks": [
+                    "Développement et maintenance de la partie front-end (SAPUI5) d'applications de suivi de colis (une B2B et une B2C) chargées de suivre plus de 100 000 colis par jour par application.",
+                    "Création d'une application de personnalisation permettant aux utilisateurs privilégiés d'adapter l'application B2C en fonction du fournisseur de livraison de colis, en utilisant les numéros de colis comme référence.",
+                    "Conception de l'interface utilisateur et de l'expérience utilisateur (UI/UX) avec BUILD.me pour l'application de personnalisation, garantissant une interface conviviale et intuitive.",
+                    "Gestion des modèles ABAP pour les trois applications, assurant la cohérence et la fiabilité des données.",
+                    "Rédaction d'un script Python pour automatiser la génération de fichiers i18n à partir d'une feuille Excel."
+                ],
+                "tags": [
+                    "ABAP",
+                    "Build.me",
+                    "JavaScript",
+                    "oData",
+                    "REST",
+                    "SAP",
+                    "SAPUI5"
+                ],
+                "timeRanges": "De novembre 2019 à mai 2021"
+            },
+            {
+                "company": "Nicman Group",
+                "companyLogo": "../img/nicman-logo.webp",
+                "context": "J'ai travaillé pour Nicman Group, une société de services américaine, depuis Poznań, autour d'une application d'e-commerce de liqueurs et spiritueux pour un client New-Yorkais. J'étais en autonomie et en présentiel.",
+                "position": "Développeur PHP Junior",
+                "tasks": [
+                    "Conception d'un module personnalisé (Magento 2) pour dessiner plusieurs zones de livraison sur une carte en attribuant des frais pour chaque zone au sein d'une application de e-commerce spécialisée dans la vente de spiritueux.",
+                    "Amélioration d'un module (Drupal 7) destiné aux nouveaux employés pour évaluer le processus d'intégration de l'entreprise."
+                ],
+                "tags": [
+                    "Drupal 7",
+                    "JavaScript",
+                    "Magento",
+                    "PHP"
+                ],
+                "timeRanges": "De juillet 2019 à octobre 2019"
+            },
+            {
+                "company": "IPS Control",
+                "companyLogo": "../img/ips-logo.webp",
+                "context": "J'ai travaillé pour IPS Control, une société d'automatisation industrielle polonaise, à Jasin pour le développement d'une application intranet pour le contrôle et la gestion à distance d'une ligne de production de savon. J'étais en autonomie et en présentiel.",
+                "position": "Ingénieur Logiciel",
+                "tasks": [
+                    "Conception et mise en place d'une application intranet monolithique (PHP, jQuery, HTML et CSS). L'application a servi à contrôler à distance une ligne de production de savon, améliorant ainsi l'efficacité et la précision dans le processus de fabrication."
+                ],
+                "tags": [
+                    "CSS3",
+                    "HTML5",
+                    "JavaScript",
+                    "jQuery",
+                    "PHP"
+                ],
+                "timeRanges": "De janvier 2019 à juin 2019"
+            },
+            {
+                "company": "QIAGEN",
+                "companyLogo": "../img/qiagen-logo.webp",
+                "context": "J'ai travaillé pour QIAGEN, une société internationale de biotechnologie, à Wroclaw, pour prospecter les clients francophones et anglophones. J'étais dans une équipe de six en présentiel.",
+                "position": "Spécialiste du télémarketing",
+                "tasks": [
+                    "Conçu un assistant de télémarketing connecté à la base de données client sous Excel en utilisant VBA. L'assistant affichait les prospects à appeler en fonction du fuseau horaire, du taux de réponse précédent et du nombre d'appels effectués dans la journée.",
+                    "Contacté des prospects potentiels par e-mail et appels téléphoniques en français et en anglais pour présenter des dispositifs médicaux et des produits de sciences de la vie.",
+                    "Conseillé les clients sur les dispositifs médicaux et les produits de sciences de la vie."
+                ],
+                "tags": [
+                    "Salesforce",
+                    "SQL",
+                    "VBA"
+                ],
+                "timeRanges": "D'octobre 2018 à décembre 2018"
+            },
+            {
+                "company": "Getinge",
+                "companyLogo": "../img/getinge-logo.webp",
+                "context": "J'ai travaillé pour Getinge, entreprise internationale de production de dispositifs médicaux et de science de la vie, à Tournefeuille, autour de la mise en place de standards et du Lean management. J'étais dans une équipe de quatre en présentiel.",
+                "position": "Apprenti ingénieur méthodes et industrialisation",
+                "tasks": [
+                    "Réalisé une analyse VSM et utilisé les principes de Lean Manufacturing pour optimiser les processus.",
+                    "Mis en place la méthodologie 5S sur les lignes de production standard, améliorant la VA (Valeur Ajoutée en Fabrication).",
+                    "Rectifié les divergences dans les gammes et la nomenclatures au sein du système ERP (Sylob7) pour les aligner sur les problèmes réels en production.",
+                    "Actualisé les instructions d'assemblage, intégrant des fonctionnalités telles que l'affichage automatique ou non des options de la machine pour réduire les erreurs.",
+                    "Créé de nouvelles instructions d'assemblage à partir de modèles 3D et de schémas électriques, les validant grâce à une production initiale de machines avec les opérateurs."
+                ],
+                "tags": [
+                    "CAPA",
+                    "ERP",
+                    "Kaizen",
+                    "Lean",
+                    "PHPP",
+                    "Sylob7",
+                    "VSM"
+                ],
+                "timeRanges": "De septembre 2015 à septembre 2018"
+            }
+        ],
+        "studiesTab": "Studies",
+        "studies": [
+            {
+                "date": "2020",
+                "degree": "M.Sc. Computer Science sp. génie logiciel",
+                "school": "Poznan University of Technology",
+                "schoolLogo": "../img/put-logo.webp"
+            },
+            {
+                "date": "2018",
+                "degree": "\"Diplôme d'Ingénieur\" agrée CTI",
+                "school": "ICAM",
+                "schoolLogo": "../img/icam-logo.webp"
+            },
+            {
+                "date": "2015",
+                "degree": "BTS ATI",
+                "school": "ICAM",
+                "schoolLogo": "../img/icam-logo.webp"
+            },
+            {
+                "date": "2015",
+                "degree": "Baccalauréat STI2D ITEC mention très bien",
+                "school": "Lycée Pablo Picasso",
+                "schoolLogo": "../img/lycee-picasso.webp"
+            }
+        ]
+    },
+    "books": [
+        "2226332197",
+        "9782226393876",
+        "2709660938",
+        "2081343010",
+        "2744023272"
+    ],
+    "home": {
+        "title": "Juste quelqu'un de curieux",
+        "langue": "langue",
+        "more": "en savoir plus",
+        "categories": [
+            {
+                "name": "Livres",
+                "sumup": "Quelques livres à lire et à apprécier",
+                "picture": "../img/books.webp",
+                "path": "/books"
+            },
+            {
+                "name": "Jeux de société",
+                "sumup": "Quelques jeux pour jouer ensemble et se retrouver",
+                "picture": "../img/board-game.webp",
+                "path": "/tabletop-game"
+            },
+            {
+                "name": "A propos de moi",
+                "sumup": "Quelques informations à propos de moi",
+                "picture": "../img/me.webp",
+                "path": "/about-me"
+            }
+        ]
+    },
+    "tabletopGames": [
+        {
+            "author": "Holger Bösch",
+            "avatar": "../img/holger-bosch.webp",
+            "date": 2004,
+            "sumup": "Black Stories est un jeu pour 12ans et plus de 2 à 15 joueurs qui prend environ 20 minutes pour une partie. Les règles sont simples, le maître du jeu lit l'histoire puis les autres joueurs doivent deviner comment cela est arrivé",
+            "picture": "../img/black-stories.webp",
+            "detail": "Le temps d'un jeu, devenez enquêteur et résolvez ces histoires sombres",
+            "title": "Black Stories"
+        },
+        {
+            "author": "Piotr Krzystek & Łukasz Wrona",
+            "avatar": "../img/wydawnictwo-alter.svg",
+            "date": 2016,
+            "sumup": "Byle do pierwszego est un jeu pour 14ans et plus de 2 à 5 joueurs qui prend environ 40 minutes pour une partie. Les règles sont simples, i faut d'abord choisir combien de mois jouer puis payer les factures à la fin de chaque mois",
+            "picture": "../img/byle-do-1go.webp",
+            "detail": "Pour un temps retour en PRL, maintenant il est temps de payer les factures .",
+            "title": "Byle do Pierwszego"
+        },
+        {
+            "author": "Klaus-Jürgen Wrede",
+            "avatar": "../img/klaus-jurgen-wrede.webp",
+            "date": 2000,
+            "sumup": "Carcassonne est un jeu pour 7ans et plus de 2 à 5 joueurs qui prennent environ 40 minutes pour une partie. Les règles sont simples, vous devez placer des tuiles avec de la route, de la ville et/ou une chapelle. Puis placer des figurines afin de les contrôler.",
+            "picture": "../img/carcassonne.webp",
+            "detail": "Avez-vous entendu parler de la cité fortifiée de Carcassonne ? bien rien en commun, il vous suffit de construire des routes et des villes à contrôler.",
+            "title": "Carcassonne"
+        },
+        {
+            "author": "Klaus Teuber",
+            "avatar": "../img/klaus-teuber.webp",
+            "date": 1995,
+            "sumup": "Catan est un jeu pour 10ans et plus de 3 à 4 joueurs qui prennent environ 90 minutes pour une partie. Les règles peuvent sembler compliquées, cependant, en résumé, vous essaierez d'obtenir des ressources (en exploitant ou en échangeant) pour construire votre colonie.",
+            "picture": "../img/catan.webp",
+            "detail": "Échangez, construisez, installez.",
+            "title": "Catan"
+        },
+        {
+            "author": "Bruno Cathala & Ludovic Maublanc",
+            "avatar": "../img/matagot.webp",
+            "date": 2009,
+            "sumup": "Cyclades est un jeu pour les 14 ans et plus de 2  à 5 joueurs qui prend environ 60 minutes pour une partie. C'est un super jeu entre amis. L'objectif est de construire (ou de capturer) 2 métropoles. Pour cela, vous devrez gérer vos soldats, votre flotte, votre économie, et quel dieu vénérer",
+            "picture": "../img/cyclades.webp",
+            "detail": "Entrez en compétition pour être le premier à construire votre empire (2 métropoles).",
+            "title": "Cyclades"
+        },
+        {
+            "author": "Bruno Cathala & Ludovic Maublanc",
+            "avatar": "../img/matagot.webp",
+            "date": 2011,
+            "sumup": "Cyclades : Hadès est une extension de Cyclades, alors Cyclade est nécessaire (ref. description Cyclades). Elle ajoute Hadès comme Dieu, des objets magiques, des héros et quelques créatures. Avec Hadès comme dieu, vous contrôlerez les morts-vivants pendant un tour. Cette extension change la donne. ",
+            "picture": "../img/cyclades-hades.webp",
+            "detail": "Une bonne extension au jeu de base Cyclades.",
+            "title": "Cyclades: Hades"
+        },
+        {
+            "author": "2 Pionki",
+            "avatar": "../img/2-pionki.webp",
+            "date": 2019,
+            "sumup": "Czółko : Bez Cenzury est un jeu pour les 18ans et plus de 2 à 8 joueurs qui prend environ 30 minutes pour un match. Les règles sont simples, vous devez utiliser des mouvements idiots, des accents et des performances étranges pour transmettre le mot ou la phrase sur la carte qui est sur la tête de votre ami pour l'aider à le deviner!",
+            "picture": "../img/czolko-bez-cenzury.webp",
+            "detail": "Vous avez une carte sur la tête, vous devez la deviner et aider les autres à deviner la leur ",
+            "title": "Czółko: Bez Cenzury"
+        },
+        {
+            "author": "Matthew Inman, Elan Lee & Shane Small ",
+            "avatar": "../img/rebel.svg",
+            "date": 2015,
+            "sumup": "Exploding Kitten est un jeu pour les 7ans et plus de 2 à 5 joueurs qui prend environ 15 minutes pour une partie. Les règles sont simples, soyez celui qui n'explose pas.",
+            "picture": "../img/exploding-kitten.webp",
+            "detail": "Demandez des faveurs, attaquez des amis, voyez l'avenir - tout ce qu'il faut pour éviter d'exploser !",
+            "title": "Exploding Kitten"
+        },
+        {
+            "author": "Andrew Fischer & Nathan I. Hajek ",
+            "avatar": "../img/bethesda.svg",
+            "date": 2017,
+            "sumup": "Fallout est un jeu pour les 14ans et plus de 1 à 4 joueurs qui prend environ 150 minutes pour une partie. Les règles sont un peu compliquées, en bref pour gagner il faudra soit maximiser son influence personnelle soit celle de sa faction.",
+            "picture": "../img/fallout.webp",
+            "detail": "Trouvez des alliés, des compétences et de l'équipement en lançant des dés à travers l'apocalypse nucléaire.",
+            "title": "Fallout"
+        },
+        {
+            "author": "Andrew Fischer",
+            "avatar": "../img/bethesda.svg",
+            "date": 2020,
+            "sumup": "Fallout Shelter est un jeu pour les 14ans et plus de 2 à 4 joueurs qui prennent environ 60 minutes pour une partie. Les règles sont simples : vous devez placer votre habitant pour rassembler des ressources, construire des pièces et affronter les menaces. Le gagnant sera celui qui aura le plus de points de bonheur.",
+            "picture": "../img/fallout-shelter.webp",
+            "detail": "Qui deviendra le meilleur superviseur ?",
+            "title": "Fallout Shelter"
+        },
+        {
+            "author": "POZnan",
+            "avatar": "../img/poznan.svg",
+            "date": 2018,
+            "sumup": "Monopoly Poznań est un jeu pour les 8ans et plus de 2 à 6 joueurs qui prennent environ 90 minutes pour une partie. Le but est simple, devenir le plus riche et mettre les autres joueurs en faillite.",
+            "picture": "../img/monopoly-poznan.webp",
+            "detail": "Comme le Monopoly standard mais à Poznań ",
+            "title": "Monopoly Poznań"
+        },
+        {
+            "author": "Michael Sistrunk",
+            "avatar": "../img/trefl.webp",
+            "date": 2017,
+            "sumup": "5 Sekund: Bez Cenzury est un jeu pour les 18ans et plus de 2 à 30 joueurs qui prend entre 15 et 60 minutes pour une partie. Les règles sont simples, vous avez 5 secondes pour répondre à une carte. Spoiler alert, il y a des allusions ambiguës.",
+            "picture": "../img/5sec-uncensored.webp",
+            "detail": "Vous avez 5 secondes, préparez-vous !",
+            "title": "5 Sekund: Bez Cenzury"
+        },
+        {
+            "author": "Rory O'Connor",
+            "avatar": "../img/rory-connor.webp",
+            "date": 2019,
+            "sumup": "Rory's Story Cubes: Primal est un jeu pour les 6ans et plus de 1 à ♾ joueurs qui prend le temps que vous décidez. Les règles sont simples: roulez les dés et inventer une histoire adaptée aux dés. Pas de gagnant pas de perdant.",
+            "picture": "../img/story-cube.webp",
+            "detail": "Depuis le début des langues, les gens se sont rencontrés pour se raconter des histoires ",
+            "title": "Rory's Story Cubes: Primal"
+        },
+        {
+            "author": "Marcin Minor",
+            "avatar": "../img/nasza-ksiegarnia.svg",
+            "date": 2017,
+            "sumup": "Sen est un jeu pour les 8ans et plus de 2 à 5 joueurs qui prend environ 20 minutes pour une partie. Les règles sont simples : vous avez 4 cartes que vous ne connaissez pas devant vous, au début vous pouvez en voir 2. L'objectif? Avoir le moins de points.",
+            "picture": "../img/sen.webp",
+            "detail": "Dans le monde des rêves, vous souhaitez avoir le moins de corbeaux (points) possible.",
+            "title": "Sen"
+        },
+        {
+            "author": "Jacob Fryxelius",
+            "avatar": "../img/jacob-fryxelius.webp",
+            "date": 2016,
+            "sumup": "Terraforming Mars est un jeu pour 12+ de 1 à 5 joueurs qui prennent environ 120 minutes pour une partie. Les règles peuvent être un peu difficiles à appréhender. Le but est de développer votre colonie pour compléter la terraformation de Mars.",
+            "picture": "../img/terraforming-mars.webp",
+            "detail": "Rivalisez avec des PDG rivaux pour rendre Mars habitable et construire votre empire commercial.",
+            "title": "Terraforming Mars"
+        },
+        {
+            "author": "Merle Robbins",
+            "avatar": "../img/merle-robbins.webp",
+            "date": 1971,
+            "sumup": "Uno est un jeu pour les 7ans et plus de 2 à 10 joueurs qui prend environ 30 minutes pour une partie. Les règles sont simples : vous devez vous débarrasser de vos cartes en premier. ",
+            "picture": "../img/uno.webp",
+            "detail": "Débarrassez-vous de vos cartes en premier, mais n'oubliez pas de dire \"UNO !\"",
+            "title": "Uno"
+        },
+        {
+            "author": "Unstable Games",
+            "avatar": "../img/unstablegames.svg",
+            "date": 2017,
+            "sumup": "Unstable unicorn est un jeu pour les 8 ans et +, de 2 à 8 joueurs qui prend entre 30 et 60 minutes à jouer. Ce jeu est génial sont emplis d'ascenseurs émotionnels. Votre objectif semble simple : avoir 7 licornes dans votre écurie, simple, n'est-ce pas ?",
+            "picture": "../img/unstable-unicorns.webp",
+            "detail": "\"Construisez une armée de licornes. Tournez le dos à vos vieux amis. Les licornes sont vos seules amies maintenant.\"",
+            "title": "Unstable Unicorns"
+        },
+        {
+            "author": "Unstable Games",
+            "avatar": "../img/unstablegames.svg",
+            "date": 2018,
+            "sumup": "Unstable unicorn est un jeu pour les 18 ans et +, de 2 à 8 joueurs qui prend entre 30 et 60 minutes à jouer. Ce jeu est drôle mais nous fais nous poser des question sur ses créateurs. Votre objectif semble simple : avoir 7 licornes dans votre écurie, simple, n'est-ce pas ?",
+            "picture": "../img/unstable-unicorns-nsfw.webp",
+            "detail": "\"Horrifiez vos amis. Abandonnez-les. Les licornes ne jugent pas.\"",
+            "title": "Unstable Unicorns NSFW"
+        }
+    ]
+}

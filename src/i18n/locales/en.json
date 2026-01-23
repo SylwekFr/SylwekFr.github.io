@@ -1,0 +1,518 @@
+{
+    "aboutMe": {
+        "certificationsTab": "Certifications",
+        "certifications": [
+            {
+                "certificationCompany": "Certible",
+                "logo": "../img/cpsa-f.webp",
+                "name": "iSAQB® Certified Professional for Software Architecture - Foundation Level",
+                "obtentionDate": "November 2023"
+            },
+            {
+                "certificationCompany": "Scaled Agile Inc",
+                "logo": "../img/SAFe5DevOps.webp",
+                "name": "Certified SAFe® 5 DevOps Practitioner",
+                "obtentionDate": "November 2021"
+            },
+            {
+                "certificationCompany": "Microsoft",
+                "logo": "../img/sc-900.webp",
+                "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+                "obtentionDate": "October 2021"
+            },
+            {
+                "certificationCompany": "Microsoft",
+                "logo": "../img/az-900.webp",
+                "name": "Microsoft Certified: Azure Fundamentals ",
+                "obtentionDate": "September 2021"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "SAP Intelligent Robotic Process Automation in a Nutshell",
+                "obtentionDate": "June 2020"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "The Internet of Things with SAP",
+                "obtentionDate": "June 2020"
+            },
+            {
+                "certificationCompany": "SAP",
+                "logo": "../img/SAP.webp",
+                "name": "Evolved Web Apps with SAPUI5",
+                "obtentionDate": "May 2020"
+            }
+        ],
+        "hobbiesTab": "Hobbies",
+        "hobbies": [
+            {
+                "abbreviation": "MD",
+                "federationLogo": "../img/diego-logo.jpg",
+                "name": "My Dog",
+                "picture": "../img/diego-pics.jpg",
+                "sumUp": "Maybe my biggest hobby is spending time with my dog, going on walk and learning him new tricks or just chilling"
+            },
+            {
+                "abbreviation": "RD",
+                "federationLogo": "https://www.iconpacks.net/icons/2/free-opened-book-icon-3169-thumb.png",
+                "name": "Reading",
+                "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg2O-22eM2ZcJoXMJQAFRjiheUMyQAEqt8lTzB8MPC7vPLxN7i0Lu42xHYqqZXe-FtD-0&usqp=CAU",
+                "sumUp": "Since my childhood, I Love to read, from comics to novel passing by technical book. I my page you can visit my section about books to see some books I have read, if you would be so kind, don't hesitate to recommend me some book to read, i am particularly interested in SF & fantasy or novel and new technologies, social engineering, NLP & red teaming for tech book"
+            },
+            {
+                "abbreviation": "SB",
+                "federationLogo": "https://sambo.sport/upload/iblock/76e/76ec47778f25af6a15476167c6f2344c.jpg",
+                "name": "Sambo",
+                "picture": "https://sambo.sport/upload/iblock/aff/aff35819b812ebae85383bfaf5bd8c1b.jpg",
+                "sumUp": "Sambo is a russian originated martial art I love to practice. With practice, will, the right spiritual way & truth (in ourself and other practicing with us) it lead to improve self-realization, power & drive it also carry the values of freedom, friendship, respect & inculsion"
+            },
+            {
+                "abbreviation": "TG",
+                "federationLogo": "https://i.pinimg.com/originals/d9/3d/91/d93d91a57281e6e96dc86c97c5047b30.png",
+                "name": "Tabletop Games",
+                "picture": "https://media.wired.com/photos/60c000d6206ef134c14e7571/master/pass/games_board-games_2FR3A46.jpg",
+                "sumUp": "What a pleasing time to meet with friend around a tabletop game, enjoing a drink and discution or going roleplay"
+            },
+            {
+                "abbreviation": "TR",
+                "federationLogo": "https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Travel-Logo-Graphics-1-36.jpg",
+                "name": "Travel",
+                "picture": "https://poradniksukces.com/wp/wp-content/uploads/2016/05/Travel-suitcase.jpg",
+                "sumUp": "I enjoy to travel and get to knows new cultures, I had the chance to visit Albania, Andorra, Austria, Belgium, England, France, Hungary, Iceland, Italy, Netherlands, Poland, Slovakia, Spain"
+            },
+            {
+                "abbreviation": "VG",
+                "federationLogo": "https://i.pinimg.com/originals/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.png",
+                "name": "Video Games",
+                "picture": "https://i.pinimg.com/736x/b7/6b/82/b76b82fed49d43f0d2e2555b7ced5a91--game-concept-art-fallout-.jpg",
+                "sumUp": "Having a hard day ? let's go to a virtual world where you're the hero (or the villain 😉) to change mind, I am personally a fan of the Fallout series and universe"
+            }
+        ],
+        "profesionalExp": "Professional experience",
+        "professional-experiences": [
+            {
+                "company": "ING Hubs",
+                "companyLogo": "../img/ing-hubs.svg",
+                "context": "I work for ING, an international finance company, where I contribute to the Security Champions program while working mostly remotely from Poland.",
+                "position": "Secure Developement Engineer",
+                "tasks": [
+                    "Developed a secure, automation-driven SaaS API supporting the Security Champions program, covering onboarding, training lifecycle, certification workflows, and role-based access assignment, with security-by-design principles.",
+                    "Designed and implemented Infrastructure-as-Code architecture using Terraform, enabling secure, consistent, and repeatable deployments of the security champions managements solution.",
+                    "Established “documentation-as-code” for the Security Champions processes, architectural decisions, and security standards, improving governance, traceability, and developer adoption.",
+                    "Led technical evaluation and architectural selection of Threat Modeling tools, assessing usability, SDLC integration, and risk identification effectiveness, and defining how certified Security Champions apply threat modeling within their teams.",
+                    "Participated in architectural benchmarking of DAST solutions, defining evaluation criteria (accuracy, CI/CD integration, reporting, scalability) and recommending tools aligned with organizational security architecture and developer workflows."
+                ],
+                "tags": [
+                    "Azure",
+                    "Checkmarx",
+                    "Python",
+                    "Security-by-Design",
+                    "SonarQube",
+                    "Terraform",
+                    "Threat Modeling"
+                ],
+                "timeRanges": "from March 2024"
+            },
+            {
+                "company": "Astek Technology",
+                "companyLogo": "../img/astek.svg",
+                "context": "Astek is an international consulting company, I worked for Hospices Civils de Lyon client on guiding a medical application project to pass Segur security requirement. I work across development teams in a hybrid mode (three days on-site weekly).",
+                "position": "CISO Consultant",
+                "tasks": [
+                    "Refactoring code (ASP.NET & Python) and CI/CD to meet security and quality standards, as well as writing code that could be used as an example for further development.",
+                    "Collecting proofs for the security side of the Segur, and creating an action plan and planning to meet the objectives in time.",
+                    "Writing guidelines and best practices regarding cybersecurity related to the languages, framework, and infrastructure used by the client.",
+                    "Conducting training in cybersecurity for the client’s employees corresponding to their roles."
+                ],
+                "tags": [
+                    "ASP.NET",
+                    "C#",
+                    "Mitre Att&ck",
+                    "Python",
+                    "SonarQube",
+                    "Threat Modeling",
+                    "TypeScript",
+                    "Vue.js"
+                ],
+                "timeRanges": "from July 2024 to February 2025"
+            },
+            {
+                "company": "Astek Technology",
+                "companyLogo": "../img/astek.svg",
+                "context": "Astek is an international consulting company, I worked for Orange Cyberdefense client, in Rennes, on a solution to backup security equipements configurations daily and another to register equipements under security equipements. I was part of a six-person Scrum team in a hybrid mode (two days of remote work weekly).",
+                "position": "DevSecOps Consultant",
+                "tasks": [
+                    "Developed and maintained, with security in mind, a monolithic application (Python/Flask & Angular) responsible for 8k+ daily security system configuration backups, and a microservices application (Python/FastAPI) and CLI tools (Go) to automate over 10k devices registration across 4 security systems.",
+                    "Orchestrated the migration from monolithic to service-oriented architecture, employing C4 modeling, risk analysis, and prototyping as well as documenting changes with ADRs.",
+                    "Refactored both applications to adhere to SOLID and Clean Architecture principles. Implemented comprehensive unit tests and achieved higher test coverage. Added security test with Bandit and Safety.",
+                    "Improved build processes using Poetry and refactored the CI/CD using the open-source To-Be-Continuous project, which includes SonarQube and Trivy jobs.",
+                    "Conducted training sessions for 40 consultants to raise awareness of secure development practices, covering topics such as OWASP TOP10 vulnerabilities, helpful tools, and lifecycle.",
+                    "Led a 4-person team as the Scrum Master, facilitating Agile processes, and ensuring efficient development execution."
+                ],
+                "tags": [
+                    "Angular",
+                    "Ansible",
+                    "Clean Architecture",
+                    "C4Model",
+                    "DDD",
+                    "Docker",
+                    "Go",
+                    "FastAPI",
+                    "Flask",
+                    "Microservice",
+                    "Plug-in Architecture",
+                    "Python",
+                    "Service Oriented Architecture",
+                    "SonarQube",
+                    "TypeScript",
+                    "UML"
+                ],
+                "timeRanges": "from February 2022 to July 2024"
+            },
+            {
+                "company": "GSK",
+                "companyLogo": "../img/gsk-logo.webp",
+                "context": "I worked for GlaxoSmithKline, an international pharmaceutical company, in Poznań, on an application that allowed researchers to take structured notes, which could then be utilized by data science solutions. I was part of an agile team of four people, working in a flexible office environment with unlimited remote work.",
+                "position": "Software Engineer",
+                "tasks": [
+                    "Developed and maintained a monolithic application (NestJs & React) for thousands of researchers to store research note in structured way allowing to exploit data later on.",
+                    "Handled continuous integration (CI) processes on the Microsoft Azure Cloud platform."
+                ],
+                "tags": [
+                    "Azure",
+                    "Docker",
+                    "GraphQL",
+                    "NestJS",
+                    "React",
+                    "Remote",
+                    "TypeScript"
+                ],
+                "timeRanges": "from June 2021 to February 2022"
+            },
+            {
+                "company": "Arvato Bertelsmann",
+                "companyLogo": "../img/arvato-logo.webp",
+                "context": "I worked for Arvato Bertelsmann, an international service company, in Poznań, on three applications: a B2B parcel tracking application, a B2C parcel tracking application, and an application to customize the look and feel of the B2C app. I was part of a two-developer team, working in a flexible office environment with unlimited remote work.",
+                "position": "Junior Fiori Developer",
+                "tasks": [
+                    "Developed and maintained the front-end (SAPUI5) of a B2B and a B2C track and trace application, responsible for tracking over 100,000 packages per day per app.",
+                    "Created a customization app that allowed privileged users to tailor the B2C application based on the parcel delivery supplier, using parcel numbers as a reference.",
+                    "Designed the user interface and user experience (UI/UX) with BUILD.me for the customization application, ensuring a user-friendly and intuitive interface.",
+                    "Managed ABAP models for all three applications, ensuring data consistency and reliability.",
+                    "Wrote a Python script to automate the generation of i18n files from an Excel sheet."
+                ],
+                "tags": [
+                    "ABAP",
+                    "Build.me",
+                    "JavaScript",
+                    "oData",
+                    "REST",
+                    "SAP",
+                    "SAPUI5"
+                ],
+                "timeRanges": "from November 2019 to May 2021"
+            },
+            {
+                "company": "Nicman Group",
+                "companyLogo": "../img/nicman-logo.webp",
+                "context": "I worked for Nicman Group, an American service company, from Poznań, on an e-commerce application for liquors and spirits for a New York-based client. I worked autonomously and on-site",
+                "position": "Junior PHP Developer",
+                "tasks": [
+                    "Authored a custom module (Magento 2) to draw multiple delivery areas on a map with fee attribution system for each area for an e-commerce application specializing in spirit sales.",
+                    "Enhanced a module (Drupal 7) for new employees to rate the company onboarding process."
+                ],
+                "tags": [
+                    "Drupal 7",
+                    "JavaScript",
+                    "Magento",
+                    "PHP"
+                ],
+                "timeRanges": "from July 2019 to October 2019"
+            },
+            {
+                "company": "IPS Control",
+                "companyLogo": "../img/ips-logo.webp",
+                "context": "I worked for IPS Control, a Polish industrial automation company in Jasin, on the development of an intranet application for remote control and management of a soap production line. I worked autonomously and on-site.",
+                "position": "Software Engineer",
+                "tasks": [
+                    "Designed and implemented a monolithic intranet application (PHP, jQuery, HTML, and CSS). The application served to remotely control a soap production line, improving efficiency and accuracy in the manufacturing process."
+                ],
+                "tags": [
+                    "CSS3",
+                    "HTML5",
+                    "JavaScript",
+                    "jQuery",
+                    "PHP"
+                ],
+                "timeRanges": "from January 2019 to June 2019"
+            },
+            {
+                "company": "QIAGEN",
+                "companyLogo": "../img/qiagen-logo.webp",
+                "context": "I worked for QIAGEN, an international biotechnology company, in Wroclaw, where I prospected French-speaking and English-speaking clients. I was part of a six-person team, working on-site.",
+                "position": "Telemarketing specialist",
+                "tasks": [
+                    "Authored a telemarketing assistant connected to the customer database in Excel using VBA. The assistant displayed prospects to call in function of time zone, previous answer rate, and the number of calls within the day.",
+                    "Contacted potential prospects via email and phone calls in French and English to present medical devices and life science products.",
+                    "Advised customers on medical devices and life science products"
+                ],
+                "tags": [
+                    "Salesforce",
+                    "SQL",
+                    "VBA"
+                ],
+                "timeRanges": "from October 2018 to December 2018"
+            },
+            {
+                "company": "Getinge",
+                "companyLogo": "../img/getinge-logo.webp",
+                "context": "I worked for Getinge, an international medical devices and life sciences company, in Tournefeuille, focusing on implementing standards and Lean management. I was part of a four-person team, working on-site.",
+                "position": "Apprentice processes engineer",
+                "tasks": [
+                    "Conducted VSM analysis and utilized Lean Manufacturing principles to optimize processes.",
+                    "Implemented 5S methodology on standard production lines, enhancing MVA (Manufacturing Value-Added).",
+                    "Rectified routing and B.O.M. discrepancies within the ERP system (Sylob7) to align with actual production issues.",
+                    "Updated assembly instructions, incorporating features such as auto-displaying or hiding of machine options to reduce errors.",
+                    "Created new assembly instructions from 3D models and electrical diagrams, validating them through initial machine production with operators."
+                ],
+                "tags": [
+                    "CAPA",
+                    "ERP",
+                    "Kaizen",
+                    "Lean",
+                    "PPAP",
+                    "Sylob7",
+                    "VSM"
+                ],
+                "timeRanges": "from September 2015 to September 2018"
+            }
+        ],
+        "studiesTab": "Studies",
+        "studies": [
+            {
+                "date": "2020",
+                "degree": "M.Sc. Computer Science sp. software engineering",
+                "school": "Poznan University of Technology",
+                "schoolLogo": "../img/put-logo.webp"
+            },
+            {
+                "date": "2018",
+                "degree": "M.Sc. General Engineering",
+                "school": "ICAM",
+                "schoolLogo": "../img/icam-logo.webp"
+            },
+            {
+                "date": "2015",
+                "degree": "BTS ATI",
+                "school": "ICAM",
+                "schoolLogo": "../img/icam-logo.webp"
+            },
+            {
+                "date": "2015",
+                "degree": "Baccalaureate STI2D ITEC with distinction",
+                "school": "Lycée Pablo Picasso",
+                "schoolLogo": "../img/lycee-picasso.webp"
+            }
+        ]
+    },
+    "books": [
+        "0099590085",
+        "1784703931",
+        "0544272994",
+        "0132350882",
+        "0137081073",
+        "1491986360",
+        "1492043451"
+    ],
+    "home": {
+        "title": "Just a curious guy",
+        "langue": "language",
+        "more": "learn more",
+        "categories": [
+            {
+                "name": "Books",
+                "sumup": "Some books to read and enjoy",
+                "picture": "../img/books.webp",
+                "path": "/books"
+            },
+            {
+                "name": "Tabletop games",
+                "sumup": "Some game to play and have fun",
+                "picture": "../img/board-game.webp",
+                "path": "/tabletop-game"
+            },
+            {
+                "name": "About me",
+                "sumup": "Some information on me",
+                "picture": "../img/me.webp",
+                "path": "/about-me"
+            }
+        ]
+    },
+    "tabletopGames": [
+        {
+            "author": "Holger Bösch",
+            "avatar": "../img/holger-bosch.webp",
+            "date": 2004,
+            "sumup": "Black Stories is a game for 12+ from 2 to 15 players who take around 20 minutes to one game. The rules are simple, the master of the game read the story then other players have to guess how it happened ",
+            "picture": "../img/black-stories.webp",
+            "detail": "The time of a game, become an investigator and solve those black stories.",
+            "title": "Black Stories"
+        },
+        {
+            "author": "Piotr Krzystek & Łukasz Wrona",
+            "avatar": "../img/wydawnictwo-alter.svg",
+            "date": 2016,
+            "sumup": "Byle do pierwszego is a game for 14+ from 2 to 5 players who take around 40 minutes to one game. The rules are simple, we chose how many months we wish to play and we have to pay the bills by the end of each month",
+            "picture": "../img/byle-do-1go.webp",
+            "detail": "For a time return to PRL, now it is time to pay the bills.",
+            "title": "Byle do Pierwszego"
+        },
+        {
+            "author": "Klaus-Jürgen Wrede",
+            "avatar": "../img/klaus-jurgen-wrede.webp",
+            "date": 2000,
+            "sumup": "Carcassonne is a game for 7+ from 2 to 5 players who take around 40 minutes to one game. The rules are simple, you have to place tiles with road, city, and church. Then to place figurines in order to control them.",
+            "picture": "../img/carcassonne.webp",
+            "detail": "Did you hear of the city Carcassonne? well nothing in common, just build roads and cities to control.",
+            "title": "Carcassonne"
+        },
+        {
+            "author": "Klaus Teuber",
+            "avatar": "../img/klaus-teuber.webp",
+            "date": 1995,
+            "sumup": "Catan is a game for 10+ from 3 to 4 players who take around 90 minutes to one game. The rules may look complicated however, basically, you will try to get resources (by exploiting or trading) to build your settlement.",
+            "picture": "../img/catan.webp",
+            "detail": "Trade, Build, Settle.",
+            "title": "Catan"
+        },
+        {
+            "author": "Bruno Cathala & Ludovic Maublanc",
+            "avatar": "../img/matagot.webp",
+            "date": 2009,
+            "sumup": "The Cyclades is a game for 14+ from 2 to 5 players who take around 60 minutes to one game. It is very nice to play with friends. The aim is to build (or take over) 2 metropolises; to do so, you will have to manage your soldiers, your navy, your economy, and which god to venerate",
+            "picture": "../img/cyclades.webp",
+            "detail": "Compete to be the one to build your empire of 2 metropolises.",
+            "title": "Cyclades"
+        },
+        {
+            "author": "Bruno Cathala & Ludovic Maublanc",
+            "avatar": "../img/matagot.webp",
+            "date": 2011,
+            "sumup": "The Cyclades: hades is an extension of Cyclades, then the Cyclades is needed (c.f. Cyclades description). It adds hades has a god, some creatures, objects, and heroes. With hades as a god, you will control the undead for a turn. This extension is a game-changer.",
+            "picture": "../img/cyclades-hades.webp",
+            "detail": "An enjoyable extension to the Cyclades.",
+            "title": "Cyclades: Hades"
+        },
+        {
+            "author": "2 Pionki",
+            "avatar": "../img/2-pionki.webp",
+            "date": 2019,
+            "sumup": "Czółko: Bez Cenzury is a game for 18+ from 2 to 8 players who take around 30 minutes to one game. The rules are simple, you should use silly moves, accents, and weird performances to convey the word or phrase on the card that’s on your friend's head to help him or her guess it!",
+            "picture": "../img/czolko-bez-cenzury.webp",
+            "detail": "You have a card on your head has everybody you have to guess it and help others to guess their.",
+            "title": "Czółko: Bez Cenzury"
+        },
+        {
+            "author": "Matthew Inman, Elan Lee & Shane Small ",
+            "avatar": "../img/rebel.svg",
+            "date": 2015,
+            "sumup": "Exploding Kitten is a game for 7+ from 2 to 5 players who take around 15 minutes to one game. The rules are simple, be the one who doesn't explode.",
+            "picture": "../img/exploding-kitten.webp",
+            "detail": "Ask for favors, attack friends, see the future- whatever it takes to avoid exploding!",
+            "title": "Exploding Kitten"
+        },
+        {
+            "author": " Andrew Fischer & Nathan I. Hajek ",
+            "avatar": "../img/bethesda.svg",
+            "date": 2017,
+            "sumup": "Fallout is a game for 14+ from 1 to 4 players who take around 150 minutes to one game. The rules are a bit complicated, in short in order to win you will have either to max your personal influence or your faction influence.",
+            "picture": "../img/fallout.webp",
+            "detail": "Find allies, skills, and equipment as you chuck dice through the nuclear apocalypse.",
+            "title": "Fallout"
+        },
+        {
+            "author": "Andrew Fischer",
+            "avatar": "../img/bethesda.svg",
+            "date": 2020,
+            "sumup": "Fallout Shelter is a game for 14+ from 2 to 4 players who take around 60 minutes to one game. The rules are simple: you have to place your dweller to gather resources, build room and fight with threats. The winner will be the one who has the most happiness points.",
+            "picture": "../img/fallout-shelter.webp",
+            "detail": "Who will become the best Overseer ?",
+            "title": "Fallout Shelter"
+        },
+        {
+            "author": "POZnan",
+            "avatar": "../img/poznan.svg",
+            "date": 2018,
+            "sumup": "Monopoly Poznań is a game for 8+ from 2 to 6 players who take around 90 minutes to one game. The aim is simple, become the richest and make other players bankrupt.",
+            "picture": "../img/monopoly-poznan.webp",
+            "detail": "Like regular Monopoly but in Poznań",
+            "title": "Monopoly Poznań"
+        },
+        {
+            "author": "Michael Sistrunk",
+            "avatar": "../img/trefl.webp",
+            "date": 2017,
+            "sumup": "5 Sekund: Bez Cenzury is a game for 18+ from 2 to 30 players who take between 15 and  60 minutes to one game. The rules are simple, you have 5 seconds to reply to a card. Spoiler alert, there are ambiguous allusions.",
+            "picture": "../img/5sec-uncensored.webp",
+            "detail": "You have 5 seconds, get ready!",
+            "title": "5 Sekund: Bez Cenzury"
+        },
+        {
+            "author": "Rory O'Connor",
+            "avatar": "../img/rory-connor.webp",
+            "date": 2019,
+            "sumup": "Rory's Story Cubes: Primal is a game for 6+ from 1 to ♾ players who take the time you decide. The rules are simple: roll the dices and invent a story fitting the dices. No winner no loser.",
+            "picture": "../img/story-cube.webp",
+            "detail": "Since the beginning of languages, people met to tell stories",
+            "title": "Rory's Story Cubes: Primal"
+        },
+        {
+            "author": "Marcin Minor",
+            "avatar": "../img/nasza-ksiegarnia.svg",
+            "date": 2017,
+            "sumup": "Sen is a game for 8+ from 2 to 5 players who take around 20 minutes to one game. The rules are simple: you have 4 cards you don't know in front of you, at the beginning you can have a look at 2 of them. Your aim? Having the least points.",
+            "picture": "../img/sen.webp",
+            "detail": "In the world of dreams, you wish to have the least crows (points) possible.",
+            "title": "Sen"
+        },
+        {
+            "author": "Jacob Fryxelius",
+            "avatar": "../img/jacob-fryxelius.webp",
+            "date": 2016,
+            "sumup": "Terraforming Mars is a game for 12+ from 1 to 5 players who take around 120 minutes to one game. The rules can be a bit hard to apprehend. The aim is to develop your colony to complete the terraformation of Mars.",
+            "picture": "../img/terraforming-mars.webp",
+            "detail": "Compete with rival CEOs to make Mars habitable and build your corporate empire.",
+            "title": "Terraforming Mars"
+        },
+        {
+            "author": "Merle Robbins",
+            "avatar": "../img/merle-robbins.webp",
+            "date": 1971,
+            "sumup": "Uno is a game for 7+ from 2 to 10 players who take around 30 minutes to one game. The rules are simple: you need to get rid of your cards first.",
+            "picture": "../img/uno.webp",
+            "detail": "Get rid of your cards first, but don't forget to say \"UNO!\"",
+            "title": "Uno"
+        },
+        {
+            "author": "Unstable Games",
+            "avatar": "../img/unstablegames.svg",
+            "date": 2017,
+            "sumup": "Unstable unicorns is a game for 8+ from 2 to 8 players who takes between 30 and 60 minutes to play, you will have so much fun and emotion playing this game. Your aim looks simple: having 7 unicorns in your stable, simple, isn't it?",
+            "picture": "../img/unstable-unicorns.webp",
+            "detail": "\"Build a unicorn army. Betray your friends. Unicorns are your friends now\"",
+            "title": "Unstable Unicorns"
+        },
+        {
+            "author": "Unstable Games",
+            "avatar": "../img/unstablegames.svg",
+            "date": 2018,
+            "sumup": "Unstable unicorns is a game for 18+ from 2 to 8 players who takes between 30 and 60 minutes to play, you will have so fun and ask yourself lot of questions playing this game. Your aim still looks simple: having 7 unicorns in your stable, simple, isn't it?",
+            "picture": "../img/unstable-unicorns-nsfw.webp",
+            "detail": "\"Horrify your friends. Abandon them. Unicorns don't judge.\"",
+            "title": "Unstable Unicorns NSFW"
+        }
+    ]
+}
