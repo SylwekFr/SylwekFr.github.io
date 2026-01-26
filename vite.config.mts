@@ -37,7 +37,7 @@ export default defineConfig({
     }),
   ],
   define: { 'process.env': {} },
-  base: '/SylwekFr.github.io/',
+  base: '/',
   build: {
     rollupOptions: {
       output: {
